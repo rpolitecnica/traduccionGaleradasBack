@@ -1,7 +1,8 @@
-const Usuario = require("../models/usuario.model.js");
+const Edicion = require("../models/edicion.model.js");
 
 // Create and Save a new Customer
 exports.create = (req, res) => {
+  console.log("creacion")
     // Validate request
     if (!req.body) {
       res.status(400).send({
@@ -10,15 +11,16 @@ exports.create = (req, res) => {
     }
   
     // Create a Customer
-    const usuario = new Usuario({
-      nombres: req.body.nombres,
-      primerApellido: req.body.primerApellido,
-      segundoApellido: req.body.segundoApellido,
-      correoElectronico: req.body.correoElectronico
+    const edicion = new Edicion({
+      titulo: req.body.titulo,
+      volumen: req.body.volumen,
+      numero: req.body.numero,
+      idPeriodo: req.body.idPeriodo,
+      fechaPublicacion: req.body.fechaPublicacion
     });
   
     // Save Customer in the database
-    Usuario.create(usuario, (err, data) => {
+    Edicion.create(edicion, (err, data) => {
       if (err)
         res.status(500).send({
           message:
@@ -30,7 +32,7 @@ exports.create = (req, res) => {
 
 // Retrieve all Customers from the database.
 exports.findAll = (req, res) => {
-    Usuario.getAll((err, data) => {
+    Edicion.getAll((err, data) => {
       if (err)
         res.status(500).send({
           message:
@@ -43,15 +45,15 @@ exports.findAll = (req, res) => {
 // Find a single Customer with a customerId
 exports.findOne = (req, res) => {
     console.log(req.params);
-    Usuario.findById(req.params.correoElectronico, (err, data) => {
+    Edicion.findById(req.params.id, (err, data) => {
         if (err) {
           if (err.kind === "not_found") {
             res.status(404).send({
-              message: `Not found usuario with id ${req.params.correoElectronico}.`
+              message: `Not found usuario with id ${req.params.id}.`
             });
           } else {
             res.status(500).send({
-              message: "Error retrieving usuario with id " + req.params.correoElectronico
+              message: "Error retrieving usuario with id " + req.params.id
             });
           }
         } else res.send(data);
@@ -67,18 +69,18 @@ exports.update = (req, res) => {
     });
   }
 
-  Usuario.updateById(
-    req.params.usuarioId,
-    new Usuario(req.body),
+  Edicion.updateById(
+    req.params.edicionId,
+    new Edicion(req.body),
     (err, data) => {
       if (err) {
         if (err.kind === "not_found") {
           res.status(404).send({
-            message: `Not found Customer with id ${req.params.usuarioId}.`
+            message: `Not found Customer with id ${req.params.edicionId}.`
           });
         } else {
           res.status(500).send({
-            message: "Error updating Customer with id " + req.params.usuarioId
+            message: "Error updating Customer with id " + req.params.edicionId
           });
         }
       } else res.send(data);
@@ -88,15 +90,16 @@ exports.update = (req, res) => {
 
 // Delete a Customer with the specified customerId in the request
 exports.delete = (req, res) => {
-    Usuario.remove(req.params.usuarioId, (err, data) => {
+  console.log("eliminacion")
+    Edicion.remove(req.params.edicionId, (err, data) => {
         if (err) {
           if (err.kind === "not_found") {
             res.status(404).send({
-              message: `Not found Customer with id ${req.params.usuarioId}.`
+              message: `Not found Customer with id ${req.params.edicionId}.`
             });
           } else {
             res.status(500).send({
-              message: "Could not delete Customer with id " + req.params.usuarioId
+              message: "Could not delete Customer with id " + req.params.edicionId
             });
           }
         } else res.send({ message: `Customer was deleted successfully!` });
@@ -105,7 +108,7 @@ exports.delete = (req, res) => {
 
 // Delete all Customers from the database.
 exports.deleteAll = (req, res) => {
-    Usuario.removeAll((err, data) => {
+    Edicion.removeAll((err, data) => {
         if (err)
           res.status(500).send({
             message:

@@ -1,21 +1,25 @@
 module.exports = app => {
     const usuarios = require("../controllers/usuario.controller.js");
+
+    
   
     // Create a new Customer
-    app.post("/usuarios", usuarios.create);
+    app.post("/api/usuarios", usuarios.create);
   
     // Retrieve all Customers
-    app.get("/usuarios", usuarios.findAll);
+    app.get("/api/usuarios", usuarios.findAll);
   
-    // Retrieve a single Customer with customerId
-    app.get("/usuarios/:customerId", usuarios.findOne);
+    // Retrieve a single Customer with userrId
+    app.get("/api/usuarios/:correoElectronico", usuarios.findOne);
   
     // Update a Customer with customerId
-    app.put("/usuarios/:customerId", usuarios.update);
+    app.put("/api/usuarios/:usuarioId", usuarios.update);
   
     // Delete a Customer with customerId
-    app.delete("/usuarios/:customerId", usuarios.delete);
+    app.delete("/api/usuarios/:usuarioId", usuarios.delete);
   
     // Create a new Customer
     app.delete("/usuarios", usuarios.deleteAll);
+
+    
   };

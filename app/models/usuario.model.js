@@ -23,8 +23,8 @@ const Usuario = function(usuario) {
   };
 
 
-  Usuario.findById = (usuarioId, result) => {
-    sql.query(`SELECT * FROM usuarios WHERE id = ${usuarioId}`, (err, res) => {
+  Usuario.findById = (correoElectronico, result) => {
+    sql.query(`SELECT * FROM usuarios WHERE correoElectronico = '${correoElectronico}'`, (err, res) => {
       if (err) {
         console.log("error: ", err);
         result(err, null);
@@ -56,10 +56,10 @@ const Usuario = function(usuario) {
   };
 
 
- /* Usuario.updateById = (id, customer, result) => {
+  Usuario.updateById = (id, usuario, result) => {
     sql.query(
-      "UPDATE usuarios SET email = ?, name = ?, active = ? WHERE id = ?",
-      [customer.email, customer.name, customer.active, id],
+      "UPDATE usuarios SET nombres = ?, primerApellido = ?, segundoApellido = ?, correoElectronico=? WHERE id = ?",
+      [usuario.nombres, usuario.primerApellido, usuario.segundoApellido,usuario.correoElectronico, id],
       (err, res) => {
         if (err) {
           console.log("error: ", err);
@@ -73,11 +73,44 @@ const Usuario = function(usuario) {
           return;
         }
   
-        console.log("updated customer: ", { id: id, ...customer });
-        result(null, { id: id, ...customer });
+        console.log("updated customer: ", { id: id, ...usuario });
+        result(null, { id: id, ...usuario });
       }
     );
-  };*/
+  };
+
+  Usuario.remove = (id, result) => {
+    console.log("id eliminar "+id);
+    sql.query("DELETE FROM usuarios WHERE id = ?", id, (err, res) => {
+      if (err) {
+        console.log("error: ", err);
+        result(null, err);
+        return;
+      }
+  
+      if (res.affectedRows == 0) {
+        // not found Customer with the id
+        result({ kind: "not_found" }, null);
+        return;
+      }
+  
+      console.log("deleted customer with id: ", id);
+      result(null, res);
+    });
+  };
+  
+  Usuario.removeAll = result => {
+    sql.query("DELETE FROM usuarios", (err, res) => {
+      if (err) {
+        console.log("error: ", err);
+        result(null, err);
+        return;
+      }
+  
+      console.log(`deleted ${res.affectedRows} customers`);
+      result(null, res);
+    });
+  };
 
 
   module.exports = Usuario;

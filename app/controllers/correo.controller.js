@@ -1,4 +1,5 @@
-const Usuario = require("../models/usuario.model.js");
+const Correo = require("../models/correo.model.js");
+
 
 // Create and Save a new Customer
 exports.create = (req, res) => {
@@ -10,15 +11,15 @@ exports.create = (req, res) => {
     }
   
     // Create a Customer
-    const usuario = new Usuario({
-      nombres: req.body.nombres,
-      primerApellido: req.body.primerApellido,
-      segundoApellido: req.body.segundoApellido,
-      correoElectronico: req.body.correoElectronico
+    const correo = new Correo({
+      asunto: req.body.asunto,
+      mensaje: req.body.mensaje,
+      fecha: req.body.fecha,
+
     });
   
     // Save Customer in the database
-    Usuario.create(usuario, (err, data) => {
+    Correo.create(correo, (err, data) => {
       if (err)
         res.status(500).send({
           message:
@@ -30,7 +31,7 @@ exports.create = (req, res) => {
 
 // Retrieve all Customers from the database.
 exports.findAll = (req, res) => {
-    Usuario.getAll((err, data) => {
+    Correo.getAll((err, data) => {
       if (err)
         res.status(500).send({
           message:
@@ -40,23 +41,7 @@ exports.findAll = (req, res) => {
     });
   };
 
-// Find a single Customer with a customerId
-exports.findOne = (req, res) => {
-    console.log(req.params);
-    Usuario.findById(req.params.correoElectronico, (err, data) => {
-        if (err) {
-          if (err.kind === "not_found") {
-            res.status(404).send({
-              message: `Not found usuario with id ${req.params.correoElectronico}.`
-            });
-          } else {
-            res.status(500).send({
-              message: "Error retrieving usuario with id " + req.params.correoElectronico
-            });
-          }
-        } else res.send(data);
-      });
-};
+
 
 // Update a Customer identified by the customerId in the request
 exports.update = (req, res) => {
@@ -67,18 +52,18 @@ exports.update = (req, res) => {
     });
   }
 
-  Usuario.updateById(
-    req.params.usuarioId,
-    new Usuario(req.body),
+  Correo.updateById(
+    req.params.correoId,
+    new Correo(req.body),
     (err, data) => {
       if (err) {
         if (err.kind === "not_found") {
           res.status(404).send({
-            message: `Not found Customer with id ${req.params.usuarioId}.`
+            message: `Not found Customer with id ${req.params.correoId}.`
           });
         } else {
           res.status(500).send({
-            message: "Error updating Customer with id " + req.params.usuarioId
+            message: "Error updating Customer with id " + req.params.correoId
           });
         }
       } else res.send(data);
@@ -88,15 +73,15 @@ exports.update = (req, res) => {
 
 // Delete a Customer with the specified customerId in the request
 exports.delete = (req, res) => {
-    Usuario.remove(req.params.usuarioId, (err, data) => {
+    Correo.remove(req.params.correoId, (err, data) => {
         if (err) {
           if (err.kind === "not_found") {
             res.status(404).send({
-              message: `Not found Customer with id ${req.params.usuarioId}.`
+              message: `Not found Customer with id ${req.params.correoId}.`
             });
           } else {
             res.status(500).send({
-              message: "Could not delete Customer with id " + req.params.usuarioId
+              message: "Could not delete Customer with id " + req.params.correoId
             });
           }
         } else res.send({ message: `Customer was deleted successfully!` });
@@ -105,7 +90,7 @@ exports.delete = (req, res) => {
 
 // Delete all Customers from the database.
 exports.deleteAll = (req, res) => {
-    Usuario.removeAll((err, data) => {
+    Correo.removeAll((err, data) => {
         if (err)
           res.status(500).send({
             message:
