@@ -1,10 +1,15 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const multipart=require('connect-multiparty');
 var cors = require('cors')
 
 
 const app = express();
 app.use(cors());
+
+const multiPartMiddleware=multipart({
+  uploadDir:'./subidas'
+})
 
 // parse requests of content-type: application/json
 app.use(bodyParser.json());
@@ -17,6 +22,12 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to bezkoder application." });
 });
 
+app.post('/api/subir',multiPartMiddleware,(req,res)=>{
+  console.log(req);
+  res.json({
+    'message':'Fichero subido'
+  });
+})
 
 require("./app/routes/usuario.routes.js")(app);
 require("./app/routes/edicion.routes.js")(app);

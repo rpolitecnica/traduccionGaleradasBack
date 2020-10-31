@@ -1,0 +1,2616 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<title>BASES DE LA IMPLEMENTACIÓN DE INTELIGENCIA APLICADAS AL DESARROLLO
+TECNOLÓGICO DEL SOFTWARE EN COLOMBIA</title>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:MMOHLX+RotisSansSerif;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Garamond;
+	panose-1:2 2 4 4 3 3 1 1 8 3;}
+@font-face
+	{font-family:"Futura Md BT";
+	panose-1:2 11 6 2 2 2 4 2 3 3;}
+@font-face
+	{font-family:"ZapfHumnst BT";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:HOPHIM+Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Arial Rounded MT Bold";
+	panose-1:2 15 7 4 3 5 4 3 2 4;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;}
+@font-face
+	{font-family:Times;
+	panose-1:0 0 5 0 0 0 0 2 0 0;}
+@font-face
+	{font-family:"Century Schoolbook";
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:"Futura Lt BT";
+	panose-1:2 11 6 2 2 2 4 2 3 3;}
+@font-face
+	{font-family:"Gill Sans MT";
+	panose-1:2 11 5 2 2 1 4 2 2 3;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:"\@Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+h1
+	{mso-style-link:"Título 1 Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:7.0pt;
+	margin-left:17.85pt;
+	text-indent:-17.85pt;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Futura Md BT",sans-serif;
+	font-weight:normal;}
+h2
+	{mso-style-name:"Título 2\,Segundo orden";
+	mso-style-link:"Título 2 Car\,Segundo orden Car";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+h3
+	{mso-style-link:"Título 3 Car";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+h4
+	{mso-style-link:"Título 4 Car";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h5
+	{mso-style-link:"Título 5 Car";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:13.0pt;
+	font-family:"Garamond",serif;
+	font-weight:bold;
+	font-style:italic;}
+h6
+	{mso-style-name:"Título 6\,Título de tabla";
+	mso-style-link:"Título 6 Car\,Título de tabla Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:57.6pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-indent:-21.6pt;
+	page-break-after:avoid;
+	font-size:7.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;
+	layout-grid-mode:line;
+	font-weight:bold;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Título 7 Car";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Título 8 Car";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Título 9 Car";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{mso-style-name:"Texto nota pie\,Texto nota pie Car Car Car";
+	mso-style-link:"Texto nota pie Car\,Texto nota pie Car Car Car Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Texto comentario Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Encabezado Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Pie de página Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"ZapfHumnst BT",sans-serif;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-link:"Descripción Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:"Garamond",serif;
+	font-weight:bold;}
+span.MsoFootnoteReference
+	{vertical-align:super;}
+span.MsoEndnoteReference
+	{vertical-align:super;}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoListNumber3, li.MsoListNumber3, div.MsoListNumber3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListNumber3CxSpFirst, li.MsoListNumber3CxSpFirst, div.MsoListNumber3CxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListNumber3CxSpMiddle, li.MsoListNumber3CxSpMiddle, div.MsoListNumber3CxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListNumber3CxSpLast, li.MsoListNumber3CxSpLast, div.MsoListNumber3CxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Título Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Texto independiente Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Garamond",serif;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{mso-style-link:"Sangría de texto normal Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	line-height:200%;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{mso-style-link:"Texto independiente 3 Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Garamond",serif;}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{mso-style-link:"Sangría 2 de t\. independiente Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	text-align:justify;
+	line-height:200%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{mso-style-link:"Mapa del documento Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	background:navy;
+	font-size:10.0pt;
+	font-family:"Tahoma",sans-serif;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Arial Unicode MS",sans-serif;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Asunto del comentario Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texto de globo Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma",sans-serif;}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoBibliography, li.MsoBibliography, div.MsoBibliography
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.CarCar4
+	{mso-style-name:"Car Car4";
+	font-family:"Arial",sans-serif;}
+span.CarCar3
+	{mso-style-name:"Car Car3";
+	font-family:"Arial",sans-serif;}
+span.CarCar2
+	{mso-style-name:"Car Car2";
+	font-family:"Tahoma",sans-serif;}
+span.TextonotapieCarCarCarCarCar
+	{mso-style-name:"Texto nota pie Car Car Car Car Car";
+	font-family:"Arial",sans-serif;}
+span.CarCar8
+	{mso-style-name:"Car Car8";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.CarCar7
+	{mso-style-name:"Car Car7";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.CarCar6
+	{mso-style-name:"Car Car6";
+	font-weight:bold;}
+span.CarCar5
+	{mso-style-name:"Car Car5";
+	font-family:"Garamond",serif;
+	font-weight:bold;
+	font-style:italic;}
+span.CarCar1
+	{mso-style-name:"Car Car1";
+	font-family:"Garamond",serif;}
+p.Default, li.Default, div.Default
+	{mso-style-name:Default;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"HOPHIM+Arial",sans-serif;
+	color:black;}
+p.EstiloTtulo212ptSinCursivaJustificadoIzquierda0cm, li.EstiloTtulo212ptSinCursivaJustificadoIzquierda0cm, div.EstiloTtulo212ptSinCursivaJustificadoIzquierda0cm
+	{mso-style-name:"Estilo Título 2 + 12 pt Sin Cursiva Justificado Izquierda\:  0 cm\.\.\.";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Garamond",serif;
+	font-weight:bold;}
+p.p2, li.p2, div.p2
+	{mso-style-name:p2;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:29.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Herramientas, li.Herramientas, div.Herramientas
+	{mso-style-name:Herramientas;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Pa7, li.Pa7, div.Pa7
+	{mso-style-name:Pa7;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:12.05pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"MMOHLX+RotisSansSerif",serif;}
+span.A4
+	{mso-style-name:A4;
+	font-family:"Arial Rounded MT Bold",sans-serif;
+	color:black;}
+p.EstiloJustificadoInterlineado15lneas, li.EstiloJustificadoInterlineado15lneas, div.EstiloJustificadoInterlineado15lneas
+	{mso-style-name:"Estilo Justificado Interlineado\:  15 líneas";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Garamond",serif;}
+p.EstiloTtulo1Interlineado15lneas, li.EstiloTtulo1Interlineado15lneas, div.EstiloTtulo1Interlineado15lneas
+	{mso-style-name:"Estilo Título 1 + Interlineado\:  15 líneas";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Futura Md BT",sans-serif;}
+span.CarCar
+	{mso-style-name:"Car Car";
+	font-family:"Garamond",serif;}
+p.EstiloArialNarrowNegritaJustificado, li.EstiloArialNarrowNegritaJustificado, div.EstiloArialNarrowNegritaJustificado
+	{mso-style-name:"Estilo Arial Narrow Negrita Justificado";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	font-size:14.0pt;
+	font-family:"Arial Rounded MT Bold",sans-serif;
+	font-weight:bold;}
+span.PiedepginaCar
+	{mso-style-name:"Pie de página Car";
+	mso-style-link:"Pie de página";
+	font-family:"ZapfHumnst BT",sans-serif;}
+p.Text, li.Text, div.Text
+	{mso-style-name:Text;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:10.1pt;
+	line-height:105%;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.Equation, li.Equation, div.Equation
+	{mso-style-name:Equation;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:105%;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.ReferenceHead, li.ReferenceHead, div.ReferenceHead
+	{mso-style-name:"Reference Head";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+p.Firstparagraph, li.Firstparagraph, div.Firstparagraph
+	{mso-style-name:"First paragraph";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:13.0pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Tabletext, li.Tabletext, div.Tabletext
+	{mso-style-name:"Table text";
+	mso-style-link:"Table text Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:11.0pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.TabletextCar
+	{mso-style-name:"Table text Car";
+	mso-style-link:"Table text";}
+span.SangradetextonormalCar
+	{mso-style-name:"Sangría de texto normal Car";
+	mso-style-link:"Sangría de texto normal";
+	font-family:"Arial",sans-serif;}
+span.Sangra2detindependienteCar
+	{mso-style-name:"Sangría 2 de t\. independiente Car";
+	mso-style-link:"Sangría 2 de t\. independiente";}
+span.TextocomentarioCar
+	{mso-style-name:"Texto comentario Car";
+	mso-style-link:"Texto comentario";}
+span.TextonotapieCar
+	{mso-style-name:"Texto nota pie Car\,Texto nota pie Car Car Car Car";
+	mso-style-link:"Texto nota pie\,Texto nota pie Car Car Car";
+	font-family:"Arial",sans-serif;}
+p.Textoindependiente21, li.Textoindependiente21, div.Textoindependiente21
+	{mso-style-name:"Texto independiente 21";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:125%;
+	font-size:11.5pt;
+	font-family:"Century Gothic",sans-serif;
+	font-weight:bold;}
+p.Textoindependiente31, li.Textoindependiente31, div.Textoindependiente31
+	{mso-style-name:"Texto independiente 31";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:125%;
+	font-size:11.5pt;
+	font-family:"Century Gothic",sans-serif;}
+p.NormalENIEF, li.NormalENIEF, div.NormalENIEF
+	{mso-style-name:"Normal ENIEF";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+span.Textoindependiente3Car
+	{mso-style-name:"Texto independiente 3 Car";
+	mso-style-link:"Texto independiente 3";
+	font-family:"Garamond",serif;}
+span.FootnoteCharacters
+	{mso-style-name:"Footnote Characters";
+	vertical-align:super;}
+span.Ttulo6Car
+	{mso-style-name:"Título 6 Car\,Título de tabla Car";
+	mso-style-link:"Título 6\,Título de tabla";
+	font-family:"Arial",sans-serif;
+	color:black;
+	layout-grid-mode:both;
+	font-weight:bold;}
+span.TtuloCar
+	{mso-style-name:"Título Car";
+	mso-style-link:Título;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.Textodenotaalfinal, li.Textodenotaalfinal, div.Textodenotaalfinal
+	{mso-style-name:"Texto de nota al final";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Courier New";
+	layout-grid-mode:line;}
+span.TextodegloboCar
+	{mso-style-name:"Texto de globo Car";
+	mso-style-link:"Texto de globo";
+	font-family:"Tahoma",sans-serif;}
+span.Ttulo1Car
+	{mso-style-name:"Título 1 Car";
+	mso-style-link:"Título 1";
+	font-family:"Futura Md BT",sans-serif;}
+span.AsuntodelcomentarioCar
+	{mso-style-name:"Asunto del comentario Car";
+	mso-style-link:"Asunto del comentario";
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+span.EncabezadoCar
+	{mso-style-name:"Encabezado Car";
+	mso-style-link:Encabezado;
+	font-family:"Arial",sans-serif;}
+span.hit
+	{mso-style-name:hit;}
+span.style101
+	{mso-style-name:style101;
+	font-weight:bold;}
+p.Textogrfica, li.Textogrfica, div.Textogrfica
+	{mso-style-name:"Texto gráfica";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:8.0pt;
+	font-family:"Garamond",serif;}
+span.Ttulo3Car
+	{mso-style-name:"Título 3 Car";
+	mso-style-link:"Título 3";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.MapadeldocumentoCar
+	{mso-style-name:"Mapa del documento Car";
+	mso-style-link:"Mapa del documento";
+	font-family:"Tahoma",sans-serif;
+	background:navy;}
+span.TextoindependienteCar
+	{mso-style-name:"Texto independiente Car";
+	mso-style-link:"Texto independiente";
+	font-family:"Garamond",serif;}
+span.a
+	{mso-style-name:a;}
+span.DescripcinCar
+	{mso-style-name:"Descripción Car";
+	mso-style-link:Descripción;
+	font-family:"Garamond",serif;
+	font-weight:bold;}
+p.Normal1, li.Normal1, div.Normal1
+	{mso-style-name:Normal1;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+p.normalAllex, li.normalAllex, div.normalAllex
+	{mso-style-name:"normal Allex";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;}
+p.TableTitle, li.TableTitle, div.TableTitle
+	{mso-style-name:"Table Title";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-autospace:none;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.TCTableBody, li.TCTableBody, div.TCTableBody
+	{mso-style-name:TC_Table_Body;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:10.0pt;
+	font-size:9.0pt;
+	font-family:"Times",serif;}
+span.EquationCaption
+	{mso-style-name:"_Equation Caption";}
+p.XCIIPTextonormal, li.XCIIPTextonormal, div.XCIIPTextonormal
+	{mso-style-name:"XCIIP Texto normal";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	color:black;}
+span.XCIIPPrimernivelCar
+	{mso-style-name:"XCIIP Primer nivel Car";
+	font-family:"Arial",sans-serif;
+	color:black;
+	font-weight:bold;}
+span.apple-style-span
+	{mso-style-name:apple-style-span;}
+p.PiedeTabla, li.PiedeTabla, div.PiedeTabla
+	{mso-style-name:"Pie de Tabla";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.2pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-14.2pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.EstiloPiedeTabla11ptIzquierda0cmSangrafrancesa0, li.EstiloPiedeTabla11ptIzquierda0cmSangrafrancesa0, div.EstiloPiedeTabla11ptIzquierda0cmSangrafrancesa0
+	{mso-style-name:"Estilo Pie de Tabla + 11 pt Izquierda\:  0 cm Sangría francesa\:  0\.\.\.\.";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:21.3pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-21.3pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+p.TituloFigura, li.TituloFigura, div.TituloFigura
+	{mso-style-name:"Titulo Figura";
+	mso-style-link:"Titulo Figura Car Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.TituloFiguraCarCar
+	{mso-style-name:"Titulo Figura Car Car";
+	mso-style-link:"Titulo Figura";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.ecxmsonormal, li.ecxmsonormal, div.ecxmsonormal
+	{mso-style-name:ecxmsonormal;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:16.2pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.Ttulo7Car
+	{mso-style-name:"Título 7 Car";
+	mso-style-link:"Título 7";
+	font-family:"Arial",sans-serif;}
+span.Ttulo8Car
+	{mso-style-name:"Título 8 Car";
+	mso-style-link:"Título 8";
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+span.Ttulo9Car
+	{mso-style-name:"Título 9 Car";
+	mso-style-link:"Título 9";
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+span.Ttulo2Car
+	{mso-style-name:"Título 2 Car\,Segundo orden Car";
+	mso-style-link:"Título 2\,Segundo orden";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.Ttulo4Car
+	{mso-style-name:"Título 4 Car";
+	mso-style-link:"Título 4";
+	font-weight:bold;}
+span.Ttulo5Car
+	{mso-style-name:"Título 5 Car";
+	mso-style-link:"Título 5";
+	font-family:"Garamond",serif;
+	font-weight:bold;
+	font-style:italic;}
+p.Listavistosa-nfasis11, li.Listavistosa-nfasis11, div.Listavistosa-nfasis11
+	{mso-style-name:"Lista vistosa - Énfasis 11";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:4.0pt;
+	margin-left:35.4pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;}
+span.textonavy1
+	{mso-style-name:texto_navy1;
+	color:navy;}
+span.hps
+	{mso-style-name:hps;}
+p.Titulocaptulo, li.Titulocaptulo, div.Titulocaptulo
+	{mso-style-name:"Titulo capítulo";
+	mso-style-link:"Titulo capítulo Car";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:7.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Futura Md BT",sans-serif;}
+p.Subttulocaptulo, li.Subttulocaptulo, div.Subttulocaptulo
+	{mso-style-name:"Subtítulo capítulo";
+	mso-style-link:"Subtítulo capítulo Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:7.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Futura Md BT",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.TitulocaptuloCar
+	{mso-style-name:"Titulo capítulo Car";
+	mso-style-link:"Titulo capítulo";
+	font-family:"Futura Md BT",sans-serif;}
+span.SubttulocaptuloCar
+	{mso-style-name:"Subtítulo capítulo Car";
+	mso-style-link:"Subtítulo capítulo";
+	font-family:"Futura Md BT",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+p.SpanishTitle, li.SpanishTitle, div.SpanishTitle
+	{mso-style-name:"Spanish Title";
+	mso-style-link:"Spanish Title Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:13.0pt;
+	font-family:"Century Schoolbook",serif;
+	font-weight:bold;}
+p.TitleSpanish, li.TitleSpanish, div.TitleSpanish
+	{mso-style-name:"Title \(Spanish\)";
+	mso-style-link:"Title \(Spanish\) Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:13.0pt;
+	font-family:"Century Schoolbook",serif;
+	font-weight:bold;}
+span.SpanishTitleCar
+	{mso-style-name:"Spanish Title Car";
+	mso-style-link:"Spanish Title";
+	font-family:"Century Schoolbook",serif;
+	font-weight:bold;}
+p.Author, li.Author, div.Author
+	{mso-style-name:Author;
+	mso-style-link:"Author Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook",serif;}
+span.TitleSpanishCar
+	{mso-style-name:"Title \(Spanish\) Car";
+	mso-style-link:"Title \(Spanish\)";
+	font-family:"Century Schoolbook",serif;
+	font-weight:bold;}
+p.ResumenandAbstracttitles, li.ResumenandAbstracttitles, div.ResumenandAbstracttitles
+	{mso-style-name:"Resumen and Abstract titles";
+	mso-style-link:"Resumen and Abstract titles Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:7.0pt;
+	margin-left:0cm;
+	font-size:9.0pt;
+	font-family:"Futura Md BT",sans-serif;}
+span.AuthorCar
+	{mso-style-name:"Author Car";
+	mso-style-link:Author;
+	font-family:"Century Schoolbook",serif;}
+p.Abstractandkeywordsfont, li.Abstractandkeywordsfont, div.Abstractandkeywordsfont
+	{mso-style-name:"Abstract and keywords font";
+	mso-style-link:"Abstract and keywords font Car";
+	margin-top:7.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:11.0pt;
+	font-size:9.0pt;
+	font-family:"Century Gothic",sans-serif;
+	letter-spacing:-.1pt;}
+span.ResumenandAbstracttitlesCar
+	{mso-style-name:"Resumen and Abstract titles Car";
+	mso-style-link:"Resumen and Abstract titles";
+	font-family:"Futura Md BT",sans-serif;}
+p.PalabrasClaveandkeywordtitles, li.PalabrasClaveandkeywordtitles, div.PalabrasClaveandkeywordtitles
+	{mso-style-name:"Palabras Clave and keyword titles";
+	mso-style-link:"Palabras Clave and keyword titles Car";
+	margin-top:7.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:11.0pt;
+	font-size:9.5pt;
+	font-family:"Futura Lt BT",sans-serif;
+	letter-spacing:-.2pt;
+	font-weight:bold;}
+span.AbstractandkeywordsfontCar
+	{mso-style-name:"Abstract and keywords font Car";
+	mso-style-link:"Abstract and keywords font";
+	font-family:"Century Gothic",sans-serif;
+	letter-spacing:-.1pt;}
+p.DATES, li.DATES, div.DATES
+	{mso-style-name:DATES;
+	mso-style-link:"DATES Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Century Gothic",sans-serif;
+	font-weight:bold;}
+span.PalabrasClaveandkeywordtitlesCar
+	{mso-style-name:"Palabras Clave and keyword titles Car";
+	mso-style-link:"Palabras Clave and keyword titles";
+	font-family:"Futura Lt BT",sans-serif;
+	letter-spacing:-.2pt;
+	font-weight:bold;}
+p.Normal10, li.Normal10, div.Normal10
+	{mso-style-name:Normal1;
+	mso-style-link:"Normal Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:7.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:8.5pt;
+	font-family:"Gill Sans MT",sans-serif;}
+span.DATESCar
+	{mso-style-name:"DATES Car";
+	mso-style-link:DATES;
+	font-family:"Century Gothic",sans-serif;
+	font-weight:bold;}
+p.Sub-section, li.Sub-section, div.Sub-section
+	{mso-style-name:"Sub - section";
+	mso-style-link:"Sub - section Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:7.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:8.5pt;
+	font-family:"Gill Sans MT",sans-serif;
+	font-style:italic;}
+span.NormalCar
+	{mso-style-name:"Normal Car";
+	mso-style-link:Normal1;
+	font-family:"Gill Sans MT",sans-serif;}
+p.Tablesandfigures, li.Tablesandfigures, div.Tablesandfigures
+	{mso-style-name:"Tables and figures";
+	mso-style-link:"Tables and figures Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:7.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:7.0pt;
+	font-family:"Futura Md BT",sans-serif;}
+span.Sub-sectionCar
+	{mso-style-name:"Sub - section Car";
+	mso-style-link:"Sub - section";
+	font-family:"Gill Sans MT",sans-serif;
+	font-style:italic;}
+p.References, li.References, div.References
+	{mso-style-name:References;
+	mso-style-link:"References Car";
+	margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:5.95pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-5.95pt;
+	font-size:7.5pt;
+	font-family:"Century Gothic",sans-serif;}
+span.TablesandfiguresCar
+	{mso-style-name:"Tables and figures Car";
+	mso-style-link:"Tables and figures";
+	font-family:"Futura Md BT",sans-serif;}
+span.ReferencesCar
+	{mso-style-name:"References Car";
+	mso-style-link:References;
+	font-family:"Century Gothic",sans-serif;}
+p.TablesContent, li.TablesContent, div.TablesContent
+	{mso-style-name:"Tables Content";
+	mso-style-link:"Tables Content Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:7.0pt;
+	font-family:"Gill Sans MT",sans-serif;}
+span.TablesContentCar
+	{mso-style-name:"Tables Content Car";
+	mso-style-link:"Tables Content";
+	font-family:"Gill Sans MT",sans-serif;}
+p.Nmerodepgina1, li.Nmerodepgina1, div.Nmerodepgina1
+	{mso-style-name:"Número de página1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Futura Md BT",sans-serif;}
+p.ChapterTitle, li.ChapterTitle, div.ChapterTitle
+	{mso-style-name:"Chapter Title";
+	mso-style-link:"Chapter Title Car";
+	margin-top:4.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Futura Md BT",sans-serif;
+	font-weight:bold;}
+span.PagenumberCar
+	{mso-style-name:"Page number Car";
+	mso-style-link:"Número de página1";
+	font-family:"Futura Md BT",sans-serif;}
+span.ChapterTitleCar
+	{mso-style-name:"Chapter Title Car";
+	mso-style-link:"Chapter Title";
+	font-family:"Futura Md BT",sans-serif;
+	font-weight:bold;}
+p.ChapterSubtitle, li.ChapterSubtitle, div.ChapterSubtitle
+	{mso-style-name:"Chapter Subtitle";
+	mso-style-link:"Chapter Subtitle Car";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Futura Md BT",sans-serif;
+	font-weight:bold;}
+span.ChapterSubtitleCar
+	{mso-style-name:"Chapter Subtitle Car";
+	mso-style-link:"Chapter Subtitle";
+	font-family:"Futura Md BT",sans-serif;
+	font-weight:bold;}
+p.EnglishTitle, li.EnglishTitle, div.EnglishTitle
+	{mso-style-name:"English Title";
+	mso-style-link:"English Title Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Century Schoolbook",serif;
+	font-weight:bold;}
+span.EnglishTitleCar
+	{mso-style-name:"English Title Car";
+	mso-style-link:"English Title";
+	font-family:"Century Schoolbook",serif;
+	font-weight:bold;}
+p.Abstractandkeywordscontent, li.Abstractandkeywordscontent, div.Abstractandkeywordscontent
+	{mso-style-name:"Abstract and keywords content";
+	mso-style-link:"Abstract and keywords content Car";
+	margin-top:1.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:11.0pt;
+	font-size:8.0pt;
+	font-family:"Century Gothic",sans-serif;
+	letter-spacing:-.1pt;}
+span.AbstractandkeywordscontentCar
+	{mso-style-name:"Abstract and keywords content Car";
+	mso-style-link:"Abstract and keywords content";
+	font-family:"Century Gothic",sans-serif;
+	letter-spacing:-.1pt;}
+p.Abstractandkeywordtitles, li.Abstractandkeywordtitles, div.Abstractandkeywordtitles
+	{mso-style-name:"Abstract and keyword titles";
+	mso-style-link:"Abstract and keyword titles Car";
+	margin-top:7.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:11.0pt;
+	font-size:9.5pt;
+	font-family:"Futura Lt BT",sans-serif;
+	letter-spacing:-.2pt;
+	font-weight:bold;}
+span.AbstractandkeywordtitlesCar
+	{mso-style-name:"Abstract and keyword titles Car";
+	mso-style-link:"Abstract and keyword titles";
+	font-family:"Futura Lt BT",sans-serif;
+	letter-spacing:-.2pt;
+	font-weight:bold;}
+p.Dates0, li.Dates0, div.Dates0
+	{mso-style-name:Dates;
+	mso-style-link:"Dates Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Century Gothic",sans-serif;
+	font-weight:bold;}
+span.DatesCar0
+	{mso-style-name:"Dates Car";
+	mso-style-link:Dates;
+	font-family:"Century Gothic",sans-serif;
+	font-weight:bold;}
+p.Content, li.Content, div.Content
+	{mso-style-name:Content;
+	mso-style-link:"Content Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:7.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Gill Sans MT",sans-serif;}
+span.ContentCar
+	{mso-style-name:"Content Car";
+	mso-style-link:Content;
+	font-family:"Gill Sans MT",sans-serif;}
+p.TablesandfiguresTitles, li.TablesandfiguresTitles, div.TablesandfiguresTitles
+	{mso-style-name:"Tables and figures Titles";
+	mso-style-link:"Tables and figures Titles Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:7.0pt;
+	font-family:"Futura Md BT",sans-serif;
+	font-weight:bold;}
+span.TablesandfiguresTitlesCar
+	{mso-style-name:"Tables and figures Titles Car";
+	mso-style-link:"Tables and figures Titles";
+	font-family:"Futura Md BT",sans-serif;
+	font-weight:bold;}
+p.Footnote, li.Footnote, div.Footnote
+	{mso-style-name:Footnote;
+	mso-style-link:"Footnote Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-autospace:none;
+	font-size:7.0pt;
+	font-family:"Gill Sans MT",sans-serif;}
+span.FootnoteCar
+	{mso-style-name:"Footnote Car";
+	mso-style-link:Footnote;
+	font-family:"Gill Sans MT",sans-serif;}
+p.Citation, li.Citation, div.Citation
+	{mso-style-name:Citation;
+	mso-style-link:"Citation Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-autospace:none;
+	border:none;
+	padding:0cm;
+	font-size:7.0pt;
+	font-family:"Gill Sans MT",sans-serif;}
+span.CitationCar
+	{mso-style-name:"Citation Car";
+	mso-style-link:Citation;
+	font-family:"Gill Sans MT",sans-serif;}
+p.FootPrint, li.FootPrint, div.FootPrint
+	{mso-style-name:FootPrint;
+	mso-style-link:"FootPrint Car";
+	margin-top:3.3pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	font-size:7.0pt;
+	font-family:"Futura Md BT",sans-serif;
+	font-style:italic;}
+span.FootPrintCar
+	{mso-style-name:"FootPrint Car";
+	mso-style-link:FootPrint;
+	font-family:"Futura Md BT",sans-serif;
+	font-style:italic;}
+p.Heading, li.Heading, div.Heading
+	{mso-style-name:Heading;
+	mso-style-link:"Heading Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:7.0pt;
+	font-family:"Futura Lt BT",sans-serif;
+	font-style:italic;}
+span.HeadingCar
+	{mso-style-name:"Heading Car";
+	mso-style-link:Heading;
+	font-family:"Futura Lt BT",sans-serif;
+	font-style:italic;}
+p.Nmerodepgina10, li.Nmerodepgina10, div.Nmerodepgina10
+	{mso-style-name:"Número de página1";
+	mso-style-link:"Page number Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Futura Md BT",sans-serif;}
+p.Nmerodepgina2, li.Nmerodepgina2, div.Nmerodepgina2
+	{mso-style-name:"Número de página2";
+	mso-style-link:"Page Number Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Futura Md BT",sans-serif;}
+span.PageNumberCar0
+	{mso-style-name:"Page Number Car";
+	mso-style-link:"Número de página2";
+	font-family:"Futura Md BT",sans-serif;}
+p.Encabezado1, li.Encabezado1, div.Encabezado1
+	{mso-style-name:Encabezado1;
+	mso-style-link:"Encabezado1 Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:7.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.PagenumberImpar, li.PagenumberImpar, div.PagenumberImpar
+	{mso-style-name:"Page number Impar";
+	mso-style-link:"Page number Impar Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Futura Md BT",sans-serif;}
+span.Encabezado1Car
+	{mso-style-name:"Encabezado1 Car";
+	mso-style-link:Encabezado1;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.PagenumberImparCar
+	{mso-style-name:"Page number Impar Car";
+	mso-style-link:"Page number Impar";
+	font-family:"Futura Md BT",sans-serif;}
+p.ChapterSubtitle3, li.ChapterSubtitle3, div.ChapterSubtitle3
+	{mso-style-name:"Chapter Subtitle 3";
+	mso-style-link:"Chapter Subtitle 3 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Futura Md BT",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.ChapterSubtitle3Char
+	{mso-style-name:"Chapter Subtitle 3 Char";
+	mso-style-link:"Chapter Subtitle 3";
+	font-family:"Futura Md BT",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.MTEquationSection
+	{mso-style-name:MTEquationSection;
+	color:red;
+	display:none;}
+p.MTDisplayEquation, li.MTDisplayEquation, div.MTDisplayEquation
+	{mso-style-name:MTDisplayEquation;
+	mso-style-link:"MTDisplayEquation Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:7.0pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:9.0pt;
+	font-family:"Gill Sans MT",sans-serif;}
+span.MTDisplayEquationCar
+	{mso-style-name:"MTDisplayEquation Car";
+	mso-style-link:MTDisplayEquation;
+	font-family:"Gill Sans MT",sans-serif;}
+p.TituloArticulo, li.TituloArticulo, div.TituloArticulo
+	{mso-style-name:"Titulo Articulo";
+	mso-style-link:"Titulo Articulo Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.Autores, li.Autores, div.Autores
+	{mso-style-name:Autores;
+	mso-style-link:"Autores Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.TituloArticuloCar
+	{mso-style-name:"Titulo Articulo Car";
+	mso-style-link:"Titulo Articulo";
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.InformacionAutores, li.InformacionAutores, div.InformacionAutores
+	{mso-style-name:InformacionAutores;
+	mso-style-link:"InformacionAutores Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	vertical-align:super;}
+span.AutoresCar
+	{mso-style-name:"Autores Car";
+	mso-style-link:Autores;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.ResumenTitulo, li.ResumenTitulo, div.ResumenTitulo
+	{mso-style-name:ResumenTitulo;
+	mso-style-link:"ResumenTitulo Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:11.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.InformacionAutoresCar
+	{mso-style-name:"InformacionAutores Car";
+	mso-style-link:InformacionAutores;
+	font-family:"Arial",sans-serif;
+	font-weight:normal;
+	vertical-align:super;}
+p.ResumenCuerpo, li.ResumenCuerpo, div.ResumenCuerpo
+	{mso-style-name:ResumenCuerpo;
+	mso-style-link:"ResumenCuerpo Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+span.ResumenTituloCar
+	{mso-style-name:"ResumenTitulo Car";
+	mso-style-link:ResumenTitulo;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	vertical-align:super;}
+p.PalabrasCalvesTitulo, li.PalabrasCalvesTitulo, div.PalabrasCalvesTitulo
+	{mso-style-name:PalabrasCalvesTitulo;
+	mso-style-link:"PalabrasCalvesTitulo Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.ResumenCuerpoCar
+	{mso-style-name:"ResumenCuerpo Car";
+	mso-style-link:ResumenCuerpo;
+	font-family:"Arial",sans-serif;
+	font-weight:normal;
+	vertical-align:super;}
+p.PalabrasClaves, li.PalabrasClaves, div.PalabrasClaves
+	{mso-style-name:PalabrasClaves;
+	mso-style-link:"PalabrasClaves Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+span.PalabrasCalvesTituloCar
+	{mso-style-name:"PalabrasCalvesTitulo Car";
+	mso-style-link:PalabrasCalvesTitulo;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.FechasEsp, li.FechasEsp, div.FechasEsp
+	{mso-style-name:FechasEsp;
+	mso-style-link:"FechasEsp Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+span.PalabrasClavesCar
+	{mso-style-name:"PalabrasClaves Car";
+	mso-style-link:PalabrasClaves;
+	font-family:"Arial",sans-serif;}
+p.TituloArticuloIngles, li.TituloArticuloIngles, div.TituloArticuloIngles
+	{mso-style-name:TituloArticuloIngles;
+	mso-style-link:"TituloArticuloIngles Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.FechasEspCar
+	{mso-style-name:"FechasEsp Car";
+	mso-style-link:FechasEsp;
+	font-family:"Arial",sans-serif;}
+p.TituloAbstract, li.TituloAbstract, div.TituloAbstract
+	{mso-style-name:TituloAbstract;
+	mso-style-link:"TituloAbstract Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.TituloArticuloInglesCar
+	{mso-style-name:"TituloArticuloIngles Car";
+	mso-style-link:TituloArticuloIngles;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.Abstract, li.Abstract, div.Abstract
+	{mso-style-name:Abstract;
+	mso-style-link:"Abstract Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+span.TituloAbstractCar
+	{mso-style-name:"TituloAbstract Car";
+	mso-style-link:TituloAbstract;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.TituloKeywords, li.TituloKeywords, div.TituloKeywords
+	{mso-style-name:TituloKeywords;
+	mso-style-link:"TituloKeywords Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.AbstractCar
+	{mso-style-name:"Abstract Car";
+	mso-style-link:Abstract;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+p.Keywords, li.Keywords, div.Keywords
+	{mso-style-name:Keywords;
+	mso-style-link:"Keywords Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+span.TituloKeywordsCar
+	{mso-style-name:"TituloKeywords Car";
+	mso-style-link:TituloKeywords;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.ComoCitar, li.ComoCitar, div.ComoCitar
+	{mso-style-name:ComoCitar;
+	mso-style-link:"ComoCitar Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+span.KeywordsCar
+	{mso-style-name:"Keywords Car";
+	mso-style-link:Keywords;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+p.Enbezado2, li.Enbezado2, div.Enbezado2
+	{mso-style-name:Enbezado2;
+	mso-style-link:"Enbezado2 Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:7.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.ComoCitarCar
+	{mso-style-name:"ComoCitar Car";
+	mso-style-link:ComoCitar;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+p.PiePagina, li.PiePagina, div.PiePagina
+	{mso-style-name:PiePagina;
+	mso-style-link:"PiePagina Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:7.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+span.Enbezado2Car
+	{mso-style-name:"Enbezado2 Car";
+	mso-style-link:Enbezado2;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.TituloSeccion, li.TituloSeccion, div.TituloSeccion
+	{mso-style-name:TituloSeccion;
+	mso-style-link:"TituloSeccion Car";
+	margin-top:4.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	text-indent:3.3pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.PiePaginaCar
+	{mso-style-name:"PiePagina Car";
+	mso-style-link:PiePagina;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;
+	font-style:italic;}
+p.ContenidoSeccion, li.ContenidoSeccion, div.ContenidoSeccion
+	{mso-style-name:ContenidoSeccion;
+	mso-style-link:"ContenidoSeccion Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:21.3pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;}
+span.TituloSeccionCar
+	{mso-style-name:"TituloSeccion Car";
+	mso-style-link:TituloSeccion;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+p.SubtituloSeccion, li.SubtituloSeccion, div.SubtituloSeccion
+	{mso-style-name:SubtituloSeccion;
+	mso-style-link:"SubtituloSeccion Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:39.6pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-18.3pt;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.ContenidoSeccionCar
+	{mso-style-name:"ContenidoSeccion Car";
+	mso-style-link:ContenidoSeccion;
+	font-family:"Arial",sans-serif;}
+p.Subseccion, li.Subseccion, div.Subseccion
+	{mso-style-name:Subseccion;
+	mso-style-link:"Subseccion Car";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:21.3pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+span.SubtituloSeccionCar
+	{mso-style-name:"SubtituloSeccion Car";
+	mso-style-link:SubtituloSeccion;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.SubseccionCar
+	{mso-style-name:"Subseccion Car";
+	mso-style-link:Subseccion;
+	font-family:"Arial",sans-serif;
+	font-style:italic;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.1pt 792.1pt;
+	margin:2.0cm 2.0cm 2.0cm 54.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:612.1pt 792.1pt;
+	margin:2.0cm 2.0cm 2.0cm 78.0pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:612.1pt 792.1pt;
+	margin:2.0cm 2.0cm 2.0cm 54.0pt;}
+div.WordSection3
+	{page:WordSection3;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=ES-CO link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<p class=MsoTitle><span
+lang=EN-US style='font-size:16.0pt;font-weight:normal'> </span></p>
+
+<p class=TituloArticulo><span lang=ES>TÍTULO DEL ARTÍCULO (Arial 16pt)
+MAYUSCULAS</span></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span lang=ES
+style='font-size:10.0pt'>Debe ser conciso, fácil de entender y corresponder
+estrictamente a lo que se </span></p>
+
+<p class=EnglishTitle><span lang=ES style='font-size:10.0pt;font-family:"Arial",sans-serif;
+font-weight:normal'>presenta en el artículo (máximo 15 palabras).</span></p>
+
+<p class=SpanishTitle align=left style='text-align:left'>&nbsp;</p>
+
+<p class=Autores><span lang=ES>Pedro Pablo Pérez <sup>1</sup>, Nombre completo
+del autor <sup>2</sup>, etc…</span></p>
+
+<p class=Autores><span lang=ES>&nbsp;</span></p>
+
+<p class=InformacionAutores><span lang=ES>1</span><span lang=ES
+style='vertical-align:baseline'>Información de los autores: Se deben incluir el
+nombre completo de cada autor, su título académico más alto, </span><span
+lang=ES-CL style='vertical-align:baseline'>cargo, compañía o universidad</span><span
+lang=ES style='vertical-align:baseline'>, y correo electrónico del autor de
+correspondencia. Si los autores pertenecen a la misma institución se puede
+utilizar sólo una información institucional que <b>abarque todos</b> los
+autores.</span></p>
+
+<p class=InformacionAutores><span lang=ES style='vertical-align:baseline'>&nbsp;</span></p>
+
+<p class=InformacionAutores><span lang=ES style='vertical-align:baseline'>&nbsp;</span></p>
+
+<p class=ResumenTitulo><span lang=ES>RESUMEN</span></p>
+
+<p class=ResumenTitulo><span lang=ES>&nbsp;</span></p>
+
+<p class=ResumenCuerpo><span lang=ES-CL>Se debe tener el resumen en español o
+portugués (según el idioma del artículo) e inglés, los cuales incluirán los
+objetivos principales de la investigación, alcance, metodología empleada,
+resultados principales y conclusiones. El resumen debe ser claro, coherente y
+sucinto, para lo cual se sugiere revisar y verificar datos, sintaxis,
+ortografía, no caer en erratas y no incluir ecuaciones, figuras, tablas ni
+referencias bibliográficas. El resumen es máximo de 150 palabras y debe
+reflejar fielmente el contenido del artículo.  Su redacción debe estar en
+tercera persona.</span></p>
+
+<p class=ResumenTitulo><span lang=ES>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span
+class=PalabrasCalvesTituloCar><span lang=ES-CL style='font-size:10.0pt'>Palabras
+clave:</span></span><span lang=ES-CL style='font-size:10.0pt'> </span><span
+class=PalabrasClavesCar><span lang=ES-CL style='font-size:10.0pt'>Palabra
+clave1; palabra clave2; palabra clave3</span></span><span lang=ES-CL
+style='font-size:10.0pt'> </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt'>Éstas
+ayudan a identificar los temas o aspectos principales del artículo y son
+importantes para su indexación en bases bibliográficas.  Deben ser entre tres y
+cinco, entre ellas pueden incluirse frases cortas que describan tópicos
+significativos del artículo. Se recomienda utilizar los términos de los
+tesauros especializados de las disciplinas correspondientes.</span></p>
+
+<p class=ResumenTitulo style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt;font-weight:normal'>&nbsp;</span></p>
+
+<p class=FechasEsp><span lang=ES>Recibido: xx de febrero de 20xx. Aceptado: xx
+de Junio de 20xx</span></p>
+
+<p class=FechasEsp><i><span lang=EN-US>Received: February xx, 20xx.    
+Accepted: June xx, 20xx</span></i></p>
+
+<p class=Abstractandkeywordtitles><span lang=EN-US>&nbsp;</span></p>
+
+<p class=Abstractandkeywordtitles><span lang=EN-US>&nbsp;</span></p>
+
+<p class=TituloArticuloIngles><span lang=ES>TÍTULO DEL ARTÍCULO EN INGLÉS</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='font-size:
+10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='font-size:
+10.0pt'>&nbsp;</span></p>
+
+<p class=TituloAbstract>ABSTRACT</p>
+
+<p class=MsoNormal style='text-align:justify'><i><span style='font-size:10.0pt'>&nbsp;</span></i></p>
+
+<p class=Abstract><span lang=ES-MX>Abstract, corresponde a la traducción
+precisa al inglés, del resumen ya presentado en español, debe ir en cursiva.</span><span
+lang=ES-MX> </span><span lang=ES-MX>Los artículos en español o portugués deben
+tener un abstract en inglés y los artículos en inglés, un abstract en español. 
+</span></p>
+
+<p class=MsoNormal style='text-align:justify'><i><span lang=ES
+style='font-size:10.0pt'>&nbsp;</span></i></p>
+
+<p class=MsoNormal><span class=TituloKeywordsCar><span style='font-size:10.0pt'>Keywords:</span></span><i><span
+style='font-size:10.0pt'> </span></i><span class=KeywordsCar><span lang=ES
+style='font-size:10.0pt'>Keyword1; keyword2; keyword3</span></span></p>
+
+<p class=MsoNormal><i><span style='font-size:10.0pt'>Keywords, corresponden a
+la traducción precisa al inglés, de las palabras clave ya presentadas en
+español, deben ir en cursiva.</span></i></p>
+
+<p class=Abstractandkeywordtitles>&nbsp;</p>
+
+<p class=ComoCitar>Cómo citar este artículo: H. Castaño. “Producción de etanol
+a partir de yuca fresca utilizando la estrategia de proceso HEFS (hidrólisis
+enzimática y fermentación simultáneas) usando enzimas reductoras de
+viscosidad”, Revista Politécnica, vol.16, no.31 pp.19-28, 2020.
+DOI:10.33571/rpolitec.v16n31a2</p>
+
+<p class=ChapterTitle>&nbsp;</p>
+
+<p class=ChapterTitle>&nbsp;</p>
+
+<p class=ChapterTitle>&nbsp;</p>
+
+<p class=ChapterTitle>&nbsp;</p>
+
+<p class=ChapterTitle>&nbsp;</p>
+
+</div>
+
+<b><span style='font-size:11.0pt;font-family:"Futura Md BT",sans-serif'><br
+clear=all style='page-break-before:auto'>
+</span></b>
+
+<div class=WordSection2>
+
+<p class=ChapterTitle><span lang=EN-US>&nbsp;</span></p>
+
+<p class=TituloSeccion><span lang=EN-US>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span><span lang=EN-US>INTRODUCCIÓN</span></p>
+
+<p class=ContenidoSeccion>Este archivo Word es una plantilla para presentar el
+artículo a la Revista Politécnica. Este documento es principalmente una guía de
+cómo elaborar un artículo derivado de investigación, el cual debe tener las
+siguientes secciones: introducción, materiales y método, resultados, análisis
+de resultados, conclusiones, agradecimientos y referencias. Otras indicaciones
+del formato están en el anexo 1. Otros tipos de artículos que recibe la revista
+se indican en el anexo 2. Los pasos para someter el artículo a la revista están
+en el anexo 3. </p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>La revista Politécnica recibe artículos en idioma
+español, portugués o preferiblemente inglés. Los artículos sometidos a
+consideración de la revista deben ser inéditos, es decir, que no se hayan
+publicado en otros medios, electrónicos o   impresos y que no hayan sido
+sometidos a otra revista simultáneamente.</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>La Introducción es la parte donde el autor brinda una
+visión resumida y concisa del objetivo del artículo y de los trabajos previos e
+investigaciones que se han realizado sobre el tema. Esta sección debe incluir
+suficiente información de fondo, haga una exposición clara del problema, la
+literatura relevante sobre el tema y el enfoque, la aproximación o solución
+propuesta. Los objetivos del manuscrito deben ser claramente establecidos. La
+introducción no debe contener resultados o conclusiones. La introducción debe
+ser comprensible para colegas de una amplia gama de disciplinas científicas. A
+continuación, se describen como elaborar las secciones de materiales y método,
+resultados, análisis de resultados, conclusiones, agradecimientos y
+bibliografía.</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:21.3pt;text-align:justify'><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=TituloSeccion>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span>MATERIALES Y METODO</p>
+
+<p class=ContenidoSeccion>Esta sección debe ser lo suficientemente completa,
+proporcionar suficiente detalle como para permitir que el trabajo sea repetido
+por otros. Sin embargo, sólo los procedimientos verdaderamente nuevos deben ser
+descritos con detalle, los procedimientos publicados anteriormente deben ser
+citados, y mencionar brevemente las modificaciones importantes de
+procedimientos ya publicados. Capitalizar nombres comerciales e incluir el
+nombre y la dirección de fabricantes. Se debe utilizar subtítulos. Métodos de
+uso general no necesitan ser descritos en detalle.</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>En caso de requerir un subtítulo en la sección, lo
+deberá lo colocar como se muestra en el siguiente ejemplo:</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=SubtituloSeccion>2.1.<span style='font:7.0pt "Times New Roman"'> </span>Ecuaciones</p>
+
+<p class=ContenidoSeccion>Se deben numerar consecutivamente en paréntesis
+normal, en el margen derecho.  Para escribir la ecuación, utilice el editor de
+ecuaciones.  Es importante que los símbolos se definan antes o inmediatamente
+después de que aparece la ecuación. </p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse'>
+ <tr>
+  <td width=291 valign=top style='width:218.05pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-align:justify'><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Arial",sans-serif'><img
+  width=133 height=34 src="Nueva%20Plantilla%202020.fld/image001.png"></span></p>
+  </td>
+  <td width=32 valign=top style='width:23.75pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='text-align:justify'><span lang=ES style='font-size:
+  10.0pt'>&nbsp;</span></p>
+  <p class=MsoNormal style='text-align:justify'><span lang=ES style='font-size:
+  10.0pt'>(1)</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion style='margin-left:0cm'>&nbsp;</p>
+
+<p class=ContenidoSeccion>En caso de requerir una subsección la deberá colocar
+de la siguiente manera:</p>
+
+<p class=ContenidoSeccion><i>&nbsp;</i></p>
+
+<p class=Subseccion>Subsección 1: <span class=ContenidoSeccionCar><span
+style='font-style:normal'>El contenido de la subsección se desarrollará como
+este pequeño párrafo de ejemplo.</span></span></p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=TituloSeccion><span lang=EN-US>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span><span lang=EN-US>RESULTADOS</span></p>
+
+<p class=ContenidoSeccion>Los resultados deben ser presentados en una secuencia
+lógica en el texto, tablas y figuras, se debe evitar la presentación repetida
+de los mismos datos en diferentes formas (en el anexo 1 se explica como
+presentar ecuaciones, figuras y tablas). Los resultados no deben contener
+material apropiado para discusión. Al describir los resultados de los
+experimentos de los autores, esto debe ser escrito en tiempo pasado. Los
+resultados deben ser explicados, pero en gran parte sin hacer referencia a la
+literatura.</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=TituloSeccion>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span>DISCUSIÓN (O ANÁLISIS DE RESULTADOS)</p>
+
+<p class=ContenidoSeccion>La discusión debe considerar los resultados en
+relación con las hipótesis formuladas en la introducción y el lugar del estudio
+en el contexto de otros trabajos. Las secciones de Resultados y Discusión (o
+análisis de resultados) también pueden ser combinadas.</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>Las figuras y tablas se deberán realizar como se
+muestra en los siguientes ejemplos:</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=SubtituloSeccion>4.1.<span style='font:7.0pt "Times New Roman"'> </span>Figuras
+y Tablas</p>
+
+<p class=ContenidoSeccion>Todas deben llevar numeración arábiga de acuerdo con
+su orden de aparición y, al igual que las ecuaciones, se hará referencia a
+ellas en el texto más cercano a la misma. Deberán ser nítidas, las fotografías
+y figuras deben ser originales, en blanco y negro o tonos de gris, con una
+resolución mínima de 200dpi (puntos por pulgada); con una leyenda clara que
+explique su contenido, ubicada en la parte inferior, justificada a la
+izquierda, como se observa en la Figura 1. En la tabla la leyenda se presentará
+en la parte superior justificada, como se muestra en Tabla 1.</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='font-size:10.0pt'><img width=181 height=125 id="Imagen 9"
+src="Nueva%20Plantilla%202020.fld/image002.png" alt=CIGRE></span></p>
+
+<p class=ContenidoSeccion align=center style='text-align:center'><span lang=ES>Figura
+1. La leyenda debe explicar claramente la figura correspondiente</span></p>
+
+<p class=ContenidoSeccion align=center style='text-align:center'><span lang=ES>&nbsp;</span></p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion align=center style='text-align:center'>Tabla 1. Tipos
+de letra, justificación y tamaño</p>
+
+<p class=ContenidoSeccion align=center style='text-align:center'>&nbsp;</p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr style='height:10.7pt'>
+  <td valign=top style='border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:10.7pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt'>Letra</span></p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:10.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Tamaño</span></p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:10.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Letra</span></p>
+  </td>
+  <td valign=top style='border:solid windowtext 1.0pt;border-left:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:10.7pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Justificación</span></p>
+  </td>
+ </tr>
+ <tr style='height:12.8pt'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:12.8pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt'>Titulo</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.8pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>16pt</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.8pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Arial</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:12.8pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Centrada</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.15pt'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt'>Autores</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>10pt</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Arial</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Centrada</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.15pt'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt'>Texto</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>10pt</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Arial</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Justificada</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.15pt'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt'>Ecuación</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>10pt</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Arial</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Justificada</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.15pt'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt'>Figura</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>10pt</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Arial</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Justificada</span></p>
+  </td>
+ </tr>
+ <tr style='height:13.15pt'>
+  <td valign=top style='border:solid windowtext 1.0pt;border-top:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal><span lang=EN-US style='font-size:10.0pt'>Tabla</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>10pt</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Arial</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;
+  border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.15pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:10.0pt'>Justificada</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=TituloSeccion>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span>CONCLUSIONES </p>
+
+<p class=MsoNormal style='margin-left:21.3pt;text-align:justify'><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=ContenidoSeccion>Las conclusiones son obligatorias y deben ser claras.
+Su contenido no debería duplicar substancialmente el resumen. Deben expresar el
+balance final de la investigación o la aplicación del conocimiento o temática
+tratada. Se discute sobre las implicaciones del estudio y la relevancia que
+tiene para el área del conocimiento. Se sugiere no concluir más cosas de las
+que los resultados permitan.  En esta sección se suelen mencionar también los
+trabajos futuros que se pueden realizar en el tema.</p>
+
+<p class=MsoNormal style='margin-left:21.3pt;text-align:justify'><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:21.3pt;text-align:justify'><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=TituloSeccion>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span>AGRADECIMIENTOS</p>
+
+<p class=MsoNormal style='margin-left:21.3pt;text-align:justify'><span
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=ContenidoSeccion>Los reconocimientos de personas, subvenciones,
+fondos, etc., deben ser breves. Esta sección es obligatoria para artículos de
+investigación, en esta parte del artículo el autor hace un reconocimiento a las
+personas o instituciones que le ayudaron en sus investigaciones.  Se citan
+becas e instituciones que financian la investigación: firmas comerciales,
+entidades oficiales o privadas, asociaciones de profesionales y operarios. 
+Esta sección es opcional para artículos de reflexión.</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=TituloSeccion><span lang=EN-US>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span><span lang=EN-US>REFERENCIAS BIBLIOGRÁFICAS</span></p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=MsoNormal style='margin-left:21.3pt;text-align:justify'><span
+lang=EN-US style='font-size:10.0pt'>Seguir las normas acogidas por la revista.
+Deben insertarse dentro del cuerpo del artículo, con números arábigos entre
+corchetes [1], consecutivamente, en la medida en que van siendo mencionadas.</span></p>
+
+<p class=MsoNormal style='margin-left:21.3pt;text-align:justify'><span
+lang=EN-US style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:21.3pt;text-align:justify'><span
+lang=EN-US style='font-size:10.0pt'>En la lista, al final, se organizan
+consecutivamente en el orden de citación (nunca en orden alfabético).  No deben
+incluirse referencias que no estén citadas en el artículo.  </span><span
+style='font-size:10.0pt'>Igualmente</span><span lang=EN-US style='font-size:
+10.0pt'>, no deben citarse trabajos en revisión, que no hayan sido publicados.
+A continuación encontrará ejemplos de diferentes tipos de referencias
+bibliográficas:</span></p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion><span lang=EN-US>Artículos:</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>[1] Alien, J.S., Samuelson, R. y
+Newberger, A. Chaos in a Model Of forced Quasi-Geostrophic Flow over
+Topography: An application of Melinkov’s Method, J. Fluid Mech., 226, 511-547,
+1991.</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>&nbsp;</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>Libros:</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>[1] Baker, G. L. y Golub, J.,
+Chaotic Dynamics: An Introduction, Cambridge University Press, Cambridge, 1990.</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>&nbsp;</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>Capitulo de libro:</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>[1] Lewis, P., Ray, B. y Stevens,
+J.G. Modeling Time Series by Using Multivariate Adaptive Regression Splines
+(MARS). En: Time Series Prediction: Forecasting  the Future and Understanding
+the Past (Eds. A.S. Weigend y N. A. Gershenfeid), SFI studies in the Science of
+Complexity, Proc. </span>Vol XV, Addison-Wesley, reading 297-318, 1994.</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>Memorias de congresos:</p>
+
+<p class=ContenidoSeccion>[1] Alzate, N., Botero, T. y Correa, D. Título de la
+ponencia. Memorias, XIX Congreso Latinoamericano de Ponencias Científicas.
+Córdoba, Argentina, Tomo II, 219-228, octubre 2008.</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>Conferencias:</p>
+
+<p class=ContenidoSeccion>[1] Garzón, J.C. Más allá de las decisiones
+económicas. Documento presentado en la II Jornada de Análisis Económico, La
+Habana, Cuba, marzo de 2000. </p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>Reporte de un organismo o ente gubernamental:</p>
+
+<p class=ContenidoSeccion><span lang=EN-US>[1] U.S. EPA. Status of Pesticides
+in Registration: an Special Review. EPA 738-R-94-008. Washington, DC:US.
+Environmental Protection Agency, 1994.</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>&nbsp;</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>Tesis:</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>[1] Jacobs, J. Regulation of Life
+History Strategies Within Individuals in Predictable  and Unpredictable
+Environments [PhD Thesis]. Seattle, WA: University  of Washington, 1996.</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>&nbsp;</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>Referencias de internet:</span></p>
+
+<p class=ContenidoSeccion><span lang=EN-US>[1] NOAA-CIRES Climate Diagnostics
+Center Advancing Understanding and Prediction of Climate Variability. </span>Disponible
+en: http://www.cdc.noaa.gov [consultado el 8 de agosto de 2008].</p>
+
+<p class=ContenidoSeccion>&nbsp;</p>
+
+<p class=ContenidoSeccion>Patentes:</p>
+
+<p class=ContenidoSeccion>[1] Zambrano G., Esteve J., Prieto P., Instalación
+para deposición de películas de carbono tipo diamante sobre substratos de acero
+o de metal endurecido y el correspondiente método in situ usando recubrimientos
+duros de metal /carburo de ese metal como capas intermedias para el
+mejoramiento de la adherencia entre películas y substrato, 2002, España,
+Patente No. P 200102020, Instalación para deposición de películas, 15 de Enero
+de 2001 (depósito).</p>
+
+<p class=References><span lang=EN-GB>&nbsp;</span></p>
+
+</div>
+
+<b><span lang=EN-US style='font-size:11.0pt;font-family:"Futura Md BT",sans-serif'><br
+clear=all style='page-break-before:auto'>
+</span></b>
+
+<div class=WordSection3>
+
+<p class=ChapterTitle><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES-CL
+style='font-size:10.0pt'>ANEXO 1: TIPO DE ARTÍCULOS</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-MX
+style='font-size:10.0pt;color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>Los artículos presentados en la revista Politécnica,
+deben ser especializados. Para mayor claridad, solo se aceptan los siguientes
+tipos de artículos, según descripción dada por Colciencias para revistas
+indexadas: </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES-CL
+style='font-size:10.0pt'>1) Artículo de investigación científica y tecnológica.</span></b><span
+lang=ES-CL style='font-size:10.0pt'> Documento que presenta, de manera
+detallada, los resultados originales de proyectos terminados de investigación.
+La estructura generalmente utilizada contiene cuatro apartes importantes:
+introducción, metodología, resultados y conclusiones.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES-CL
+style='font-size:10.0pt'>2) Artículo de reflexión derivado de investigación.</span></b><span
+lang=ES-CL style='font-size:10.0pt'> Documento que presenta resultados de
+investigación terminada desde una perspectiva analítica, interpretativa o
+crítica del autor, sobre un tema específico, recurriendo a fuentes originales. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES-CL
+style='font-size:10.0pt'>3) Artículo de revisión.</span></b><span lang=ES-CL
+style='font-size:10.0pt'> Documento resultado de una investigación terminada
+donde se analizan, sistematizan e integran los resultados de investigaciones
+publicadas o no publicadas, sobre un campo en ciencia o tecnología, con el fin
+de dar cuenta de los avances y las tendencias de desarrollo. Se caracteriza por
+presentar una cuidadosa revisión bibliográfica de por lo menos 50 referencias.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES-CL
+style='font-size:10.0pt'>4) Documento de reflexión no derivado de
+investigación.</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>Se dará prioridad a los artículos tipo  1, 2 y 3, ya
+que son los de mayor impacto en la base Publindex de Colciencias. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-MX
+style='font-size:10.0pt;color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES-CL
+style='font-size:10.0pt'>ANEXO 2: PRESENTACIÓN DE TRABAJOS</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>Los trabajos se deben enviar por el sistema OJS al
+comité editorial, en las fechas que se estipule en las convocatorias. Las
+instrucciones se encuentran en </span><span lang=EN-US><a
+href="http://revistas.elpoli.edu.co/index.php/pol"><span lang=ES
+style='font-size:10.0pt'>http://revistas.elpoli.edu.co/index.php/pol</span></a></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>Los artículos deben venir acompañados por una carta de
+presentación y cesión de derechos de autor, y por el formato de autores. Estos
+documentos se pueden descargar en la página web de la revista </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-US><a
+href="http://revistas.elpoli.edu.co/index.php/pol"><span lang=ES-CL
+style='font-size:10.0pt'>http://revistas.elpoli.edu.co/index.php/pol</span></a></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><i><span lang=ES-CL
+style='font-size:10.0pt'>La carta de presentación y cesión de derechos de
+autor:</span></i></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>El autor de correspondencia debe indicar el tipo de
+artículo según la clasificación mencionada en el formato. Para artículos tipo
+1, 2 ó 3, el autor se debe indicar a que investigación está asociado dicho
+artículo y la institución ejecutora del proyecto. Para el  artículo tipo 4, el
+autor debe relatar en menos de 400 palabras, una justificación del porque el
+articulo debe ser tenido en cuenta para ser enviado a evaluadores (¿el tema que
+trata en el artículo es de actualidad? ¿Es relevante? ¿Cuál es su aporte?)</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>Se debe sugerir al menos tres posibles evaluadores
+(dos externos y uno interno o todos externos a su lugar de trabajo y grupo de
+investigación), los cuales deben obviamente ser especialistas en el tema
+específico, tener al menos título de maestría y pueden pertenecer a una
+universidad o industria, pública o privada, también deben suministrar los datos
+de contacto e-mail y teléfono (fijo y/o celular),</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>Esta carta debe ser firmada por cada autor y enviada
+escaneada en conjunto con los otros dos archivos (formato de autores y el
+artículo).</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><i><span lang=ES-CL
+style='font-size:10.0pt'>El formato de autores:</span></i></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>Debe enviarse en versión electrónica (Word). Los datos
+allí consignados son requeridos en la Base Bibliográfica Publindex de
+Colciencias.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><i><span lang=ES-CL
+style='font-size:10.0pt'>El artículo:</span></i></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>Debe enviarse en versión electrónica (Word). El no uso
+de este formato descalifica el artículo y no será tenido en cuenta en la
+convocatoria. </span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal><span lang=ES-CL style='font-size:10.0pt'>En el proceso de
+selección de artículos que participan en la convocatoria, se realiza una
+evaluación inicial para determinar si el trabajo cumple con los términos de
+referencia y observaciones presentadas en este documento.  En la segunda
+evaluación se analiza su contenido y<b> </b>aporte por parte de evaluadores
+calificados de acuerdo al área correspondiente. Los artículos que no llenen los
+requisitos de la convocatoria en cuanto a formato, no serán tenidos en cuenta
+para continuar en el proceso y serán descartados en la evaluación inicial.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES-CL
+style='font-size:10.0pt'>Cualquier inquietud respecto a los formatos de la
+revista, envíela a este e-mail:</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-US><a
+href="mailto:rpolitecnica@elpoli.edu.co"><span lang=ES-CL style='font-size:
+10.0pt'>rpolitecnica@elpoli.edu.co</span></a></span></p>
+
+<p class=ChapterTitle><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES-CL
+style='font-size:10.0pt'>ANEXO 3: </span></b><b><span lang=ES style='font-size:
+10.0pt'>NUEVOS REQUISITOS OBLIGATORIOS PARA LOS ARTÍCULOS DE INVESTIGACIÓN</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:10.0pt;text-align:justify;line-height:
+115%'><span lang=ES style='font-family:"Calibri",sans-serif'>Estimado autor,
+Colciencias recientemente ha actualizado el documento  guía para indexación de revistas, 
+precisando algunas características que deben tener los artículos de
+investigación. En este sentido le solicitamos respetuosamente ajustar su
+artículo según los principales requerimientos que Colciencias plantea y que se
+encuentran a continuación:</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman",serif'>Los artículos de investigación:
+ciencia, tecnología, innovación, deben seguir este esquema, los artículos en
+puede ser en español, pero preferiblemente en ingles.</span></p>
+
+<div style='border:none;border-bottom:dotted windowtext 3.0pt;padding:0cm 0cm 1.0pt 0cm'>
+
+<p class=MsoNormal style='text-align:justify;border:none;padding:0cm'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+</div>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;text-align:justify'><span
+lang=ES style='font-family:"Calibri",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;text-align:justify'><b><span
+lang=ES style='font-family:"Calibri",sans-serif'>TÍTULO<br>
+<br>
+Autor (es)</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;text-align:justify'><b><span
+lang=ES style='font-family:"Calibri",sans-serif'>Resumen:</span></b><span
+lang=ES style='font-family:"Calibri",sans-serif'> Se debe tener el resumen en
+español e inglés en todos los artículos de investigación e innovación, los
+cuales incluirán los objetivos principales de la investigación, alcance,
+metodología empleada, resultados principales y conclusiones. El resumen debe
+ser claro, coherente y sucinto, para lo cual se sugiere revisar y verificar
+datos, sintaxis, ortografía, no caer en erratas y no incluir referencias
+bibliográficas</span></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;text-align:justify'><b><span
+lang=ES style='font-family:"Calibri",sans-serif'>Palabras clave:</span></b><span
+lang=ES style='font-family:"Calibri",sans-serif'> tener mínimo tres palabras
+clave y máximo diez, en español e inglés en todos los artículos de
+investigación e innovación, que sean relevantes, indiquen los temas del
+contenido y ayuden a su indizado. Se recomienda utilizar los términos de los
+tesauros especializados de las disciplinas correspondientes.  </span></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;text-align:justify'><b><span
+lang=ES style='font-family:"Calibri",sans-serif'>Introducción<br>
+</span></b><span lang=ES style='font-family:"Calibri",sans-serif'>Esta sección
+debe incluir suficiente información de fondo, haga unaexposición clara del
+problema, la literatura relevante sobre el tema y el enfoque, la aproximación o
+solución propuesta. Los objetivos del manuscrito deben ser claramente
+establecidos. La introducción no debe contener resultados o conclusiones. La
+introducción debe ser comprensible para colegas de una amplia gama de
+disciplinas científicas.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES
+style='font-family:"Calibri",sans-serif'>Materiales y Métodos</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='font-family:
+"Calibri",sans-serif'>Esta sección debe ser lo suficientemente completa,
+proporcionar suficiente detalle como para permitir que el trabajo sea repetido
+por otros. Sin embargo, sólo los procedimientos verdaderamente nuevos deben ser
+descritos con detalle, los procedimientos publicados anteriormente deben ser
+citados, ymencionar brevemente las modificaciones importantesde procedimientos
+ya publicados. Capitalizar nombres comerciales e incluir el nombre y la
+dirección de fabricantes. Se debe utilizarsubtítulos. Métodos de uso general no
+necesitan ser descritos en detalle.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='font-family:
+"Calibri",sans-serif'><br>
+<b>Resultados</b><br>
+Los resultados deben ser presentados en una secuencia lógica en el texto,
+tablas y figuras, se debe evitar la presentación repetida de los mismos datos
+en diferentes formas. Los resultados no deben contener material apropiado para
+discusión. Al describir los resultados de los experimentos de los autores, esto
+debe ser escrito en tiempo pasado. Los resultados deben ser explicados, pero en
+gran parte sin hacer referencia a la literatura.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='font-family:
+"Calibri",sans-serif'><br>
+<b>Discusión (o análisis de resultados)</b></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='font-family:
+"Calibri",sans-serif'>La discusión debe considerar los resultados en relación
+con las hipótesis formuladas en la introducción y el lugar del estudio en el
+contexto de otros trabajos. Las secciones de Resultados y Discusión (o análisis
+de resultados) pueden ser combinadas.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='font-family:
+"Calibri",sans-serif'><br>
+<b>Conclusiones</b><br>
+Su contenido no debería duplicar substancialmente el resumen.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='font-family:
+"Calibri",sans-serif'><br>
+<b>Reconocimiento (o agradecimiento)</b></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='font-family:
+"Calibri",sans-serif'>Los reconocimientos de personas, subvenciones, fondos,
+etc., deben ser breves.<br>
+<br>
+</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES
+style='font-family:"Calibri",sans-serif'>Referencias:</span></b><span lang=ES
+style='font-family:"Calibri",sans-serif'> seguir las normas acogidas por la
+revista.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=ES
+style='font-size:7.5pt;font-family:"Verdana",sans-serif;color:navy'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='font-size:
+7.5pt;font-family:"Verdana",sans-serif;color:navy'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=EN-US
+style='font-size:10.0pt;color:navy'>*************************************************************************************</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:10.0pt;color:navy'>TITLE</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:10.0pt;color:navy'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:10.0pt;color:navy'>Autor(s)</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:10.0pt;color:navy'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:10.0pt;color:navy'>Abstract:</span></b><span lang=EN-US
+style='font-family:"Calibri",sans-serif'> </span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:10.0pt;color:navy'>&nbsp;</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:10.0pt;color:navy'>Keywords:</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><b><span lang=EN-US style='font-size:10.0pt;color:navy'>Introduction</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><span lang=EN-US style='font-size:10.0pt;color:navy'>This section should
+include sufficient background information, provide a clear statement of the
+problem, the relevant literature on the subject, and the proposed approach or
+solution. The aims of the manuscript should be clearly stated. The introduction
+should not contain either findings or conclusions. It should be understandable
+to colleagues from a broad range of scientific disciplines.</span></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><b><span lang=EN-US style='font-size:10.0pt;color:navy'>Materials and
+Methods</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><span lang=EN-US style='font-size:10.0pt;color:navy'>This should be
+complete enough to provide sufficient detail to allow the work to be repeated
+by others. However, only truly new procedures should be described in detail;
+previously published procedures should be cited, and important modifications of
+published procedures should be mentioned briefly. Capitalize trade names and include
+the manufacturer's name and address. Subheadings should be used. Methods in
+general use need not be described in detail.</span></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><b><span lang=EN-US style='font-size:10.0pt;color:navy'>Results</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><span lang=EN-US style='font-size:10.0pt;color:navy'>Results should be
+presented in a logical sequence in the text, tables and figures; repetitive
+presentation of the same data in different forms should be avoided. The results
+should not contain material appropriate to the Discussion. It should be written
+in the past tense when describing findings in the authors' experiments. Results
+should be explained, but largely without referring to the literature.</span></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><b><span lang=EN-US style='font-size:10.0pt;color:navy'>Discussion</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><span lang=EN-US style='font-size:10.0pt;color:navy'>The discussion
+should consider the results in relation to any hypotheses advanced in the
+Introduction and place the study in the context of other work. Results and
+Discussion sections can be combined.</span></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><b><span lang=EN-US style='font-size:10.0pt;color:navy'>Conclusions</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><span lang=EN-US style='font-size:10.0pt;color:navy'>its content should
+not substantially duplicate the abstract.</span></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><b><span lang=EN-US style='font-size:10.0pt;color:navy'>Acknowledgment</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:5.25pt;text-align:justify;background:
+white'><span lang=EN-US style='font-size:10.0pt;color:navy'>The&nbsp;acknowledgments&nbsp;of
+people, grants, funds, etc.,&nbsp;should be brief.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=EN-US
+style='font-size:10.0pt;color:navy'>References</span></b></p>
+
+<p class=ChapterTitle>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
