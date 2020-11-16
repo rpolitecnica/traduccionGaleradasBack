@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM "https://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd">
+<root xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.0" article-type="rapid-communication" xml:lang="es">
+  <!-- FRONT -->
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="doi">10.33571/rpolitec</journal-id>
+      <journal-title-group>
+        <journal-title>Revista Politécnica</journal-title>
+        <abbrev-journal-title abbrev-type="publisher">Revista Politécnica</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1900-2351</issn>
+      <issn pub-type="epub">2256-5353</issn>
+      <publisher>
+        <publisher-name>Politécnico Colombiano Jaime Isaza Cadavid</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">s</article-id>
+      <article-categories>
+        <subj-group subj-group-type="contenido">
+          <subject>Artículo</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title xml:lang="es">PROPIEDADES MEC�NICAS DE CONCRETOS
+MODIFICADOS CON PLASTICO MARINO RECICLADO EN REEMPLAZO DE LOS AGREGADOS FINOS</article-title>
+      </title-group>
+      <!-- AUTORES -->
+      <contrib-group>
+        <s/>
+      </contrib-group>
+      <!-- AFILIACIONES -->
+      <aff id="aff1">
+        <label>1</label>
+      </aff>
+      <author-notes>
+        <corresp>
+          <label>Correspondencia | Correspondence</label>
+          <email>s</email>
+        </corresp>
+      </author-notes>
+      <pub-date pub-type="epub-ppub">
+        <month>s</month>
+        <year>s</year>
+      </pub-date>
+      <volume>s</volume>
+      <issue>s</issue>
+      <fpage>s</fpage>
+      <lpage>s</lpage>
+      <history>
+        <date date-type="received">
+          <day>s</day>
+          <month>s</month>
+          <year>s</year>
+        </date>
+        <date date-type="accepted">
+          <day>s</day>
+          <month>s</month>
+          <year>s</year>
+        </date>
+      </history>
+      <abstract xml:lang="es">
+        <p>s</p>
+      </abstract>
+      <kwd-group xml:lang="es">
+        <s/>
+      </kwd-group>
+      <counts>
+        <fig-count count="5"/>
+        <ref-count count="s"/>
+        <page-count count="s"/>
+      </counts>
+    </article-meta>
+  </front>
+  <!-- BODY -->
+  <body>
+    <sec>
+      <tittle>1.   INTRODUCCI�N</tittle>
+      <p>La gesti�n inadecuada de desechos s�lidos y en
+particular de los residuos pl�sticos, se ha convertido en un problema
+medioambiental y de salud p�blica [1]. Miles de desechos pl�sticos son
+incinerados, liberando cargas elevadas de contaminantes t�xicos como di�xido de
+carbono (CO2), �xidos de nitr�geno (NOx), y metano (CH4) ,principales
+contribuyentes del efecto invernadero [2], otros, se acumulan en los rellenos
+sanitarios, agotando r�pidamente la vida �til del relleno y generando problemas
+por contaminaci�n ambiental y en la salud humana [3], otra parte, se vierte en
+los r�os y luego es transportada largas distancias hasta los mares, donde se
+estima que cada a�o se vierten aproximadamente� 8 millones de toneladas de
+material pl�stico [4], lo cual, se ha convertido en un problema ambiental grave
+en el siglo XXII [5]. Estados Unidos, Europa y Asia contribuyen con un 40%, 45%
+y 15%, respectivamente, a la generaci�n de residuos pl�sticos marinos y se ha
+informado que el uso de pl�sticos se ha multiplicado en un factor de veinte en
+el �ltimo medio siglo [6], por tanto, la valorizaci�n de estos residuos se ha
+convertido en un desaf�o en la mayor�a de los pa�ses.</p>
+    </sec>
+    <sec>
+      <tittle>2.	MATERIALES Y METODO</tittle>
+      <subtitle>2.1.	Caracterización de los materiales</subtitle>
+      <p>Para la preparación de las mezclas se utilizó cemento portland de uso general con una densidad espe-cifica de 3150 Kg/m3 y agua del acueducto. La caracterización de los materiales pétreos se realizó de acuerdo a</p>
+      <subtitle>2.2.	Diseño de la mezcla</subtitle>
+      <p>La mezcla de concreto tradicional se diseñó para alcanzar una resistencia a la compresión de 21 MPa (a los 28 días), tal como la describe la metodología ACI 211.18 (American Concrete Institute) [22]. Se d</p>
+      <subtitle>2.6.	Evaluación de las propiedades físicas y mecánicas de los concretos elaborados</subtitle>
+      <p>La resistencia a compresión f’c se realizó </p>
+    </sec>
+    <sec>
+      <tittle>3.	RESULTADOS Y ANALISIS</tittle>
+      <p>Los resultados de la caracterización de los agregados de muestran en la tabla 1</p>
+    </sec>
+    <!-- BACK -->
+    <back>
+      <ack>
+        <title>AGRADECIMIENTOS</title>
+        <p>s</p>
+      </ack>
+      <!-- REFERENCIAS -->
+      <ref-list>
+        <title>REFERENCIAS</title>
+        <s/>
+      </ref-list>
+    </back>
+    <!-- EN INGLES -->
+    <sub-article article-type="translation" id="TRen" xml:lang="en">
+      <front-stub>
+        <article-categories>
+          <subj-group subj-group-type="content">
+            <subject>Paper</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title xml:lang="en">s</article-title>
+        </title-group>
+        <abstract xml:lang="en">
+          <p>s</p>
+        </abstract>
+        <kwd-group xml:lang="en">
+          <s/>
+        </kwd-group>
+      </front-stub>
+      <body>
+        <p>Not in english</p>
+      </body>
+      <back/>
+    </sub-article>
+  </body>
+</root>
