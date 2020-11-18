@@ -37,7 +37,40 @@ app.post('/api/traducir',(req,res)=>{
     //console.log(JSON.parse(data)) // 'Buy the milk'
     jsonGalerada=JSON.parse(data);
     //console.log(data.TituloArticulo);
-    console.log(jsonGalerada.ContenidoIntroduccion[0]);
+    console.log(jsonGalerada.BodyCuerpoCompleto[0].titulo);
+
+    var todosContenido=[];
+    for(var j=0;j<jsonGalerada.ContenidoIntroduccion.length;j++){
+      todosContenido[j] = {
+        'p': jsonGalerada.ContenidoIntroduccion[j]
+      }
+    }
+
+    var todosContenido=[];
+    for(var j=0;j<jsonGalerada.ContenidoIntroduccion.length;j++){
+      todosContenido[j] = {
+        'p': jsonGalerada.ContenidoIntroduccion[j]
+      }
+    }
+
+    var todosCuerpoDocumento=[];
+    var bodyDocumentoCuerpoComplento=[];
+    for(var i=0;i<jsonGalerada.BodyCuerpoCompleto.length;i++){
+
+
+      todosCuerpoDocumento.push({'tittle':jsonGalerada.BodyCuerpoCompleto[i].titulo});
+
+      for(var z=0;z<jsonGalerada.BodyCuerpoCompleto[i].ContenidoCuerpo.length;z++){
+        todosCuerpoDocumento.push({'subtittle':jsonGalerada.BodyCuerpoCompleto[i].ContenidoCuerpo[z].SubtituloSeccion});
+         
+
+        for(var k=0;k<jsonGalerada.BodyCuerpoCompleto[i].ContenidoCuerpo[z].ContenidoSeccion.length;k++){
+          todosCuerpoDocumento.push({'p':jsonGalerada.BodyCuerpoCompleto[i].ContenidoCuerpo[z].ContenidoSeccion[k]});
+        }
+      }
+      bodyDocumentoCuerpoComplento.push({'sec':todosCuerpoDocumento});
+    }
+
 
     var xml = xmlbuilder.create('root', { version: '1.0', encoding: 'UTF-8' }, { sysID: 'https://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd' })
     .att('xmlns:xlink', 'http://www.w3.org/1999/xlink')
@@ -120,20 +153,11 @@ app.post('/api/traducir',(req,res)=>{
   .ele('body')//Inicio BODY
     .ele('sec')
       .ele('tittle', jsonGalerada.TituloIntroduccion).up()
-      .ele('p', jsonGalerada.ContenidoIntroduccion[0]).up()
+      .ele(todosContenido).up()
     .up()  
     .ele('sec')
-      .ele('tittle', '2.	MATERIALES Y METODO').up()
-      .ele('subtitle', '2.1.	Caracterización de los materiales').up()
-      .ele('p', 'Para la preparación de las mezclas se utilizó cemento portland de uso general con una densidad espe-cifica de 3150 Kg/m3 y agua del acueducto. La caracterización de los materiales pétreos se realizó de acuerdo a').up()
-      .ele('subtitle', '2.2.	Diseño de la mezcla').up()
-      .ele('p', 'La mezcla de concreto tradicional se diseñó para alcanzar una resistencia a la compresión de 21 MPa (a los 28 días), tal como la describe la metodología ACI 211.18 (American Concrete Institute) [22]. Se d').up()
-      .ele('subtitle', '2.6.	Evaluación de las propiedades físicas y mecánicas de los concretos elaborados').up()
-      .ele('p', 'La resistencia a compresión f’c se realizó ').up()
+      .ele(todosCuerpoDocumento).up()
    .up() 
-    .ele('sec')
-    .ele('tittle', '3.	RESULTADOS Y ANALISIS').up()
-    .ele('p', 'Los resultados de la caracterización de los agregados de muestran en la tabla 1').up()
   .up()//Fin BODY
   .com('BACK')
   .ele('back')//Inicio BACK
