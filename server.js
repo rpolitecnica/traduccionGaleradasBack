@@ -53,6 +53,28 @@ app.post('/api/traducir',(req,res)=>{
       }
     }
 
+
+    var todasReferencias=[];
+    for(var j=0;j<jsonGalerada.referencias.length;j++){
+      var arrayRef=jsonGalerada.referencias[j].split(" ");
+      var textoReferencia=jsonGalerada.referencias[j].replace( arrayRef[0],"");
+      todasReferencias[j] = {
+        'ref': {
+        '@id': 'R'+(j+1),
+        'label': arrayRef[0],
+        'mixed-citation': textoReferencia//match(/(.*)([^;][^\r])/)[0] OR match(/(.*)([^\r])/)[0]
+        }
+      }
+    }
+    var palabrasClavesCar=jsonGalerada.PalabrasClavesCar.split(";")
+    var todasPalabrasClaves=[];
+    console.log(palabrasClavesCar);
+    for(var p=0;p<palabrasClavesCar.length;p++){
+      todasPalabrasClaves[p]={
+        'kwd':palabrasClavesCar[p]
+      }
+    }
+
     var todosCuerpoDocumento=[];
     var bodyDocumentoCuerpoComplento=[];
     for(var i=0;i<jsonGalerada.BodyCuerpoCompleto.length;i++){
@@ -71,8 +93,16 @@ app.post('/api/traducir',(req,res)=>{
       bodyDocumentoCuerpoComplento.push({'sec':todosCuerpoDocumento});
     }
 
+    var arrayDoi=jsonGalerada.Encabezado1.split(" ");
+    var textoDoiArticleId=arrayDoi[1];
+    console.log(textoDoiArticleId);
+    var textoDoiJourlnalId=arrayDoi[1].split("/");
+    console.log(textoDoiJourlnalId);
+    var arrayTextoFinalJournal=textoDoiJourlnalId[1].split(".");
+    var textoFinalJournalId=textoDoiJourlnalId[0]+"/"+arrayTextoFinalJournal[0];
 
-    var xml = xmlbuilder.create('root', { version: '1.0', encoding: 'UTF-8' }, { sysID: 'https://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd' })
+
+    var xml = xmlbuilder.create('article', { version: '1.0', encoding: 'UTF-8' }, { sysID: 'https://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd' })
     .att('xmlns:xlink', 'http://www.w3.org/1999/xlink')
     .att('xmlns:mml', 'http://www.w3.org/1998/Math/MathML')
     .att('dtd-version', '1.0')
@@ -81,7 +111,7 @@ app.post('/api/traducir',(req,res)=>{
   .com('FRONT')
   .ele('front')//Inicio FRONT
     .ele('journal-meta')//Inicio Journal Meta
-      .ele('journal-id', { 'journal-id-type': 'doi' }, '10.33571/rpolitec').up()
+      .ele('journal-id', { 'journal-id-type': 'doi' }, textoFinalJournalId).up()
       .ele('journal-title-group')
         .ele('journal-title', 'Revista Politécnica').up()
         .ele('abbrev-journal-title', {'abbrev-type': 'publisher'}, 'Revista Politécnica').up()
@@ -93,7 +123,7 @@ app.post('/api/traducir',(req,res)=>{
       .up()
     .up()//Fin Journal Meta
     .ele('article-meta')//Inicio Article Meta
-      .ele('article-id', { 'pub-id-type': 'doi' },'s').up()
+      .ele('article-id', { 'pub-id-type': 'doi' },textoDoiArticleId).up()
       .ele('article-categories')
         .ele('subj-group', { 'subj-group-type': 'contenido' })
           .ele('subject', 'Artículo').up()
@@ -137,10 +167,10 @@ app.post('/api/traducir',(req,res)=>{
         .up()
       .up()
       .ele('abstract', { 'xml:lang': 'es' })
-        .ele('p', 's').up()
+        .ele('p', jsonGalerada.Abstract).up()
       .up()
       .ele('kwd-group', { 'xml:lang': 'es' })
-        .ele('s').up()//Imprime todas las palabras claves
+        .ele(todasPalabrasClaves).up()//Imprime todas las palabras claves
       .up()
       .ele('counts')
         .ele('fig-count', {'count': '5'}).up()
@@ -162,42 +192,17 @@ app.post('/api/traducir',(req,res)=>{
   .com('BACK')
   .ele('back')//Inicio BACK
     .ele('ack')
-      .ele('title', 'AGRADECIMIENTOS').up()
-      .ele('p', 's').up()
+      .ele('title', jsonGalerada.TituloConclusiones).up()
+      .ele('p', jsonGalerada.ContenidoConclusiones).up()
+      .ele('title', jsonGalerada.TituloAgradecimientos).up()
+      .ele('p', jsonGalerada.ContenidoAgradecimientos).up()
     .up()
     .com('REFERENCIAS')
     .ele('ref-list')
       .ele('title', 'REFERENCIAS').up()
-      .ele('s').up()
+      .ele(todasReferencias).up()
     .up()
-  .up()//Fin BACK
-  .com('EN INGLES')
-  .ele('sub-article')
-    .att('article-type', 'translation')
-    .att('id', 'TRen')
-    .att('xml:lang', 'en')
-    .ele('front-stub')
-      .ele('article-categories')
-        .ele('subj-group', {'subj-group-type': 'content'})
-    .ele('subject', 'Paper').up()
-    .up()
-      .up()
-      .ele('title-group')
-        .ele('article-title', {'xml:lang': 'en'}, 's').up()
-      .up()
-      .ele('abstract', { 'xml:lang': 'en' })
-        .ele('p', 's').up()
-      .up()
-      .ele('kwd-group', { 'xml:lang': 'en' })
-        .ele('s').up()//Imprime todas las keywords
-      .up()
-    .up()
-    .ele('body')
-      .ele('p', 'Not in english').up()
-    .up()
-    .ele('back')
-    .up()
-  .up()
+  .up()//Fin BACK  
   .end({ pretty: true });
   
       const xmldoc = xml.toString({ pretty: true });

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE root SYSTEM "https://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd">
-<root xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.0" article-type="rapid-communication" xml:lang="es">
+<!DOCTYPE article SYSTEM "https://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.0" article-type="rapid-communication" xml:lang="es">
   <!-- FRONT -->
   <front>
     <journal-meta>
@@ -16,14 +16,14 @@
       </publisher>
     </journal-meta>
     <article-meta>
-      <article-id pub-id-type="doi">s</article-id>
+      <article-id pub-id-type="doi">10.33571/rpolitec.v16n31a6</article-id>
       <article-categories>
         <subj-group subj-group-type="contenido">
           <subject>Artículo</subject>
         </subj-group>
       </article-categories>
       <title-group>
-        <article-title xml:lang="es">PROPIEDADES MEC�NICAS DE CONCRETOS
+        <article-title xml:lang="es">PROPIEDADES MECï¿½NICAS DE CONCRETOS
 MODIFICADOS CON PLASTICO MARINO RECICLADO EN REEMPLAZO DE LOS AGREGADOS FINOS</article-title>
       </title-group>
       <!-- AUTORES -->
@@ -61,10 +61,25 @@ MODIFICADOS CON PLASTICO MARINO RECICLADO EN REEMPLAZO DE LOS AGREGADOS FINOS</a
         </date>
       </history>
       <abstract xml:lang="es">
-        <p>s</p>
+        <p>Plastic waste and its low recycling rate
+contribute to environmental pollution, requiring valorization strategies This
+work presents the design and preparation of traditional and mix concrete with
+replacement ofï¿½ 2.5%, 5.0%, 7.5% and 10% of fine aggregates by recycled plastic
+of the ocean. With the prepared concrete mixes, cylindrical specimens of
+15cmx30mm in diameterxheight, respectively, were made. Slump, density,
+compressive strength, and elasticity modulus were evaluated. The results
+exhibited that an increase in the content of recycled plastic generates a
+decrease in slump and density, as well as an increase in strength and elastic
+modulus. Specimens with 7.5% exhibited the highest strength (18.9 MPa)
+equivalent to 91% of the traditional one (20 MPa). The results gathered would
+form a part of useful information for recycling plastic waste in the
+preparation of concrete that requiring moderate strength.ï¿½ </p>
       </abstract>
       <kwd-group xml:lang="es">
-        <s/>
+        <kwd>Residuos
+plï¿½sticos</kwd>
+        <kwd> Concretos modificados</kwd>
+        <kwd> Propiedades mecï¿½nicas</kwd>
       </kwd-group>
       <counts>
         <fig-count count="5"/>
@@ -76,317 +91,505 @@ MODIFICADOS CON PLASTICO MARINO RECICLADO EN REEMPLAZO DE LOS AGREGADOS FINOS</a
   <!-- BODY -->
   <body>
     <sec>
-      <tittle>1.   INTRODUCCI�N</tittle>
-      <p>La gesti�n inadecuada de desechos s�lidos y en
-particular de los residuos pl�sticos, se ha convertido en un problema
-medioambiental y de salud p�blica [1]. Miles de desechos pl�sticos son
-incinerados, liberando cargas elevadas de contaminantes t�xicos como di�xido de
-carbono (CO2), �xidos de nitr�geno (NOx), y metano (CH4) ,principales
+      <tittle>1.   INTRODUCCIï¿½N</tittle>
+      <p>La gestiï¿½n inadecuada de desechos sï¿½lidos y en
+particular de los residuos plï¿½sticos, se ha convertido en un problema
+medioambiental y de salud pï¿½blica [1]. Miles de desechos plï¿½sticos son
+incinerados, liberando cargas elevadas de contaminantes tï¿½xicos como diï¿½xido de
+carbono (CO2), ï¿½xidos de nitrï¿½geno (NOx), y metano (CH4) ,principales
 contribuyentes del efecto invernadero [2], otros, se acumulan en los rellenos
-sanitarios, agotando r�pidamente la vida �til del relleno y generando problemas
-por contaminaci�n ambiental y en la salud humana [3], otra parte, se vierte en
-los r�os y luego es transportada largas distancias hasta los mares, donde se
-estima que cada a�o se vierten aproximadamente� 8 millones de toneladas de
-material pl�stico [4], lo cual, se ha convertido en un problema ambiental grave
+sanitarios, agotando rï¿½pidamente la vida ï¿½til del relleno y generando problemas
+por contaminaciï¿½n ambiental y en la salud humana [3], otra parte, se vierte en
+los rï¿½os y luego es transportada largas distancias hasta los mares, donde se
+estima que cada aï¿½o se vierten aproximadamenteï¿½ 8 millones de toneladas de
+material plï¿½stico [4], lo cual, se ha convertido en un problema ambiental grave
 en el siglo XXII [5]. Estados Unidos, Europa y Asia contribuyen con un 40%, 45%
-y 15%, respectivamente, a la generaci�n de residuos pl�sticos marinos y se ha
-informado que el uso de pl�sticos se ha multiplicado en un factor de veinte en
-el �ltimo medio siglo [6], por tanto, la valorizaci�n de estos residuos se ha
-convertido en un desaf�o en la mayor�a de los pa�ses.</p>
-      <p>Existen varios tipos de residuos pl�sticos,
-siendo el polietileno y el tereftalato de polietileno (conocido com�nmente como
-PET, de sus iniciales en ingl�s), los m�s comunes en las corrientes de
-desechos, sin embargo, su reutilizaci�n est� ganando cada vez m�s terreno en la
-fabricaci�n de ladrillos ecol�gicos [7], mezclas de concreto [8], mezclas
-asf�lticas [9] y como aislante t�rmico [10].� Espec�ficamente, el tereftalato
-de polietileno reciclado ha sido utilizado en la elaboraci�n de concretos
-ligeros, con densidades entre 300 Kg/m3 y 1850 Kg/m3� [11] y resistencias a la
-compresi�n alrededor de 21 Mpa, los cuales,� permiten reducir las cargas
-muertas y las fuerzas s�smicas en las estructuras. La densidad y la resistencia
-a la compresi�n de los concretos livianos� est� altamente influenciada por el
-contenido (alrededor del 60%) y la granulometr�a de los agregados finos (tama�o
-m�ximo nominal menor a 10 mm)� [12],� de hecho, cuando se desean obtener
-resistencias superiores a 21 MPa se requiere el� uso de aditivos
-plastificantes, los cuales, incrementan los costos de elaboraci�n, por encima
+y 15%, respectivamente, a la generaciï¿½n de residuos plï¿½sticos marinos y se ha
+informado que el uso de plï¿½sticos se ha multiplicado en un factor de veinte en
+el ï¿½ltimo medio siglo [6], por tanto, la valorizaciï¿½n de estos residuos se ha
+convertido en un desafï¿½o en la mayorï¿½a de los paï¿½ses.</p>
+      <p>Existen varios tipos de residuos plï¿½sticos,
+siendo el polietileno y el tereftalato de polietileno (conocido comï¿½nmente como
+PET, de sus iniciales en inglï¿½s), los mï¿½s comunes en las corrientes de
+desechos, sin embargo, su reutilizaciï¿½n estï¿½ ganando cada vez mï¿½s terreno en la
+fabricaciï¿½n de ladrillos ecolï¿½gicos [7], mezclas de concreto [8], mezclas
+asfï¿½lticas [9] y como aislante tï¿½rmico [10].ï¿½ Especï¿½ficamente, el tereftalato
+de polietileno reciclado ha sido utilizado en la elaboraciï¿½n de concretos
+ligeros, con densidades entre 300 Kg/m3 y 1850 Kg/m3ï¿½ [11] y resistencias a la
+compresiï¿½n alrededor de 21 Mpa, los cuales,ï¿½ permiten reducir las cargas
+muertas y las fuerzas sï¿½smicas en las estructuras. La densidad y la resistencia
+a la compresiï¿½n de los concretos livianosï¿½ estï¿½ altamente influenciada por el
+contenido (alrededor del 60%) y la granulometrï¿½a de los agregados finos (tamaï¿½o
+mï¿½ximo nominal menor a 10 mm)ï¿½ [12],ï¿½ de hecho, cuando se desean obtener
+resistencias superiores a 21 MPa se requiere elï¿½ uso de aditivos
+plastificantes, los cuales, incrementan los costos de elaboraciï¿½n, por encima
 del 5% con respecto al concreto tradicional [13].</p>
-      <p>Z�lesk� y colaboradores [14] reportaron la
-elaboraci�n de concretos modificados a partir de� residuos de pl�stico con
-tama�os de part�cula menores a 8 mm, los autores reportaron que� reemplazos del
+      <p>Zï¿½leskï¿½ y colaboradores [14] reportaron la
+elaboraciï¿½n de concretos modificados a partir deï¿½ residuos de plï¿½stico con
+tamaï¿½os de partï¿½cula menores a 8 mm, los autores reportaron queï¿½ reemplazos del
 10%, 20%, 30%, 40% y 50% de los agregados finos presentaron resistencias a la
-compresi�n del 82%, 59%, 26%, 9% y 7%, respectivamente, con respecto al
+compresiï¿½n del 82%, 59%, 26%, 9% y 7%, respectivamente, con respecto al
 concreto tradicional, comportamiento atribuido a la baja resistencia del
-material pl�stico y a la poca interacci�n entre este material y los componentes
-de la matriz de concreto, dada la naturaleza hidrof�bica� del PET [15].
+material plï¿½stico y a la poca interacciï¿½n entre este material y los componentes
+de la matriz de concreto, dada la naturaleza hidrofï¿½bicaï¿½ del PET [15].
 Asimismo, los autores reportaron, que el aumento en el contenido de reemplazo
-de pl�stico es inversamente proporcional a la densidad de los espec�menes
+de plï¿½stico es inversamente proporcional a la densidad de los especï¿½menes
 preparados, de hecho, para reemplazos del 10%, 20%, 30%, 40% y 50%, se
-observaron disminuci�n en la densidad del 10%, 22%, 36%, 49% y del 57%,
-respectivamente, tendencia atribuida a la menor densidad del pl�stico reciclado
-en relaci�n a los agregados finos. Asimismo, Alqahtani y colaboradores [15],
-evaluaron el reemplazo del 25%, 50%, 75% y 100%� de los agregados finos por
-pl�stico reciclado, encontrando que un reemplazo del 25%,� es el m�s adecuado,
+observaron disminuciï¿½n en la densidad del 10%, 22%, 36%, 49% y del 57%,
+respectivamente, tendencia atribuida a la menor densidad del plï¿½stico reciclado
+en relaciï¿½n a los agregados finos. Asimismo, Alqahtani y colaboradores [15],
+evaluaron el reemplazo del 25%, 50%, 75% y 100%ï¿½ de los agregados finos por
+plï¿½stico reciclado, encontrando que un reemplazo del 25%,ï¿½ es el mï¿½s adecuado,
 presentando una resistencia de 26.9 MPa, equivalente al 89% de la resistencia
-del concreto tradicional (30 Mpa).� Thorneycroft y colaboradores [16], tambi�n
-prepararon concretos con reemplazos del 10% de los agregados finos por pl�stico
+del concreto tradicional (30 Mpa).ï¿½ Thorneycroft y colaboradores [16], tambiï¿½n
+prepararon concretos con reemplazos del 10% de los agregados finos por plï¿½stico
 reciclado, los autores reportaron un aumento del 1.2% de la resistencia a la
-compresi�n por encima del material tradicional. Marzouk y colaboradores [17]
-reportaron la utilizaci�n de botellas de tereftalato de polietileno como
-sustitutos de los agregados finos, con reemplazos entre el� 2% y el 100% en la
-preparaci�n de concretos de los agregados finos, los autores, reportaron que un
-reemplazo del 50%, es el m�s adecuado, mostrando una disminuci�n de la
-resistencia a la compresi�n 16% en relaci�n al sistema de referencia. Asimismo,
+compresiï¿½n por encima del material tradicional. Marzouk y colaboradores [17]
+reportaron la utilizaciï¿½n de botellas de tereftalato de polietileno como
+sustitutos de los agregados finos, con reemplazos entre elï¿½ 2% y el 100% en la
+preparaciï¿½n de concretos de los agregados finos, los autores, reportaron que un
+reemplazo del 50%, es el mï¿½s adecuado, mostrando una disminuciï¿½n de la
+resistencia a la compresiï¿½n 16% en relaciï¿½n al sistema de referencia. Asimismo,
 los autores reportaron que, en este mismo rango de reemplazo, para
-sustituciones entre el 2% y 100%, se observ� una disminuci�n de la densidad
+sustituciones entre el 2% y 100%, se observï¿½ una disminuciï¿½n de la densidad
 entre el 5% y el 50%, respectivamente, de hecho, los autores, concluyen que la
 densidad es altamente influenciada por el contenido de material reciclado.</p>
-      <p>Dada la elevada producci�n de desechos pl�sticos
-sin planes adecuados de reutilizaci�n y valorizaci�n, adem�s del potencial uso
-de este material en la generaci�n de concretos modificados, con resistencias
-alrededor de 20 Mpa, en este trabajo se presenta el dise�o y la preparaci�n de
+      <p>Dada la elevada producciï¿½n de desechos plï¿½sticos
+sin planes adecuados de reutilizaciï¿½n y valorizaciï¿½n, ademï¿½s del potencial uso
+de este material en la generaciï¿½n de concretos modificados, con resistencias
+alrededor de 20 Mpa, en este trabajo se presenta el diseï¿½o y la preparaciï¿½n de
 mezclas de concreto tradicional y modificado con reemplazos del 2.5%, 5%, 7% y
-10% de los agregados finos por pl�stico reciclado del oc�ano. A partir de las
-mezclas preparadas, se elaboraron espec�menes cil�ndricos de 15cmx30cm de
-di�metroxlongitud, respectivamente. Se evaluaron las propiedades en estado
-fresco (asentamiento) y endurecido (densidad, resistencia a compresi�n y m�dulo
-de elasticidad) de los espec�menes elaborados.�� El presente trabajo apunta a
-potencializar la reutilizaci�n de desechos pl�sticos, en la producci�n de
-concretos livianos y con resistencias moderadas a la compresi�n, en aras de
+10% de los agregados finos por plï¿½stico reciclado del ocï¿½ano. A partir de las
+mezclas preparadas, se elaboraron especï¿½menes cilï¿½ndricos de 15cmx30cm de
+diï¿½metroxlongitud, respectivamente. Se evaluaron las propiedades en estado
+fresco (asentamiento) y endurecido (densidad, resistencia a compresiï¿½n y mï¿½dulo
+de elasticidad) de los especï¿½menes elaborados.ï¿½ï¿½ El presente trabajo apunta a
+potencializar la reutilizaciï¿½n de desechos plï¿½sticos, en la producciï¿½n de
+concretos livianos y con resistencias moderadas a la compresiï¿½n, en aras de
 minimizar el efecto negativo de este tipo de residuos sobre el medio ambiente.</p>
     </sec>
     <sec>
       <tittle>2.  
 MATERIALES Y METODO</tittle>
       <subtittle>2.1.  
-Caracterizaci�n de los materiales</subtittle>
-      <p>Para la preparaci�n de las mezclas se utiliz� cemento
+Caracterizaciï¿½n de los materiales</subtittle>
+      <p>Para la preparaciï¿½n de las mezclas se utilizï¿½ cemento
 portland de uso general con una densidad especifica de 3150 Kg/m3 y agua del
-acueducto. La caracterizaci�n de los materiales p�treos se realiz� de acuerdo a
-las especificaciones de la norma t�cnica colombiana NTC, tal como se describe a
-continuaci�n: masa unitaria compacta NTC 92 [18], densidad aparente del
+acueducto. La caracterizaciï¿½n de los materiales pï¿½treos se realizï¿½ de acuerdo a
+las especificaciones de la norma tï¿½cnica colombiana NTC, tal como se describe a
+continuaciï¿½n: masa unitaria compacta NTC 92 [18], densidad aparente del
 agregado fino NTC 237 [19], densidad aparente del agregado grueso NTC 176 [20]
-y granulometr�a de los agregados NTC 77 [21]. Para el dise�o de las mezclas se
-utiliz� una relaci�n agua/cemento de 0.58. El material sustituto de los
+y granulometrï¿½a de los agregados NTC 77 [21]. Para el diseï¿½o de las mezclas se
+utilizï¿½ una relaciï¿½n agua/cemento de 0.58. El material sustituto de los
 agregados finos, provino de la zona costera del municipio de Turbo, donde se
-hizo la recolecci�n y la clasificaci�n del material, espec�ficamente botellas
-de pl�stico. El material recolectado se cort�, y se fundi� en un horno
-el�ctrico Herotec CR-35, utilizando una rampa de calentamiento de 5�C/min hasta
-180�C, una vez alcanzada esta temperatura se mantuvo durante 1.5 h. El s�lido
-fundido se presion� en un sistema hidr�ulico uniaxial a una tonelada m�trica
-durante 15 min y luego se cort� en pellets a un tama�o promedio de 4 mm. El
-material elaborado present� una densidad aparente de 67 Kg/m3.</p>
+hizo la recolecciï¿½n y la clasificaciï¿½n del material, especï¿½ficamente botellas
+de plï¿½stico. El material recolectado se cortï¿½, y se fundiï¿½ en un horno
+elï¿½ctrico Herotec CR-35, utilizando una rampa de calentamiento de 5ï¿½C/min hasta
+180ï¿½C, una vez alcanzada esta temperatura se mantuvo durante 1.5 h. El sï¿½lido
+fundido se presionï¿½ en un sistema hidrï¿½ulico uniaxial a una tonelada mï¿½trica
+durante 15 min y luego se cortï¿½ en pellets a un tamaï¿½o promedio de 4 mm. El
+material elaborado presentï¿½ una densidad aparente de 67 Kg/m3.</p>
       <subtittle>2.2.  
-Dise�o de la mezcla</subtittle>
-      <p>La mezcla de concreto tradicional se dise�� para
-alcanzar una resistencia a la compresi�n de 21 MPa (a los 28 d�as), tal como la
-describe la metodolog�a ACI 211.18 (American Concrete Institute) [22]. Se
-dise�aron 5 mezclas; una mezcla de referencia y 4 mezclas con reemplazos del
+Diseï¿½o de la mezcla</subtittle>
+      <p>La mezcla de concreto tradicional se diseï¿½ï¿½ para
+alcanzar una resistencia a la compresiï¿½n de 21 MPa (a los 28 dï¿½as), tal como la
+describe la metodologï¿½a ACI 211.18 (American Concrete Institute) [22]. Se
+diseï¿½aron 5 mezclas; una mezcla de referencia y 4 mezclas con reemplazos del
 2.5%, 5%, 7.5% y 10% en masa de los agregados finos, se prepararon tres
-espec�menes de concreto por cada mezcla.</p>
+especï¿½menes de concreto por cada mezcla.</p>
       <subtittle>2.3.  
-Preparaci�n de las mezclas de concreto</subtittle>
-      <p>La preparaci�n de las mezclas de concreto se llev� a
+Preparaciï¿½n de las mezclas de concreto</subtittle>
+      <p>La preparaciï¿½n de las mezclas de concreto se llevï¿½ a
 cabo tal como lo describe Valencia y colaboradores [23], la cual se describe a
-continuaci�n; el agregado grueso se humedeci� hasta la condici�n SSS Saturado
-Superficialmente Seco y se pes� la cantidad requerida en� una balanza de
-precisi�n. Previo a la preparaci�n de las mezclas, la concretadora se
-humedeci�, y en esta, se mezclaron el agregado grueso, el agregado fino y el
-PET por tres minutos hasta obtener una mezcla homog�nea. Despu�s se adicion� el
-cemento y el 75% del agua y se mezcl� durante 3 minutos. Cuando se visualizaba
-una pasta cohesiva y fluida se agregaba el pl�stico reciclado y el 25% de agua
-restante y se mezcl� por 4 minutos m�s.�� Para analizar las propiedades del
-concreto fresco se realiz� la prueba de asentamiento tal como lo describe la
-norma t�cnica colombiana NTC 396 [24].</p>
+continuaciï¿½n; el agregado grueso se humedeciï¿½ hasta la condiciï¿½n SSS Saturado
+Superficialmente Seco y se pesï¿½ la cantidad requerida enï¿½ una balanza de
+precisiï¿½n. Previo a la preparaciï¿½n de las mezclas, la concretadora se
+humedeciï¿½, y en esta, se mezclaron el agregado grueso, el agregado fino y el
+PET por tres minutos hasta obtener una mezcla homogï¿½nea. Despuï¿½s se adicionï¿½ el
+cemento y el 75% del agua y se mezclï¿½ durante 3 minutos. Cuando se visualizaba
+una pasta cohesiva y fluida se agregaba el plï¿½stico reciclado y el 25% de agua
+restante y se mezclï¿½ por 4 minutos mï¿½s.ï¿½ï¿½ Para analizar las propiedades del
+concreto fresco se realizï¿½ la prueba de asentamiento tal como lo describe la
+norma tï¿½cnica colombiana NTC 396 [24].</p>
       <subtittle>2.4.  
-Preparaci�n de los espec�menes de concreto tradicional y modificado</subtittle>
-      <p>Se prepararon 3 espec�menes cil�ndricos de 15cmx30cm
-de di�metroxaltura, respectivamente, como se describe en la norma t�cnica
-colombiana NTC 550 [25]. Previo a la preparaci�n de los espec�menes, el
-interior de los moldes se recubri� con una capa fina de desmoldante Separol
-Ecol�gico 140902 para prevenir la adherencia del concreto. Los moldes se
+Preparaciï¿½n de los especï¿½menes de concreto tradicional y modificado</subtittle>
+      <p>Se prepararon 3 especï¿½menes cilï¿½ndricos de 15cmx30cm
+de diï¿½metroxaltura, respectivamente, como se describe en la norma tï¿½cnica
+colombiana NTC 550 [25]. Previo a la preparaciï¿½n de los especï¿½menes, el
+interior de los moldes se recubriï¿½ con una capa fina de desmoldante Separol
+Ecolï¿½gico 140902 para prevenir la adherencia del concreto. Los moldes se
 llenaron en tres capas iguales compactadas con 25 golpes distribuidos en toda
-la superficie con una varilla de 16 mm de di�metro. Posteriormente, el molde se
-golpe� 15 veces con un martillo de goma con el prop�sito de eliminar las burbujas
-de aire de cada una de las capas. La �ltima capa se enras� con la varilla. Para
-mantener la humedad de los espec�menes, la superficie de los moldes se cubri�
-con l�minas de polietileno.</p>
+la superficie con una varilla de 16 mm de diï¿½metro. Posteriormente, el molde se
+golpeï¿½ 15 veces con un martillo de goma con el propï¿½sito de eliminar las burbujas
+de aire de cada una de las capas. La ï¿½ltima capa se enrasï¿½ con la varilla. Para
+mantener la humedad de los especï¿½menes, la superficie de los moldes se cubriï¿½
+con lï¿½minas de polietileno.</p>
       <subtittle>2.5.  
-Curado de los espec�menes cil�ndricos</subtittle>
+Curado de los especï¿½menes cilï¿½ndricos</subtittle>
       <p>Pasadas 24 horas se retiraron los moldes y los
-espec�menes de concreto se sumergieron completamente en agua saturada con oxido
-de calcio (3g/L) a temperatura ambiente durante 28 d�as, tal como lo describe
-la norma t�cnica colombiana NTC 550.</p>
+especï¿½menes de concreto se sumergieron completamente en agua saturada con oxido
+de calcio (3g/L) a temperatura ambiente durante 28 dï¿½as, tal como lo describe
+la norma tï¿½cnica colombiana NTC 550.</p>
       <subtittle>2.6.  
-Evaluaci�n de las propiedades f�sicas y mec�nicas de los concretos
+Evaluaciï¿½n de las propiedades fï¿½sicas y mecï¿½nicas de los concretos
 elaborados</subtittle>
-      <p>La resistencia a compresi�n f�c se realiz� por
-triplicado en una prensa hidr�ulica HM de compresi�n de 1500 KN con una
-velocidad de carga de 0,6 MPa/s. El m�dulo de elasticidad y la densidad de los
-espec�menes se evaluaron tal como se describe en las ecuaciones (1) y (2)
+      <p>La resistencia a compresiï¿½n fï¿½c se realizï¿½ por
+triplicado en una prensa hidrï¿½ulica HM de compresiï¿½n de 1500 KN con una
+velocidad de carga de 0,6 MPa/s. El mï¿½dulo de elasticidad y la densidad de los
+especï¿½menes se evaluaron tal como se describe en las ecuaciones (1) y (2)
 respectivamente.</p>
-      <p>Donde f�c es la resistencia a la compresi�n del
-concreto en MPa, Ec, m�dulo de elasticidad en MPa, ρ la densidad del
-concreto en Kg/m3, M la masa del esp�cimen de concreto en Kg y V volumen del
+      <p>Donde fï¿½c es la resistencia a la compresiï¿½n del
+concreto en MPa, Ec, mï¿½dulo de elasticidad en MPa, ρ la densidad del
+concreto en Kg/m3, M la masa del espï¿½cimen de concreto en Kg y V volumen del
 cilindro en m3.</p>
       <tittle>3.   RESULTADOS Y ANALISIS</tittle>
       <subtittle>s</subtittle>
-      <p>Los resultados de la caracterizaci�n de los agregados
+      <p>Los resultados de la caracterizaciï¿½n de los agregados
 de muestran en la tabla 1.</p>
-      <p>La tabla 1 muestra que tanto la distribuci�n del
-tama�o de los agregados gruesos y finos, as� como sus masas unitarias se
-encuentran dentro de los valores recomendados para la elaboraci�n de concretos.</p>
-      <p>La variaci�n del asentamiento del concreto fresco en
-funci�n del contenido de tereftalato de polietileno se presenta en la Figura 1.</p>
+      <p>La tabla 1 muestra que tanto la distribuciï¿½n del
+tamaï¿½o de los agregados gruesos y finos, asï¿½ como sus masas unitarias se
+encuentran dentro de los valores recomendados para la elaboraciï¿½n de concretos.</p>
+      <p>La variaciï¿½n del asentamiento del concreto fresco en
+funciï¿½n del contenido de tereftalato de polietileno se presenta en la Figura 1.</p>
       <p>Figura 1.
-Asentamiento de los espec�menes preparados en funci�n del reemplazo de
+Asentamiento de los especï¿½menes preparados en funciï¿½n del reemplazo de
 tereftalato de polietileno</p>
       <p>Como se muestra en la Figura 1, el asentamiento es
-influenciado por el contenido de tereftalato de polietileno,� disminuyendo con
+influenciado por el contenido de tereftalato de polietileno,ï¿½ disminuyendo con
 el aumento en el contenido de material reciclado, se observa que un aumento en
-el reemplazo de PET del 2.5%, 5%, 7.5% y 10% genera una disminuci�n del 5%, 8%,
-16% y 17% respectivamente, en relaci�n al material tradicional, el cual
-presenta un asentamiento de 24 cm, este� fen�meno es atribuido� a la forma
+el reemplazo de PET del 2.5%, 5%, 7.5% y 10% genera una disminuciï¿½n del 5%, 8%,
+16% y 17% respectivamente, en relaciï¿½n al material tradicional, el cual
+presenta un asentamiento de 24 cm, esteï¿½ fenï¿½meno es atribuidoï¿½ a la forma
 irregular en la cual fue procesado el material reciclado, lo que genera un
-aumento de la fricci�n entre las part�culas y un disminuci�n en la� fluidez de
-la mezcla. Nuestros resultados est�n acordes con los reportados por Batayneh y
+aumento de la fricciï¿½n entre las partï¿½culas y un disminuciï¿½n en laï¿½ fluidez de
+la mezcla. Nuestros resultados estï¿½n acordes con los reportados por Batayneh y
 colaboradores [26], quienes reportaron que un aumento en el reemplazo de los
-agregados finos por part�culas de pl�stico, genera una disminuci�n del
-asentamiento, de hecho, los autores reportaron que para un reemplazo m�ximo del
-20% de los agregados finos se observ� una disminuci�n del 25% en el�
+agregados finos por partï¿½culas de plï¿½stico, genera una disminuciï¿½n del
+asentamiento, de hecho, los autores reportaron que para un reemplazo mï¿½ximo del
+20% de los agregados finos se observï¿½ una disminuciï¿½n del 25% en elï¿½
 asentamiento, con respecto a la muestra tradicional. Asimismo, nuestros
-resultados est�n en l�nea con los reportados por Ismail y colaboradores [27],
+resultados estï¿½n en lï¿½nea con los reportados por Ismail y colaboradores [27],
 quienes reportaron disminuciones del 68%, 88% y 95% en el asentamiento, para
 reemplazos del 10%, 15% y 20%, respectivamente de los agregados finos por
-desechos de PET. Los autores atribuyeron la disminuci�n del asentamiento a las
-formas irregulares de los pl�sticos reciclados, los cuales presentaron bordes
-m�s afilados que el agregado fino, generando una menor fluidez de la mezcla,
-reflejada en una disminuci�n en el asentamiento. Los valores del asentamiento
+desechos de PET. Los autores atribuyeron la disminuciï¿½n del asentamiento a las
+formas irregulares de los plï¿½sticos reciclados, los cuales presentaron bordes
+mï¿½s afilados que el agregado fino, generando una menor fluidez de la mezcla,
+reflejada en una disminuciï¿½n en el asentamiento. Los valores del asentamiento
 encontrados en este trabajo pueden considerarse aceptables en el rango de
-reemplazo evaluado. En general, los espec�menes preparados con reemplazo de los
-agregados finos producen una trabajabilidad favorable en t�rminos de facilidad
-de manejo, colocaci�n y acabado. De hecho, la trabajabilidad se encuentra
-dentro de los limites (asentamiento = 0�25 mm) para aplicaciones en concreto
+reemplazo evaluado. En general, los especï¿½menes preparados con reemplazo de los
+agregados finos producen una trabajabilidad favorable en tï¿½rminos de facilidad
+de manejo, colocaciï¿½n y acabado. De hecho, la trabajabilidad se encuentra
+dentro de los limites (asentamiento = 0ï¿½25 mm) para aplicaciones en concreto
 vibrado en carreteras y en concretos bombeables.</p>
       <p>Los resultados de la densidad de los
-espec�menes preparados en estado endurecido (a los 28 d�as) se muestran en la
+especï¿½menes preparados en estado endurecido (a los 28 dï¿½as) se muestran en la
 Figura 2.</p>
       <p>Figura
-2. Densidad de los espec�menes preparados en funci�n del reemplazo de los
+2. Densidad de los especï¿½menes preparados en funciï¿½n del reemplazo de los
 agregados finos.</p>
       <p>De la figura 2 se puede observar que un
 aumento en el contenido de PET reciclado, disminuye la densidad de los
-espec�menes preparados, se observa que para porcentajes de reemplazo de PET del
+especï¿½menes preparados, se observa que para porcentajes de reemplazo de PET del
 2.5%, 5%, 7.5% y 10% las densidades fueron del 96%, 94%, 91% y 90% de la
 densidad del concreto tradicional, lo cual se atribuye a la menor densidad del
-pl�stico reciclado (67 Kg/m3), la cual representa solo un 2.5 % de la densidad
+plï¿½stico reciclado (67 Kg/m3), la cual representa solo un 2.5 % de la densidad
 de los agregados finos (2710 Kg/m3). Nuestros resultados son acordes a los
-reportados por Zainab y colaboradores [27], quienes reportaron una relaci�n
-inversa entre el contenido de pl�stico reciclado y la densidad del concreto
-endurecido, de hecho, los autores encontraron a los 28 d�as, disminuciones en
+reportados por Zainab y colaboradores [27], quienes reportaron una relaciï¿½n
+inversa entre el contenido de plï¿½stico reciclado y la densidad del concreto
+endurecido, de hecho, los autores encontraron a los 28 dï¿½as, disminuciones en
 la densidad de los concretos del 4%, 7% y 9% para sustituciones del 10%, 15% y
-20%, respectivamente de los agregados finos por pl�stico reciclado. Los autores
-asociaron esta disminuci�n en la densidad de los concretos con el aumento del
-contenido de pl�stico reciclado a la menor densidad, la cual represent� solo un
+20%, respectivamente de los agregados finos por plï¿½stico reciclado. Los autores
+asociaron esta disminuciï¿½n en la densidad de los concretos con el aumento del
+contenido de plï¿½stico reciclado a la menor densidad, la cual representï¿½ solo un
 69.7% de densidad de los agregados finos. De la misma manera, nuestros
-resultados estuvieron en l�nea con los reportados por Ak�a�zog˘lu y
-colaboradores [28], quienes encontraron una reducci�n en la densidad de
+resultados estuvieron en lï¿½nea con los reportados por Akï¿½aï¿½zog˘lu y
+colaboradores [28], quienes encontraron una reducciï¿½n en la densidad de
 concretos preparados a partir de residuos de botellas de PET trituradas en
 reemplazo de los agregados finos, dada la menor gravedad especifica de los
-residuos de pl�stico en relaci�n a los agregados. As� mismo, se ha reportado
-que la sustituci�n de agregados finos por tereftalato de polietileno (material
+residuos de plï¿½stico en relaciï¿½n a los agregados. Asï¿½ mismo, se ha reportado
+que la sustituciï¿½n de agregados finos por tereftalato de polietileno (material
 de naturaleza no polar), genera una tendencia a repeler el agua y atrapar aire
 dentro de su superficie [29]. Rashid y colaboradores [30] reportaron que un 14%
 de aire atrapado reduce la resistencia del concreto en un 45% por tanto, un
 aumento en el contenido de tereftalato de polietileno, genera un mayor contenido
 de aire atrapado en la mezcla, lo cual permite un aumento en la porosidad y una
-disminuci�n de la densidad tal como se observ� en los resultados encontrados.</p>
-      <p>La resistencia a la compresi�n de los
-espec�menes preparados se muestra en la Figura 3.</p>
+disminuciï¿½n de la densidad tal como se observï¿½ en los resultados encontrados.</p>
+      <p>La resistencia a la compresiï¿½n de los
+especï¿½menes preparados se muestra en la Figura 3.</p>
       <p>Figura 3.
-Resistencia a la compresi�n de los espec�menes preparados en funci�n del
+Resistencia a la compresiï¿½n de los especï¿½menes preparados en funciï¿½n del
 reemplazo de los agregados finos.</p>
       <p>Los resultados de la Figura 3 muestran que la
-resistencia a la compresi�n est� directamente relacionada con el contenido de
+resistencia a la compresiï¿½n estï¿½ directamente relacionada con el contenido de
 material reciclado, se observa que un aumento en el contenido de reemplazo de
 material reciclado en un rango entre 2.5% y 7.5% genera un aumento en la
-resistencia a la compresi�n, alcanzando un valor m�ximo de 18.19 Mpa para un
+resistencia a la compresiï¿½n, alcanzando un valor mï¿½ximo de 18.19 Mpa para un
 reemplazo de 7.5%, la cual representa el 90.5% de la resistencia del material
 tradicional, la cual se encuentra en un valor superior a la resistencia a la
-compresi�n m�nima requerida para un concreto estructural (17.24 Mpa), este
-comportamiento� se atribuye a la fuerza de cohesi�n entre los residuos
-pl�sticos y la pasta de cemento, as� como tambi�n� a la naturaleza hidrof�bica
+compresiï¿½n mï¿½nima requerida para un concreto estructural (17.24 Mpa), este
+comportamientoï¿½ se atribuye a la fuerza de cohesiï¿½n entre los residuos
+plï¿½sticos y la pasta de cemento, asï¿½ como tambiï¿½nï¿½ a la naturaleza hidrofï¿½bica
 del material reciclado, la cual puede restringir la entrada de agua necesaria
-para la hidrataci�n del cemento a trav�s de los poros del concreto durante el
+para la hidrataciï¿½n del cemento a travï¿½s de los poros del concreto durante el
 proceso de curado. De la Figura 3, se puede apreciar que un reemplazo superior
-al 7.5% genera una disminuci�n en la resistencia a la compresi�n. En el rango
-de reemplazo entre 2.5% y 7.5% se encontr� una tendencia contraria a la
+al 7.5% genera una disminuciï¿½n en la resistencia a la compresiï¿½n. En el rango
+de reemplazo entre 2.5% y 7.5% se encontrï¿½ una tendencia contraria a la
 reportada por Batayneh y colaboradores [26] quienes reportaron que en todo el
-rango de reemplazo, la resistencia a la compresi�n disminuy� con el aumento en
+rango de reemplazo, la resistencia a la compresiï¿½n disminuyï¿½ con el aumento en
 el contenido de PET reciclado. Los resultados reportados por Batayneh y
 colaboradores [26], reportaron que reemplazos del 5% y del 10% de los agregados
-finos por pl�stico reciclado generan� disminuciones del 23% y del 38.8% en la
-resistencia a la compresi�n, los cuales fueron mayores a las disminuciones
-encontradas en este trabajo, donde se observ� que para los espec�menes del 5%,
-7.5% y 10% se observaron disminuciones del� 20%, 9.5% y 22.5 % en la
-resistencia a la compresi�n, respectivamente. La diferencia con nuestros
-resultados puede atribuirse a la alta resistencia obtenida por el pl�stico
-reciclado durante su proceso de pelletizaci�n, generando una menor
+finos por plï¿½stico reciclado generanï¿½ disminuciones del 23% y del 38.8% en la
+resistencia a la compresiï¿½n, los cuales fueron mayores a las disminuciones
+encontradas en este trabajo, donde se observï¿½ que para los especï¿½menes del 5%,
+7.5% y 10% se observaron disminuciones delï¿½ 20%, 9.5% y 22.5 % en la
+resistencia a la compresiï¿½n, respectivamente. La diferencia con nuestros
+resultados puede atribuirse a la alta resistencia obtenida por el plï¿½stico
+reciclado durante su proceso de pelletizaciï¿½n, generando una menor
 deformabilidad de la reportada por Batayneh, quienes solo reportaron la
-trituraci�n de los residuos en la preparaci�n de los concretos modificados.</p>
-      <p>La Figura� 4 muestra los resultados del m�dulo de
+trituraciï¿½n de los residuos en la preparaciï¿½n de los concretos modificados.</p>
+      <p>La Figuraï¿½ 4 muestra los resultados del mï¿½dulo de
 elasticidad de los materiales preparados.</p>
       <p>Figura 4.
-M�dulo de elasticidad de los espec�menes preparados en funci�n del reemplazo de
+Mï¿½dulo de elasticidad de los especï¿½menes preparados en funciï¿½n del reemplazo de
 los agregados finos</p>
-      <p>El m�dulo de elasticidad presenta la misma tendencia
-que la resistencia a la compresi�n, la cual, acorde a la ecuaci�n 1es
-directamente proporcional a la compresi�n. Este comportamiento se atribuye a al
-aporte individual de cada uno de los materiales constitutivos al m�dulo de
+      <p>El mï¿½dulo de elasticidad presenta la misma tendencia
+que la resistencia a la compresiï¿½n, la cual, acorde a la ecuaciï¿½n 1es
+directamente proporcional a la compresiï¿½n. Este comportamiento se atribuye a al
+aporte individual de cada uno de los materiales constitutivos al mï¿½dulo de
 elasticidad del concreto de cada de sus materiales constitutivos. El
-comportamiento del m�dulo de elasticidad est� relacionado con la reducci�n de
+comportamiento del mï¿½dulo de elasticidad estï¿½ relacionado con la reducciï¿½n de
 la densidad de los concretos preparados. Este hallazgo indica la influencia
-positiva de la sustituci�n de los agregados sil�ceos con agregados pl�sticos
+positiva de la sustituciï¿½n de los agregados silï¿½ceos con agregados plï¿½sticos
 reciclados.</p>
-      <p>Con respecto a los costos de producci�n del concreto,
-los espec�menes cil�ndricos con un reemplazo del 7.5% de los agregados finos
-por material reciclable, se observ� una disminuci�n del 6% por cada metro
+      <p>Con respecto a los costos de producciï¿½n del concreto,
+los especï¿½menes cilï¿½ndricos con un reemplazo del 7.5% de los agregados finos
+por material reciclable, se observï¿½ una disminuciï¿½n del 6% por cada metro
 cubico de concreto, lo cual, permite determinar que el uso de este tipo de
-residuos no solo permite la reutilizaci�n de materiales de desecho, sino
-tambi�n la reducci�n de los costos de producci�n.</p>
+residuos no solo permite la reutilizaciï¿½n de materiales de desecho, sino
+tambiï¿½n la reducciï¿½n de los costos de producciï¿½n.</p>
     </sec>
   </body>
   <!-- BACK -->
   <back>
     <ack>
-      <title>AGRADECIMIENTOS</title>
-      <p>s</p>
+      <title>4.  
+CONCLUSIONES </title>
+      <p>Se prepararon mezclas de concreto tradicional y
+modifiï¿½cado con plï¿½stico reciclado del ocï¿½ano, en reemplazo de los agregados
+finos. Se enï¿½contrï¿½ que la modificaciï¿½n de los agregados por plï¿½stico reciclado
+en 2.5%, 5.0%, 7.5% y 10% modifica las propiedaï¿½des de los concretos
+preparados. Se encontrï¿½ que un aumento en el contenido de plï¿½stico reciclado,
+generï¿½ una disminuciï¿½n en el asentamiento y en la densidad de los especï¿½menes,
+como resultado de la forma y la menor densidad de las partï¿½culas de PET,
+respectivamente. Los especï¿½menes de concreto con un reemplazo del 7.5% de los
+agregados finos mostraron la mejor resistencia a la compresiï¿½n, alcanzando un
+valor de 18.19 Mpa, el cual corresponde al 90.5% de la resistencia del material
+tradicional. Los resultados enï¿½contrados estuvieron en concordancia con el
+cambio en el mï¿½dulo de elasticidad de los especï¿½menes preparados, el cual fue
+directamente proporcional al aumento en el contenido de plï¿½stico reciclado. Los
+resultados encontrados permiten concluir que los especï¿½menes con reemplazos del
+7.5%, permiten generar concretos con resistencias moderadas, entre 18 ï¿½ 20
+Mpa.ï¿½ Se espera que los resultados reportados permitan reducir el uso de
+materiales tradicionales utilizados en la preparaciï¿½n de concretos. Ademï¿½s, se
+espera que esta metodologï¿½a sea un nuevo aporte para la generaciï¿½n de concretos
+de baja densidad y resistencia a la compresiï¿½n superiores a la resistencia
+mï¿½nima requerida para concretos estructurales, ademï¿½s de mitigar la
+problemï¿½tica ambientalï¿½ï¿½ generada por la producciï¿½n de residuos plï¿½sticos.</p>
+      <title>5.   AGRADECIMIENTOS</title>
+      <p>Los autores agradecen a la Universidad
+Cooperativa de Colombia por el apoyo financiero a travï¿½s del proyecto INV 2731,
+Venites, J., Cï¿½rdoba, Y., y Mena, K. agradecen especialmente al semillero de
+investigaciï¿½n en materiales y estructuras SIMES de la Universidad Cooperativa
+de Colombia.</p>
     </ack>
     <!-- REFERENCIAS -->
     <ref-list>
       <title>REFERENCIAS</title>
-      <s/>
+      <ref id="R1">
+        <label>[1]</label>
+        <mixed-citation> Remojan, S. K., Ramya, C.,
+Viswanathan, M. R., Varjani, S.ï¿½ Plastic Pollutants: Waste management for
+pollution control and abatement, Curren Opin Env Sci., 12, 72-84, 2019.</mixed-citation>
+      </ref>
+      <ref id="R2">
+        <label>[2]</label>
+        <mixed-citation> Da Silva, L. J., Dos Santos, I. F.
+S., Mensah J. H., Gonï¿½alves, A. T., Barros, R Incineration of municipal solid
+waste in Brazil: An analysis of the economically viable energy potential, Renew
+Energ. 149, 1386-1394, 2020.</mixed-citation>
+      </ref>
+      <ref id="R3">
+        <label>[3]</label>
+        <mixed-citation> Awoyera, P.O., Andesina. A. Plastic
+wastes to construction products: Status, limitations and future perspective,
+Case Stud. Constr. Mater. 12, e00330 in press, 2020.</mixed-citation>
+      </ref>
+      <ref id="R4">
+        <label>[4]</label>
+        <mixed-citation> Mansour, A. M.,ï¿½ Ali, S. A. Reusing
+waste plastic bottles as an alternative sustainable building material, Energy
+Sustain Dev 24, 79-85,2015.</mixed-citation>
+      </ref>
+      <ref id="R5">
+        <label>[5]</label>
+        <mixed-citation> Li, J., Lusher, A. L., Rotchell, J.
+M., Deudero. S., Turra, A., Brï¿½te, I. L. N., Sun, C., Hossain, M. S., Li, Q.,
+Kolandhasamy, P., Shi, H. Using mussel as a global bioindicator of coastal
+microplastic pollution., 244, 522- 533, 2019.</mixed-citation>
+      </ref>
+      <ref id="R6">
+        <label>[6]</label>
+        <mixed-citation> Geyer, R., Jambeck, J. R., Law, K. L.
+Production, use, and fate of all plastics ever made, Sci. Adv., 3. 19-24, 2017.</mixed-citation>
+      </ref>
+      <ref id="R7">
+        <label>[7]</label>
+        <mixed-citation> Singh, N., Hui, D., Singh, R.,ï¿½
+Ahuja, I. P. S., Feo, L., Fraternali, F. Recycling of plastic solid waste: A
+state of art review and future applications, Compos. B. Eng., 115,ï¿½ 409-422,
+2017.</mixed-citation>
+      </ref>
+      <ref id="R8">
+        <label>[8]</label>
+        <mixed-citation> Mohammed, A. A. Modelling the
+mechanical properties of concrete containing PET waste aggregate, Constr Build
+Mater., 150, 595-605, 2017.</mixed-citation>
+      </ref>
+      <ref id="R9">
+        <label>[9]</label>
+        <mixed-citation> El-Naga, I. A., Ragab, M. Benefits of
+utilization the recycle polyethylene terephthalate waste plastic materials as a
+modifier to asphalt mixtures, Constr Build Mater, 219, 81-90, 2019.</mixed-citation>
+      </ref>
+      <ref id="R10">
+        <label>[10]</label>
+        <mixed-citation> Choudhary, J., Kumar, B., Gupta, A.
+Utilization of solid waste materials as alternative fillers in asphalt mixes: A
+review, Constr Build Mater, 234,ï¿½ 117271, 2020.</mixed-citation>
+      </ref>
+      <ref id="R11">
+        <label>[11]</label>
+        <mixed-citation> Tiong. H. Y, Lim. S. K, Lee. Y. L,
+Ong. C. F, and Yew. M. K, Environmental impact and quality assessment of using
+eggshell powder incorporated in lightweight foamed concrete, Constr. Build.
+Mater., 244, 118341, 2020.</mixed-citation>
+      </ref>
+      <ref id="R12">
+        <label>[12]</label>
+        <mixed-citation> Juliï¿½n. C, Sergio M. A, y William. A,ï¿½ Propiedades
+mecï¿½nicas del concreto para viviendas de bajo costo, Ing. Investig.
+y Tecnol., 14,ï¿½ 285ï¿½298, 2013.</mixed-citation>
+      </ref>
+      <ref id="R13">
+        <label>[13]</label>
+        <mixed-citation> Yoon, J.Y., Kim, J.H. Mechanical
+properties of preplaced lightweigth aggregates concrete. Constr. Build. Mater,
+216, 440-449, 2019.</mixed-citation>
+      </ref>
+      <ref id="R14">
+        <label>[14]</label>
+        <mixed-citation> Zï¿½leskï¿½. M,ï¿½ Pavlï¿½kovï¿½. M,ï¿½ Pokornï¿½.
+J, Jankovskï¿½. O,ï¿½ Pavlï¿½k. Z,ï¿½ y Černï¿½. R,
+Structural, mechanical and hygrothermal properties of lightweight concrete
+based on the application of waste plastics, Constr. Build. Mater., 180,
+1ï¿½11, 2018.</mixed-citation>
+      </ref>
+      <ref id="R15">
+        <label>[15]</label>
+        <mixed-citation> Alqahtani. F. K, Ghataora. G, Khan. M. I, y Dirar. S, Novel lightweight concrete containing manufactured plastic
+aggregate, Constr. Build. Mater., 148, 386ï¿½397, 2017.</mixed-citation>
+      </ref>
+      <ref id="R16">
+        <label>[16]</label>
+        <mixed-citation> Thorneycroft. J,ï¿½ Orr. J, Savoikar.
+P, and Ball. R. J, Performance of structural concrete with recycled plastic
+waste as a partial replacement for sand, Constr. Build. Mater., 161,ï¿½
+63ï¿½69, 2018.</mixed-citation>
+      </ref>
+      <ref id="R17">
+        <label>[17]</label>
+        <mixed-citation> Marzouk. O. Y, Dheilly. R. M, y Queneudec. M, Valorization of post-consumer waste plastic in cementitious
+concrete composites, Waste Manag., 27, 310ï¿½318, 2007.</mixed-citation>
+      </ref>
+      <ref id="R18">
+        <label>[18]</label>
+        <mixed-citation> Instituto Colombiano de Normas Tï¿½cnicas y
+Certificaciï¿½n, NTC 92 Determinaciï¿½n de la masa unitaria y los vacï¿½os entre
+partï¿½culas y agregados. Colombia,13, 1995.</mixed-citation>
+      </ref>
+      <ref id="R19">
+        <label>[19]</label>
+        <mixed-citation> Instituto Colombiano de Normas Tï¿½cnicas y
+Certificaciï¿½n, NTC 237 Mï¿½todo para determinar la densidad y la absorciï¿½n del
+agregado fino. Colombia, 14,1995.</mixed-citation>
+      </ref>
+      <ref id="R20">
+        <label>[20]</label>
+        <mixed-citation> Instituto Colombiano de Normas Tï¿½cnicas y
+Certificaciï¿½n, NTC 176 Mï¿½todo de ensayo para determinar la densidad y la
+absorciï¿½n del agregado grueso. Colombia, 14, 1995.</mixed-citation>
+      </ref>
+      <ref id="R21">
+        <label>[21]</label>
+        <mixed-citation> Instituto Colombiano de Normas Tï¿½cnicas y
+Certificaciï¿½n, NTC 77 Mï¿½todo de ensayo para el anï¿½lisis por tamizado de los
+agregados finos y gruesos, no. 571. Colombia, 15, 2007.</mixed-citation>
+      </ref>
+      <ref id="R22">
+        <label>[22]</label>
+        <mixed-citation> ACI Committee, ACI 211.1-91 Standard
+Practice for Selecting Proportions for Normal, Heavyweight, and Mass Concrete,
+no. 9. Unites States,ï¿½ 120ï¿½121, 2002.</mixed-citation>
+      </ref>
+      <ref id="R23">
+        <label>[23]</label>
+        <mixed-citation> Valencia, J. P. Gonzï¿½lez, A. M, y Arbelaez, O. F,
+Evaluaciï¿½n de las propiedades mecï¿½nicas de concretos modificados con
+microesferas de vidrio y residuos de llantas, Lï¿½mpsakos, 22, 16-26, 2019.</mixed-citation>
+      </ref>
+      <ref id="R24">
+        <label>[24]</label>
+        <mixed-citation> Instituto Colombiano de Normas Tï¿½cnicas y
+Certificaciï¿½n, NTC 396 Mï¿½todo de ensayo para determinar el asentamiento del
+concreto. Colombia, 6, 1992.</mixed-citation>
+      </ref>
+      <ref id="R25">
+        <label>[25]</label>
+        <mixed-citation> Instituto Colombiano de Normas Tï¿½cnicas y
+Certificaciï¿½n, NTC 550 Elaboraciï¿½n y curado de especï¿½menes de concreto en obra.
+Colombia, 13, 2000.</mixed-citation>
+      </ref>
+      <ref id="R26">
+        <label>[26]</label>
+        <mixed-citation> Batayneh. M, Marie. I, y Asi. I, Use
+of selected waste materials in concrete mixes, Waste Manag., 27, 1870ï¿½1876,
+2007.</mixed-citation>
+      </ref>
+      <ref id="R27">
+        <label>[27]</label>
+        <mixed-citation> Ismail. Z. Z y AL-Hashmi. E. A, Use
+of waste plastic in concrete mixture as aggregate replacement, Waste Manag.,
+28, 2041ï¿½2047, 2008.</mixed-citation>
+      </ref>
+      <ref id="R28">
+        <label>[28]</label>
+        <mixed-citation> Akï¿½aï¿½zoǧlu. S,ï¿½ Atiş.C. D,
+y Akï¿½aï¿½zoǧlu. K, An investigation on the use of shredded waste PET bottles
+as aggregate in lightweight concrete, Waste Manag., 30, 285ï¿½290, 2010.</mixed-citation>
+      </ref>
+      <ref id="R29">
+        <label>[29]</label>
+        <mixed-citation> Bing. Cï¿½ y Ning. L, Experimental
+Research on Properties of Fresh and Hardened Rubberized Concrete, J. Mater.
+Civ. Eng.,ï¿½ 26, 4014-4040, 2013.</mixed-citation>
+      </ref>
+      <ref id="R30">
+        <label>[30]</label>
+        <mixed-citation> Rashid. K, Yazdanbakhsh. A, y Ul. M,
+Sustainable selection of the concrete incorporating recycled tire aggregate to
+be used as medium to low strength material, J. Clean. Prod., 224,
+396ï¿½410, 2019.</mixed-citation>
+      </ref>
     </ref-list>
   </back>
-  <!-- EN INGLES -->
-  <sub-article article-type="translation" id="TRen" xml:lang="en">
-    <front-stub>
-      <article-categories>
-        <subj-group subj-group-type="content">
-          <subject>Paper</subject>
-        </subj-group>
-      </article-categories>
-      <title-group>
-        <article-title xml:lang="en">s</article-title>
-      </title-group>
-      <abstract xml:lang="en">
-        <p>s</p>
-      </abstract>
-      <kwd-group xml:lang="en">
-        <s/>
-      </kwd-group>
-    </front-stub>
-    <body>
-      <p>Not in english</p>
-    </body>
-    <back/>
-  </sub-article>
-</root>
+</article>
