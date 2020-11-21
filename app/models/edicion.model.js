@@ -44,7 +44,7 @@ const Edicion = function(edicion) {
   };
 
   Edicion.getAll = result => {
-    sql.query("SELECT e.id,e.titulo,e.volumen,e.numero,p.id,p.descripcion,e.fechaPublicacion FROM ediciones e INNER JOIN periodos p on p.id=e.idPeriodo", (err, res) => {
+    sql.query("SELECT e.id as idEdicion,e.titulo,e.volumen,e.numero,p.id,p.descripcion,e.fechaPublicacion FROM ediciones e INNER JOIN periodos p on p.id=e.idPeriodo", (err, res) => {
       if (err) {
         console.log("error: ", err);
         result(null, err);

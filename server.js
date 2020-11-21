@@ -6,6 +6,9 @@ var xmlbuilder = require('xmlbuilder');
 var doc = xmlbuilder.create('root');
 const fs = require('fs');
 
+const sql = require("./app/models/db.js");
+const Traduccion = require("./app/models/traducciones.model.js");
+
 
 const app = express();
 app.use(cors());
@@ -26,7 +29,6 @@ app.get("/", (req, res) => {
 });
 
 app.post('/api/traducir',(req,res)=>{
-  console.log("reqquestttttttttt------------------")
   let data = '';
   var jsonGalerada;
   
@@ -37,7 +39,47 @@ app.post('/api/traducir',(req,res)=>{
     //console.log(JSON.parse(data)) // 'Buy the milk'
     jsonGalerada=JSON.parse(data);
     //console.log(data.TituloArticulo);
-    console.log(jsonGalerada.BodyCuerpoCompleto[0].titulo);
+    
+    var todosAutoresArray=[];
+    var todosAutores=jsonGalerada.Autores.split(",")
+    var contadorAutores=0;
+    for(var i=0;i<todosAutores.length;i++){
+      if(i%2==0){
+        var nombreSinEspacios=todosAutores[i].trim();
+        var nombreCompleto=nombreSinEspacios.split(" ");
+        var surNames="";
+        var givenNames="";
+        if(nombreCompleto.length=="2"){
+          surNames=nombreCompleto[1]
+          givenNames=nombreCompleto[0];
+        }else  if(nombreCompleto.length=="3"){
+           surNames=nombreCompleto[1]+" "+nombreCompleto[2];
+           givenNames=nombreCompleto[0];
+
+          
+        }else if(nombreCompleto.length=="4"){
+          surNames=nombreCompleto[2]+" "+nombreCompleto[3];
+          givenNames=nombreCompleto[0]+" "+nombreCompleto[1];
+        }
+
+        todosAutoresArray[contadorAutores] = {
+          'contrib': {
+            '@contrib-type': 'author',
+            'name': {
+              'surname': surNames,
+              'given-names': givenNames
+            },
+            'xref': {
+              '@ref-type': 'aff',
+              '@rid': 'aff1',
+              'sup': '1'
+            }
+          }
+        }
+        contadorAutores++;
+      }
+    }
+    
 
     var todosContenido=[];
     for(var j=0;j<jsonGalerada.ContenidoIntroduccion.length;j++){
@@ -45,6 +87,8 @@ app.post('/api/traducir',(req,res)=>{
         'p': jsonGalerada.ContenidoIntroduccion[j]
       }
     }
+
+    
 
     var todosContenido=[];
     for(var j=0;j<jsonGalerada.ContenidoIntroduccion.length;j++){
@@ -68,12 +112,20 @@ app.post('/api/traducir',(req,res)=>{
     }
     var palabrasClavesCar=jsonGalerada.PalabrasClavesCar.split(";")
     var todasPalabrasClaves=[];
-    console.log(palabrasClavesCar);
     for(var p=0;p<palabrasClavesCar.length;p++){
       todasPalabrasClaves[p]={
         'kwd':palabrasClavesCar[p]
       }
     }
+
+    var palabrasClavesCarEN=jsonGalerada.KeywordsCar.split(";")
+    var todasPalabrasClavesEN=[];
+    for(var p=0;p<palabrasClavesCarEN.length;p++){
+      todasPalabrasClavesEN[p]={
+        'kwd':palabrasClavesCarEN[p]
+      }
+    }
+
 
     var todosCuerpoDocumento=[];
     var bodyDocumentoCuerpoComplento=[];
@@ -94,12 +146,49 @@ app.post('/api/traducir',(req,res)=>{
     }
 
     var arrayDoi=jsonGalerada.Encabezado1.split(" ");
-    var textoDoiArticleId=arrayDoi[1];
-    console.log(textoDoiArticleId);
+    var textoDoiArticleId=arrayDoi[1];  
     var textoDoiJourlnalId=arrayDoi[1].split("/");
-    console.log(textoDoiJourlnalId);
     var arrayTextoFinalJournal=textoDoiJourlnalId[1].split(".");
     var textoFinalJournalId=textoDoiJourlnalId[0]+"/"+arrayTextoFinalJournal[0];
+
+
+    var fechasRecibidoAceptado=jsonGalerada.FechasEsp.split(".");
+    var fechasRecibidoArray=fechasRecibidoAceptado[0].split(":");
+    var fechasAceptadoArray=fechasRecibidoAceptado[1].split(":");;
+
+
+    var dateHash = {
+      Enero : 1,
+      Febrero: 2,
+      Marzo: 3,
+      Abril: 4,
+      Mayo: 5,
+      Junio: 6,
+      Julio: 7,
+      Agosto: 8,
+      Septiembre: 9,
+      Octubre: 10,
+      Noviembre: 11,
+      Diciembre: 12
+     };
+
+
+     var fechaSeparada=fechasRecibidoArray[1].split("de");
+
+     var mesNumberoRecibido=dateHash[fechaSeparada[1].trim()];
+     var diaNumeroRecibido=fechaSeparada[0].trim();
+     var anioNumerRoecibido=fechaSeparada[2].trim();
+     //console.log(mesNumbero);
+
+     var fechaAceptadoSeparada =fechasAceptadoArray[1].split("de");
+     var mesNumberoAceptado=dateHash[fechaAceptadoSeparada[1].trim()];
+     var diaNumeroAceptado=fechaAceptadoSeparada[0].trim();
+     var anioNumeroAceptado=fechaAceptadoSeparada[2].trim();
+
+
+     var fechaPublicacion=jsonGalerada.InformacionEdicion.fechaPublicacion.split("-");
+     var mesPublicacion=fechaPublicacion[1];
+     var anioPublicacion=fechaPublicacion[0];
 
 
     var xml = xmlbuilder.create('article', { version: '1.0', encoding: 'UTF-8' }, { sysID: 'https://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd' })
@@ -134,7 +223,7 @@ app.post('/api/traducir',(req,res)=>{
       .up()
       .com('AUTORES')
       .ele('contrib-group')
-        .ele('s').up()//Imprime todos los autores
+        .ele(todosAutoresArray).up()//Imprime todos los autores
       .up()
       .com('AFILIACIONES')
   .ele('aff', {'id': 'aff1'})
@@ -146,36 +235,41 @@ app.post('/api/traducir',(req,res)=>{
           .ele('email', 's').up()
         .up()
       .up()
-      .ele('pub-date', { 'pub-type': 'epub-ppub' })
-        .ele('month', 's').up()
-        .ele('year', 's').up()
-      .up()
-      .ele('volume', 's').up()
-      .ele('issue', 's').up()
-      .ele('fpage', 's').up()
-      .ele('lpage', 's').up()
-      .ele('history')
-        .ele('date', { 'date-type': 'received' })
-          .ele('day', 's').up()
-          .ele('month', 's').up()
-          .ele('year', 's').up()
-        .up()
-        .ele('date', { 'date-type': 'accepted' })
-          .ele('day', 's').up()
-          .ele('month', 's').up()
-          .ele('year', 's').up()
-        .up()
-      .up()
       .ele('abstract', { 'xml:lang': 'es' })
-        .ele('p', jsonGalerada.Abstract).up()
+        .ele('sec')
+        .ele('tittle', 'RESUMEN').up()
+        .ele('p', jsonGalerada.ResumenCuerpo).up()
+        .up()
       .up()
       .ele('kwd-group', { 'xml:lang': 'es' })
         .ele(todasPalabrasClaves).up()//Imprime todas las palabras claves
       .up()
-      .ele('counts')
-        .ele('fig-count', {'count': '5'}).up()
-        .ele('ref-count', {'count': 's'}).up()
-        .ele('page-count', {'count': ('s').toString()}).up()
+      .ele('pub-date', { 'pub-type': 'epub-ppub' })
+        .ele('month', mesPublicacion).up()
+        .ele('year', anioPublicacion).up()
+      .up()
+      .ele('volume', jsonGalerada.InformacionEdicion.volumen).up()
+      .ele('issue', jsonGalerada.InformacionEdicion.numero).up()
+      .ele('history')
+        .ele('date', { 'date-type': 'received' })
+          .ele('day', diaNumeroRecibido).up()
+          .ele('month', mesNumberoRecibido).up()
+          .ele('year', anioNumerRoecibido).up()
+        .up()
+        .ele('date', { 'date-type': 'accepted' })
+          .ele('day', diaNumeroAceptado).up()
+          .ele('month', mesNumberoAceptado).up()
+          .ele('year', anioNumeroAceptado).up()
+        .up()
+      .up()
+      .ele('abstract', { 'xml:lang': 'en' })
+        .ele('sec')
+        .ele('tittle', 'ABSTRACT').up()
+        .ele('p', jsonGalerada.Abstract).up()
+        .up()
+      .up()
+      .ele('kwd-group', { 'xml:lang': 'en' })
+        .ele(todasPalabrasClavesEN).up()//Imprime todas las palabras claves
       .up()
     .up()//Fin Article Meta
   .up()//FIN FRONT
@@ -187,13 +281,15 @@ app.post('/api/traducir',(req,res)=>{
     .up()  
     .ele('sec')
       .ele(todosCuerpoDocumento).up()
-   .up() 
+   .up()
+   .ele('sec', { 'sec-type': 'conclusions' })
+   .ele('title', jsonGalerada.TituloConclusiones).up()
+    .ele('p', jsonGalerada.ContenidoConclusiones).up()
+   .up()
   .up()//Fin BODY
   .com('BACK')
   .ele('back')//Inicio BACK
     .ele('ack')
-      .ele('title', jsonGalerada.TituloConclusiones).up()
-      .ele('p', jsonGalerada.ContenidoConclusiones).up()
       .ele('title', jsonGalerada.TituloAgradecimientos).up()
       .ele('p', jsonGalerada.ContenidoAgradecimientos).up()
     .up()
@@ -206,6 +302,23 @@ app.post('/api/traducir',(req,res)=>{
   .end({ pretty: true });
   
       const xmldoc = xml.toString({ pretty: true });
+
+      const traduccion = new Traduccion({
+        idEdicion: jsonGalerada.InformacionEdicion.idEdicion,
+        fechaTraduccion: req.body.primerApellido,
+        xmlTraduccion: xmldoc
+      });
+
+      sql.query("INSERT INTO traducciones SET ?", traduccion, (err, res) => {
+        if (err) {
+          console.log("error: ", err);
+          result(err, null);
+          return;
+        }
+    
+        console.log("created customer: ", { id: res.insertId, ...traduccion });
+       // result(null, { id: res.insertId, ...traduccion });
+      });
   
       fs.writeFileSync('./subidas/prueba'+'articleId'+1+'.xml', xmldoc, function (err) { //
         if (err) { return console.log(err); }
@@ -231,6 +344,7 @@ require("./app/routes/usuario.routes.js")(app);
 require("./app/routes/edicion.routes.js")(app);
 require("./app/routes/periodo.routes.js")(app);
 require("./app/routes/correo.routes.js")(app);
+require("./app/routes/traducciones.routes.js")(app);
 // set port, listen for requests
 
 app.use(function (req, res, next) {
