@@ -98,6 +98,15 @@ app.post('/api/traducir',(req,res)=>{
     }
 
 
+    var todosContenidoConclusiones=[];
+    for(var j=0;j<jsonGalerada.ContenidoConclusiones.length;j++){
+      todosContenidoConclusiones[j] = {
+        'p': jsonGalerada.ContenidoConclusiones[j]
+      }
+    }
+
+
+
     var todasReferencias=[];
     for(var j=0;j<jsonGalerada.referencias.length;j++){
       var arrayRef=jsonGalerada.referencias[j].split(" ");
@@ -126,6 +135,8 @@ app.post('/api/traducir',(req,res)=>{
       }
     }
 
+    
+
 
     var todosCuerpoDocumento=[];
     var bodyDocumentoCuerpoComplento=[];
@@ -145,11 +156,17 @@ app.post('/api/traducir',(req,res)=>{
       bodyDocumentoCuerpoComplento.push({'sec':todosCuerpoDocumento});
     }
 
-    var arrayDoi=jsonGalerada.Encabezado1.split(" ");
+    var DOI=jsonGalerada.DOI.replace("\n","")
+    var arrayDoi=DOI.split(":");
+    console.log(arrayDoi);
     var textoDoiArticleId=arrayDoi[1];  
     var textoDoiJourlnalId=arrayDoi[1].split("/");
     var arrayTextoFinalJournal=textoDoiJourlnalId[1].split(".");
     var textoFinalJournalId=textoDoiJourlnalId[0]+"/"+arrayTextoFinalJournal[0];
+
+    /*var textoDoiArticleId="dsadsa";
+    var textoFinalJournalId="dsadsa";*/
+
 
 
     var fechasRecibidoAceptado=jsonGalerada.FechasEsp.split(".");
@@ -189,123 +206,131 @@ app.post('/api/traducir',(req,res)=>{
      var fechaPublicacion=jsonGalerada.InformacionEdicion.fechaPublicacion.split("-");
      var mesPublicacion=fechaPublicacion[1];
      var anioPublicacion=fechaPublicacion[0];
+     console.log(jsonGalerada.TituloConclusiones);
+
+     
+       console.log("dif null")
+      var xml = xmlbuilder.create('article', { version: '1.0', encoding: 'UTF-8' }, { sysID: 'https://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd' })
+      .att('xmlns:xlink', 'http://www.w3.org/1999/xlink')
+      .att('xmlns:mml', 'http://www.w3.org/1998/Math/MathML')
+      .att('dtd-version', '1.0')
+      .att('article-type', 'rapid-communication')
+      .att('xml:lang', 'es')
+    .com('FRONT')
+    .ele('front')//Inicio FRONT
+      .ele('journal-meta')//Inicio Journal Meta
+        .ele('journal-id', { 'journal-id-type': 'doi' }, textoFinalJournalId).up()
+        .ele('journal-title-group')
+          .ele('journal-title', 'Revista Politécnica').up()
+          .ele('abbrev-journal-title', {'abbrev-type': 'publisher'}, 'Revista Politécnica').up()
+        .up()
+        .ele('issn', { 'pub-type': 'ppub' }, '1900-2351').up()
+        .ele('issn', { 'pub-type': 'epub' }, '2256-5353').up()
+        .ele('publisher')
+          .ele('publisher-name', 'Politécnico Colombiano Jaime Isaza Cadavid').up()
+        .up()
+      .up()//Fin Journal Meta
+      .ele('article-meta')//Inicio Article Meta
+        .ele('article-id', { 'pub-id-type': 'doi' },textoDoiArticleId).up()
+        .ele('article-categories')
+          .ele('subj-group', { 'subj-group-type': 'contenido' })
+            .ele('subject', 'Artículo').up()
+          .up()
+        .up()
+        .ele('title-group')
+          .ele('article-title', {'xml:lang': 'es'}, jsonGalerada.TituloArticulo).up()
+        .up()
+        .com('AUTORES')
+        .ele('contrib-group')
+          .ele(todosAutoresArray).up()//Imprime todos los autores
+        .up()
+        .com('AFILIACIONES')
+    .ele('aff', {'id': 'aff1'})
+      .ele('label', '1').up()
+    .up()
+        .ele('author-notes')
+          .ele('corresp')
+            .ele('label', 'Correspondencia | Correspondence').up()
+            .ele('email', 's').up()
+          .up()
+        .up()
+        .ele('abstract', { 'xml:lang': 'es' })
+          .ele('sec')
+          .ele('tittle', 'RESUMEN').up()
+          .ele('p', jsonGalerada.ResumenCuerpo).up()
+          .up()
+        .up()
+        .ele('kwd-group', { 'xml:lang': 'es' })
+          .ele(todasPalabrasClaves).up()//Imprime todas las palabras claves
+        .up()
+        .ele('pub-date', { 'pub-type': 'epub-ppub' })
+          .ele('month', mesPublicacion).up()
+          .ele('year', anioPublicacion).up()
+        .up()
+        .ele('volume', jsonGalerada.InformacionEdicion.volumen).up()
+        .ele('issue', jsonGalerada.InformacionEdicion.numero).up()
+        .ele('history')
+          .ele('date', { 'date-type': 'received' })
+            .ele('day', diaNumeroRecibido).up()
+            .ele('month', mesNumberoRecibido).up()
+            .ele('year', anioNumerRoecibido).up()
+          .up()
+          .ele('date', { 'date-type': 'accepted' })
+            .ele('day', diaNumeroAceptado).up()
+            .ele('month', mesNumberoAceptado).up()
+            .ele('year', anioNumeroAceptado).up()
+          .up()
+        .up()
+        .ele('abstract', { 'xml:lang': 'en' })
+          .ele('sec')
+          .ele('tittle', 'ABSTRACT').up()
+          .ele('p', jsonGalerada.Abstract).up()
+          .up()
+        .up()
+        .ele('kwd-group', { 'xml:lang': 'en' })
+          .ele(todasPalabrasClavesEN).up()//Imprime todas las palabras claves
+        .up()
+      .up()//Fin Article Meta
+    .up()//FIN FRONT
+    .com('BODY')
+    .ele('body')//Inicio BODY
+      .ele('sec')
+        .ele('tittle', jsonGalerada.TituloIntroduccion).up()
+        .ele(todosContenido).up()
+      .up()  
+      .ele('sec')
+        .ele(todosCuerpoDocumento).up()
+     .up()
+     .ele('sec', { 'sec-type': 'conclusions' })
+     .ele('title', jsonGalerada.TituloConclusiones).up()
+      .ele(todosContenidoConclusiones).up()
+     .up()
+    .up()//Fin BODY
+    .com('BACK')
+    .ele('back')//Inicio BACK
+      .ele('ack')
+        .ele('title', jsonGalerada.TituloAgradecimientos).up()
+        .ele('p', jsonGalerada.ContenidoAgradecimientos).up()
+      .up()
+      .com('REFERENCIAS')
+      .ele('ref-list')
+        .ele('title', 'REFERENCIAS').up()
+        .ele(todasReferencias).up()
+      .up()
+    .up()//Fin BACK  
+    .end({ pretty: true });
+     
+     
 
 
-    var xml = xmlbuilder.create('article', { version: '1.0', encoding: 'UTF-8' }, { sysID: 'https://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd' })
-    .att('xmlns:xlink', 'http://www.w3.org/1999/xlink')
-    .att('xmlns:mml', 'http://www.w3.org/1998/Math/MathML')
-    .att('dtd-version', '1.0')
-    .att('article-type', 'rapid-communication')
-    .att('xml:lang', 'es')
-  .com('FRONT')
-  .ele('front')//Inicio FRONT
-    .ele('journal-meta')//Inicio Journal Meta
-      .ele('journal-id', { 'journal-id-type': 'doi' }, textoFinalJournalId).up()
-      .ele('journal-title-group')
-        .ele('journal-title', 'Revista Politécnica').up()
-        .ele('abbrev-journal-title', {'abbrev-type': 'publisher'}, 'Revista Politécnica').up()
-      .up()
-      .ele('issn', { 'pub-type': 'ppub' }, '1900-2351').up()
-      .ele('issn', { 'pub-type': 'epub' }, '2256-5353').up()
-      .ele('publisher')
-        .ele('publisher-name', 'Politécnico Colombiano Jaime Isaza Cadavid').up()
-      .up()
-    .up()//Fin Journal Meta
-    .ele('article-meta')//Inicio Article Meta
-      .ele('article-id', { 'pub-id-type': 'doi' },textoDoiArticleId).up()
-      .ele('article-categories')
-        .ele('subj-group', { 'subj-group-type': 'contenido' })
-          .ele('subject', 'Artículo').up()
-        .up()
-      .up()
-      .ele('title-group')
-        .ele('article-title', {'xml:lang': 'es'}, jsonGalerada.TituloArticulo).up()
-      .up()
-      .com('AUTORES')
-      .ele('contrib-group')
-        .ele(todosAutoresArray).up()//Imprime todos los autores
-      .up()
-      .com('AFILIACIONES')
-  .ele('aff', {'id': 'aff1'})
-    .ele('label', '1').up()
-  .up()
-      .ele('author-notes')
-        .ele('corresp')
-          .ele('label', 'Correspondencia | Correspondence').up()
-          .ele('email', 's').up()
-        .up()
-      .up()
-      .ele('abstract', { 'xml:lang': 'es' })
-        .ele('sec')
-        .ele('tittle', 'RESUMEN').up()
-        .ele('p', jsonGalerada.ResumenCuerpo).up()
-        .up()
-      .up()
-      .ele('kwd-group', { 'xml:lang': 'es' })
-        .ele(todasPalabrasClaves).up()//Imprime todas las palabras claves
-      .up()
-      .ele('pub-date', { 'pub-type': 'epub-ppub' })
-        .ele('month', mesPublicacion).up()
-        .ele('year', anioPublicacion).up()
-      .up()
-      .ele('volume', jsonGalerada.InformacionEdicion.volumen).up()
-      .ele('issue', jsonGalerada.InformacionEdicion.numero).up()
-      .ele('history')
-        .ele('date', { 'date-type': 'received' })
-          .ele('day', diaNumeroRecibido).up()
-          .ele('month', mesNumberoRecibido).up()
-          .ele('year', anioNumerRoecibido).up()
-        .up()
-        .ele('date', { 'date-type': 'accepted' })
-          .ele('day', diaNumeroAceptado).up()
-          .ele('month', mesNumberoAceptado).up()
-          .ele('year', anioNumeroAceptado).up()
-        .up()
-      .up()
-      .ele('abstract', { 'xml:lang': 'en' })
-        .ele('sec')
-        .ele('tittle', 'ABSTRACT').up()
-        .ele('p', jsonGalerada.Abstract).up()
-        .up()
-      .up()
-      .ele('kwd-group', { 'xml:lang': 'en' })
-        .ele(todasPalabrasClavesEN).up()//Imprime todas las palabras claves
-      .up()
-    .up()//Fin Article Meta
-  .up()//FIN FRONT
-  .com('BODY')
-  .ele('body')//Inicio BODY
-    .ele('sec')
-      .ele('tittle', jsonGalerada.TituloIntroduccion).up()
-      .ele(todosContenido).up()
-    .up()  
-    .ele('sec')
-      .ele(todosCuerpoDocumento).up()
-   .up()
-   .ele('sec', { 'sec-type': 'conclusions' })
-   .ele('title', jsonGalerada.TituloConclusiones).up()
-    .ele('p', jsonGalerada.ContenidoConclusiones).up()
-   .up()
-  .up()//Fin BODY
-  .com('BACK')
-  .ele('back')//Inicio BACK
-    .ele('ack')
-      .ele('title', jsonGalerada.TituloAgradecimientos).up()
-      .ele('p', jsonGalerada.ContenidoAgradecimientos).up()
-    .up()
-    .com('REFERENCIAS')
-    .ele('ref-list')
-      .ele('title', 'REFERENCIAS').up()
-      .ele(todasReferencias).up()
-    .up()
-  .up()//Fin BACK  
-  .end({ pretty: true });
+   
   
       const xmldoc = xml.toString({ pretty: true });
 
       const traduccion = new Traduccion({
         idEdicion: jsonGalerada.InformacionEdicion.idEdicion,
-        fechaTraduccion: req.body.primerApellido,
+        tituloArticulo: jsonGalerada.TituloArticulo,
+        fechaTraduccion: new Date(),
         xmlTraduccion: xmldoc
       });
 

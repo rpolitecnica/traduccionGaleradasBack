@@ -16,22 +16,22 @@
       </publisher>
     </journal-meta>
     <article-meta>
-      <article-id pub-id-type="doi">10.33571/rpolitec.v16n31a6</article-id>
+      <article-id pub-id-type="doi">10.33571/rpolitec.v16n31a8</article-id>
       <article-categories>
         <subj-group subj-group-type="contenido">
           <subject>Artículo</subject>
         </subj-group>
       </article-categories>
       <title-group>
-        <article-title xml:lang="es">PROPIEDADES MECÁNICAS DE CONCRETOS
-MODIFICADOS CON PLASTICO MARINO RECICLADO EN REEMPLAZO DE LOS AGREGADOS FINOS</article-title>
+        <article-title xml:lang="es">DISPOSITIVOS MÓVILES EN LA EDUCACIÓN:
+TENDENCIAS E IMPACTO PARA LA INNOVACIÓN</article-title>
       </title-group>
       <!-- AUTORES -->
       <contrib-group>
         <contrib contrib-type="author">
           <name>
-            <surname>Venitez Mosquera1</surname>
-            <given-names>Jhon Fishman</given-names>
+            <surname>Pascuas-Rengifo 1</surname>
+            <given-names>Yois Smith</given-names>
           </name>
           <xref ref-type="aff" rid="aff1">
             <sup>1</sup>
@@ -39,27 +39,8 @@ MODIFICADOS CON PLASTICO MARINO RECICLADO EN REEMPLAZO DE LOS AGREGADOS FINOS</a
         </contrib>
         <contrib contrib-type="author">
           <name>
-            <surname>Córdoba-Palacios1</surname>
-            <given-names>Yuliana
-Marcela</given-names>
-          </name>
-          <xref ref-type="aff" rid="aff1">
-            <sup>1</sup>
-          </xref>
-        </contrib>
-        <contrib contrib-type="author">
-          <name>
-            <surname>Patricia Mena-Ramírez1</surname>
-            <given-names>Karol</given-names>
-          </name>
-          <xref ref-type="aff" rid="aff1">
-            <sup>1</sup>
-          </xref>
-        </contrib>
-        <contrib contrib-type="author">
-          <name>
-            <surname>Arbelaez Pérez2</surname>
-            <given-names>Oscar Felipe</given-names>
+            <surname>Mercado-Varela 3</surname>
+            <given-names>Martin Alonso</given-names>
           </name>
           <xref ref-type="aff" rid="aff1">
             <sup>1</sup>
@@ -79,28 +60,30 @@ Marcela</given-names>
       <abstract xml:lang="es">
         <sec>
           <tittle>RESUMEN</tittle>
-          <p>Los desechos plásticos marinos y su
-baja tasa de reutilización contribuyen a la contaminación ambiental,
-requiriéndose estrategias de valorización. Este trabajo presenta el diseño y la
-preparación de mezclas de concreto tradicional y con reemplazos del 2.5%, 5%,
-7.5% y 10% de los agregados finos por plásticos reciclados del mar. A partir de
-las mezclas preparadas se elaboraron especímenes cilíndricos de 15cmx30cm de
-diámetroxaltura, respectivamente. Se evaluó el asentamiento, la densidad, la
-resistencia y el modulo elástico. Los resultados mostraron que un aumento del
-contenido de plástico reciclado genera una disminución del asentamiento y la
-densidad, así como un aumento de la resistencia y del módulo elástico. Los
-especímenes con sustituciones del 7.5% presentaron la mejor resistencia a
-compresión (18.19 MPa) equivalente al 90.5% del tradicional (20 MPa). Los
-resultados encontrados muestran información valiosa para la valorización de
-desechos plásticos marinos en la elaboración de concretos con resistencias
-moderadas.</p>
+          <p>La innovación es fundamental para el
+desarrollo de nuevos productos que contribuyan a la generación de valor en la
+sociedad. Dentro de la educación, la integración de tecnologías de la
+información y las comunicaciones ha posibilitado la innovación de los procesos
+de enseñanza-aprendizaje, como es el caso de la utilización de dispositivos
+móviles (M-Learning) dentro y fuera del salón de clase. En la presente
+investigación se analiza producción académica sobre la utilización de
+dispositivos móviles con fines educativos, privilegiando el análisis de las
+tendencias e impacto. Los principales hallazgos de esta investigación
+evidencian que la adaptación del M-Learning debe ser una prioridad dado que es
+la base para el desarrollo de otras estrategias como la realidad aumentada,
+realidad virtual, realidad mixta, gamificación, laboratorios virtuales y
+remotos, y la integración de la inteligencia artificial en pro de fortalecer
+los desafíos del sistema educativo.</p>
         </sec>
       </abstract>
       <kwd-group xml:lang="es">
-        <kwd>Residuos
-plásticos</kwd>
-        <kwd> Concretos modificados</kwd>
-        <kwd> Propiedades mecánicas</kwd>
+        <kwd>innovación
+educativa</kwd>
+        <kwd> dispositivos móviles</kwd>
+        <kwd> aprendizaje móvil</kwd>
+        <kwd> tecnologías de la
+información y la comunicación</kwd>
+        <kwd> tendencias educativas.</kwd>
       </kwd-group>
       <pub-date pub-type="epub-ppub">
         <month>02</month>
@@ -110,12 +93,12 @@ plásticos</kwd>
       <issue>3</issue>
       <history>
         <date date-type="received">
-          <day>23</day>
+          <day>25</day>
           <month>2</month>
           <year>2020</year>
         </date>
         <date date-type="accepted">
-          <day>11</day>
+          <day>12</day>
           <month>5</month>
           <year>2020</year>
         </date>
@@ -123,26 +106,27 @@ plásticos</kwd>
       <abstract xml:lang="en">
         <sec>
           <tittle>ABSTRACT</tittle>
-          <p>Plastic waste and its low recycling rate
-contribute to environmental pollution, requiring valorization strategies This
-work presents the design and preparation of traditional and mix concrete with
-replacement of  2.5%, 5.0%, 7.5% and 10% of fine aggregates by recycled plastic
-of the ocean. With the prepared concrete mixes, cylindrical specimens of
-15cmx30mm in diameterxheight, respectively, were made. Slump, density,
-compressive strength, and elasticity modulus were evaluated. The results
-exhibited that an increase in the content of recycled plastic generates a
-decrease in slump and density, as well as an increase in strength and elastic
-modulus. Specimens with 7.5% exhibited the highest strength (18.9 MPa)
-equivalent to 91% of the traditional one (20 MPa). The results gathered would
-form a part of useful information for recycling plastic waste in the
-preparation of concrete that requiring moderate strength.  </p>
+          <p>Innovation is essential for the development
+of new products that contribute to the generation of value in society. Within
+education, the integration of information and communication technologies has
+enabled the innovation of teaching-learning processes, as is the case of the
+use of mobile devices (M-Learning) inside and outside the classroom. This
+research analyzes academic production on the use of mobile devices for
+educational purposes, favoring the analysis of trends and impact. The main
+findings of this research show that the adaptation of M-Learning must be a
+priority since it is the basis for the development of other strategies such as
+augmented reality, virtual reality, mixed reality, gamification, virtual and
+remote laboratories, and integration of artificial intelligence in order to
+strengthen the challenges of the educational system.  </p>
         </sec>
       </abstract>
       <kwd-group xml:lang="en">
-        <kwd>Plastic waste</kwd>
-        <kwd> modified concrete</kwd>
-        <kwd> mechanical
-properties.</kwd>
+        <kwd>educational innovation</kwd>
+        <kwd> mobile devices</kwd>
+        <kwd> mobile
+learning</kwd>
+        <kwd> technology of the information and communication</kwd>
+        <kwd> educational trends.</kwd>
       </kwd-group>
     </article-meta>
   </front>
@@ -150,505 +134,948 @@ properties.</kwd>
   <body>
     <sec>
       <tittle>1.   INTRODUCCIÓN</tittle>
-      <p>La gestión inadecuada de desechos sólidos y en
-particular de los residuos plásticos, se ha convertido en un problema
-medioambiental y de salud pública [1]. Miles de desechos plásticos son
-incinerados, liberando cargas elevadas de contaminantes tóxicos como dióxido de
-carbono (CO2), óxidos de nitrógeno (NOx), y metano (CH4) ,principales
-contribuyentes del efecto invernadero [2], otros, se acumulan en los rellenos
-sanitarios, agotando rápidamente la vida útil del relleno y generando problemas
-por contaminación ambiental y en la salud humana [3], otra parte, se vierte en
-los ríos y luego es transportada largas distancias hasta los mares, donde se
-estima que cada año se vierten aproximadamente  8 millones de toneladas de
-material plástico [4], lo cual, se ha convertido en un problema ambiental grave
-en el siglo XXII [5]. Estados Unidos, Europa y Asia contribuyen con un 40%, 45%
-y 15%, respectivamente, a la generación de residuos plásticos marinos y se ha
-informado que el uso de plásticos se ha multiplicado en un factor de veinte en
-el último medio siglo [6], por tanto, la valorización de estos residuos se ha
-convertido en un desafío en la mayoría de los países.</p>
-      <p>Existen varios tipos de residuos plásticos,
-siendo el polietileno y el tereftalato de polietileno (conocido comúnmente como
-PET, de sus iniciales en inglés), los más comunes en las corrientes de
-desechos, sin embargo, su reutilización está ganando cada vez más terreno en la
-fabricación de ladrillos ecológicos [7], mezclas de concreto [8], mezclas
-asfálticas [9] y como aislante térmico [10].  Específicamente, el tereftalato
-de polietileno reciclado ha sido utilizado en la elaboración de concretos
-ligeros, con densidades entre 300 Kg/m3 y 1850 Kg/m3  [11] y resistencias a la
-compresión alrededor de 21 Mpa, los cuales,  permiten reducir las cargas
-muertas y las fuerzas sísmicas en las estructuras. La densidad y la resistencia
-a la compresión de los concretos livianos  está altamente influenciada por el
-contenido (alrededor del 60%) y la granulometría de los agregados finos (tamaño
-máximo nominal menor a 10 mm)  [12],  de hecho, cuando se desean obtener
-resistencias superiores a 21 MPa se requiere el  uso de aditivos
-plastificantes, los cuales, incrementan los costos de elaboración, por encima
-del 5% con respecto al concreto tradicional [13].</p>
-      <p>Záleská y colaboradores [14] reportaron la
-elaboración de concretos modificados a partir de  residuos de plástico con tamaños
-de partícula menores a 8 mm, los autores reportaron que  reemplazos del 10%,
-20%, 30%, 40% y 50% de los agregados finos presentaron resistencias a la
-compresión del 82%, 59%, 26%, 9% y 7%, respectivamente, con respecto al
-concreto tradicional, comportamiento atribuido a la baja resistencia del
-material plástico y a la poca interacción entre este material y los componentes
-de la matriz de concreto, dada la naturaleza hidrofóbica  del PET [15].
-Asimismo, los autores reportaron, que el aumento en el contenido de reemplazo
-de plástico es inversamente proporcional a la densidad de los especímenes
-preparados, de hecho, para reemplazos del 10%, 20%, 30%, 40% y 50%, se
-observaron disminución en la densidad del 10%, 22%, 36%, 49% y del 57%,
-respectivamente, tendencia atribuida a la menor densidad del plástico reciclado
-en relación a los agregados finos. Asimismo, Alqahtani y colaboradores [15],
-evaluaron el reemplazo del 25%, 50%, 75% y 100%  de los agregados finos por
-plástico reciclado, encontrando que un reemplazo del 25%,  es el más adecuado,
-presentando una resistencia de 26.9 MPa, equivalente al 89% de la resistencia
-del concreto tradicional (30 Mpa).  Thorneycroft y colaboradores [16], también
-prepararon concretos con reemplazos del 10% de los agregados finos por plástico
-reciclado, los autores reportaron un aumento del 1.2% de la resistencia a la
-compresión por encima del material tradicional. Marzouk y colaboradores [17]
-reportaron la utilización de botellas de tereftalato de polietileno como
-sustitutos de los agregados finos, con reemplazos entre el  2% y el 100% en la
-preparación de concretos de los agregados finos, los autores, reportaron que un
-reemplazo del 50%, es el más adecuado, mostrando una disminución de la
-resistencia a la compresión 16% en relación al sistema de referencia. Asimismo,
-los autores reportaron que, en este mismo rango de reemplazo, para
-sustituciones entre el 2% y 100%, se observó una disminución de la densidad
-entre el 5% y el 50%, respectivamente, de hecho, los autores, concluyen que la
-densidad es altamente influenciada por el contenido de material reciclado.</p>
-      <p>Dada la elevada producción de desechos plásticos
-sin planes adecuados de reutilización y valorización, además del potencial uso
-de este material en la generación de concretos modificados, con resistencias
-alrededor de 20 Mpa, en este trabajo se presenta el diseño y la preparación de
-mezclas de concreto tradicional y modificado con reemplazos del 2.5%, 5%, 7% y
-10% de los agregados finos por plástico reciclado del océano. A partir de las
-mezclas preparadas, se elaboraron especímenes cilíndricos de 15cmx30cm de
-diámetroxlongitud, respectivamente. Se evaluaron las propiedades en estado
-fresco (asentamiento) y endurecido (densidad, resistencia a compresión y módulo
-de elasticidad) de los especímenes elaborados.   El presente trabajo apunta a
-potencializar la reutilización de desechos plásticos, en la producción de
-concretos livianos y con resistencias moderadas a la compresión, en aras de
-minimizar el efecto negativo de este tipo de residuos sobre el medio ambiente.</p>
+      <p>La innovación es una prioridad de los gobiernos,
+el valor de las creaciones intelectuales está por encima de las materias primas
+que pueda poseer un país [1]. La educación es uno de los campos que están
+experimentando importantes innovaciones, debido a la necesidad de romper
+paradigmas obsoletos que no convergen con las realidades de la sociedad y la
+desmasificación de las actuales generaciones, las cuales se encuentran
+atiborradas de medios de información y comunicación, que eliminan las barreras
+de inserción a la educación, al punto de considerarse que la academia ha perdido
+el monopolio del conocimiento.</p>
+      <p>Las TIC ofrecen importantes oportunidades a la
+sociedad, pues la inmediatez, la ubicuidad y la reducción de la necesidad de
+traslado son las características más relevantes de estas herramientas. Además,
+hacen parte de la vida cotidiana de las personas, su inmersión en el campo
+educativo es una realidad que ha dado paso al descubrimiento estilos de
+aprendizaje dados por ejemplo por los dispositivos móviles o lo denominado
+Mobile Learning (por sus siglas en inglés M-Learning). Estrategia que permite
+llevar el proceso educativo más allá del aula de clases, transformando el papel
+de los actuales docentes, donde el acceso a la información se ha democratizado
+a través contenidos y plataformas actualizadas. Asistir a los centros
+educativos es una actividad que no se limita a la adquisición de información,
+sino a enriquecer el pensamiento a través del desarrollo de competencias
+actitudinales, ciudadanas y disciplinares.</p>
+      <p>El M-Learning es una estrategia que involucra el
+uso de dispositivos móviles, especialmente celulares y tabletas, en el proceso
+de aprendizaje, el cual requiere del desarrollo tanto de software como de
+hardware, permite la interacción constante entre pares y docentes, haciendo del
+proceso de aprendizaje un espacio de intercambio de ideas y articulación de
+agentes del ecosistema educativo [2, 3].</p>
+      <p>El siguiente artículo contiene una revisión
+sistemática de literatura sobre las tendencias e impacto del el M-Learning y
+cuyo objetivo es pretender responder a interrogantes planteados. Asimismo, se
+encuentra conformado por tres secciones: en primer lugar, se hace la
+conceptualización; en segundo lugar, se realiza una revisión de las
+experiencias relacionadas y finalmente se hace un análisis del impacto y las
+tendencias que presenta el M–Learning como estrategia dentro de las
+innovaciones educativas que integran las TIC.</p>
     </sec>
     <sec>
       <tittle>2.  
-MATERIALES Y METODO</tittle>
-      <subtittle>2.1.  
-Caracterización de los materiales</subtittle>
-      <p>Para la preparación de las mezclas se utilizó cemento
-portland de uso general con una densidad especifica de 3150 Kg/m3 y agua del
-acueducto. La caracterización de los materiales pétreos se realizó de acuerdo a
-las especificaciones de la norma técnica colombiana NTC, tal como se describe a
-continuación: masa unitaria compacta NTC 92 [18], densidad aparente del
-agregado fino NTC 237 [19], densidad aparente del agregado grueso NTC 176 [20]
-y granulometría de los agregados NTC 77 [21]. Para el diseño de las mezclas se
-utilizó una relación agua/cemento de 0.58. El material sustituto de los
-agregados finos, provino de la zona costera del municipio de Turbo, donde se
-hizo la recolección y la clasificación del material, específicamente botellas
-de plástico. El material recolectado se cortó, y se fundió en un horno
-eléctrico Herotec CR-35, utilizando una rampa de calentamiento de 5°C/min hasta
-180°C, una vez alcanzada esta temperatura se mantuvo durante 1.5 h. El sólido
-fundido se presionó en un sistema hidráulico uniaxial a una tonelada métrica
-durante 15 min y luego se cortó en pellets a un tamaño promedio de 4 mm. El
-material elaborado presentó una densidad aparente de 67 Kg/m3.</p>
-      <subtittle>2.2.  
-Diseño de la mezcla</subtittle>
-      <p>La mezcla de concreto tradicional se diseñó para
-alcanzar una resistencia a la compresión de 21 MPa (a los 28 días), tal como la
-describe la metodología ACI 211.18 (American Concrete Institute) [22]. Se
-diseñaron 5 mezclas; una mezcla de referencia y 4 mezclas con reemplazos del
-2.5%, 5%, 7.5% y 10% en masa de los agregados finos, se prepararon tres
-especímenes de concreto por cada mezcla.</p>
-      <subtittle>2.3.  
-Preparación de las mezclas de concreto</subtittle>
-      <p>La preparación de las mezclas de concreto se llevó a
-cabo tal como lo describe Valencia y colaboradores [23], la cual se describe a
-continuación; el agregado grueso se humedeció hasta la condición SSS Saturado
-Superficialmente Seco y se pesó la cantidad requerida en  una balanza de
-precisión. Previo a la preparación de las mezclas, la concretadora se
-humedeció, y en esta, se mezclaron el agregado grueso, el agregado fino y el
-PET por tres minutos hasta obtener una mezcla homogénea. Después se adicionó el
-cemento y el 75% del agua y se mezcló durante 3 minutos. Cuando se visualizaba
-una pasta cohesiva y fluida se agregaba el plástico reciclado y el 25% de agua
-restante y se mezcló por 4 minutos más.   Para analizar las propiedades del
-concreto fresco se realizó  la prueba de asentamiento tal como lo describe la
-norma técnica colombiana NTC 396 [24].</p>
-      <subtittle>2.4.  
-Preparación de los especímenes de concreto tradicional y modificado</subtittle>
-      <p>Se prepararon 3 especímenes cilíndricos de 15cmx30cm
-de diámetroxaltura, respectivamente, como se describe en la norma técnica
-colombiana NTC 550 [25]. Previo a la preparación de los especímenes, el
-interior de los moldes se recubrió con una capa fina de desmoldante Separol
-Ecológico 140902 para prevenir la adherencia del concreto. Los moldes se
-llenaron en tres capas iguales compactadas con 25 golpes distribuidos en toda
-la superficie con una varilla de 16 mm de diámetro. Posteriormente, el molde se
-golpeó 15 veces con un martillo de goma con el propósito de eliminar las burbujas
-de aire de cada una de las capas. La última capa se enrasó con la varilla. Para
-mantener la humedad de los especímenes, la superficie de los moldes se cubrió
-con láminas de polietileno.</p>
-      <subtittle>2.5.  
-Curado de los especímenes cilíndricos</subtittle>
-      <p>Pasadas 24 horas se retiraron los moldes y los
-especímenes de concreto se sumergieron completamente en agua saturada con oxido
-de calcio (3g/L) a temperatura ambiente durante 28 días, tal como lo describe
-la norma técnica colombiana NTC 550.</p>
-      <subtittle>2.6.  
-Evaluación de las propiedades físicas y mecánicas de los concretos
-elaborados</subtittle>
-      <p>La resistencia a compresión f’c se realizó por
-triplicado en una prensa hidráulica HM de compresión de 1500 KN con una
-velocidad de carga de 0,6 MPa/s. El módulo de elasticidad y la densidad de los
-especímenes se evaluaron tal como se describe en las ecuaciones (1) y (2)
-respectivamente.</p>
-      <p>Donde f’c es la resistencia a la compresión del
-concreto en MPa, Ec, módulo de elasticidad en MPa, ρ la densidad del concreto
-en Kg/m3, M la masa del espécimen de concreto en Kg y V volumen del cilindro en
-m3.</p>
-      <tittle>3.   RESULTADOS Y ANALISIS</tittle>
+MATERIALES Y METODOS</tittle>
       <subtittle>s</subtittle>
-      <p>Los resultados de la caracterización de los agregados
-de muestran en la tabla 1.</p>
-      <p>La tabla 1 muestra que tanto la distribución del
-tamaño de los agregados gruesos y finos, así como sus masas unitarias se encuentran
-dentro de los valores recomendados para la elaboración de concretos.</p>
-      <p>La variación del asentamiento del concreto fresco en
-función del contenido de tereftalato de polietileno se presenta en la Figura 1.</p>
-      <p>Figura 1.
-Asentamiento de los especímenes preparados en función del reemplazo de
-tereftalato de polietileno</p>
-      <p>Como se muestra en la Figura 1, el asentamiento es
-influenciado por el contenido de tereftalato de polietileno,  disminuyendo con
-el aumento en el contenido de material reciclado, se observa que un aumento en
-el reemplazo de PET del 2.5%, 5%, 7.5% y 10% genera una disminución del 5%, 8%,
-16% y 17% respectivamente, en relación al material tradicional, el cual
-presenta un asentamiento de 24 cm, este  fenómeno es atribuido  a la forma
-irregular en la cual fue procesado el material reciclado, lo que genera un
-aumento de la fricción entre las partículas y un disminución en la  fluidez de
-la mezcla. Nuestros resultados están acordes con los reportados por Batayneh y
-colaboradores [26], quienes reportaron que un aumento en el reemplazo de los
-agregados finos por partículas de plástico, genera una disminución del
-asentamiento, de hecho, los autores reportaron que para un reemplazo máximo del
-20% de los agregados finos se observó una disminución del 25% en el 
-asentamiento, con respecto a la muestra tradicional. Asimismo, nuestros
-resultados están en línea con los reportados por Ismail y colaboradores [27],
-quienes reportaron disminuciones del 68%, 88% y 95% en el asentamiento, para
-reemplazos del 10%, 15% y 20%, respectivamente de los agregados finos por
-desechos de PET. Los autores atribuyeron la disminución del asentamiento a las
-formas irregulares de los plásticos reciclados, los cuales presentaron bordes más
-afilados que el agregado fino, generando una menor fluidez de la mezcla,
-reflejada en una disminución en el asentamiento. Los valores del asentamiento
-encontrados en este trabajo pueden considerarse aceptables en el rango de
-reemplazo evaluado. En general, los especímenes preparados con reemplazo de los
-agregados finos producen una trabajabilidad favorable en términos de facilidad
-de manejo, colocación y acabado. De hecho, la trabajabilidad se encuentra
-dentro de los limites (asentamiento = 0–25 mm) para aplicaciones en concreto
-vibrado en carreteras y en concretos bombeables.</p>
-      <p>Los resultados de la densidad de los
-especímenes preparados en estado endurecido (a los 28 días) se muestran en la
-Figura 2.</p>
-      <p>Figura
-2. Densidad de los especímenes preparados en función del reemplazo de los
-agregados finos.</p>
-      <p>De la figura 2 se puede observar que un
-aumento en el contenido de PET reciclado, disminuye la densidad de los
-especímenes preparados, se observa que para porcentajes de reemplazo de PET del
-2.5%, 5%, 7.5% y 10% las densidades fueron del 96%, 94%, 91% y 90% de la
-densidad del concreto tradicional, lo cual se atribuye a la menor densidad del
-plástico reciclado (67 Kg/m3), la cual representa solo un 2.5 % de la densidad
-de los agregados finos (2710 Kg/m3). Nuestros resultados son acordes a los
-reportados por Zainab y colaboradores [27], quienes reportaron una relación
-inversa entre el contenido de plástico reciclado y la densidad del concreto
-endurecido, de hecho, los autores encontraron a los 28 días, disminuciones en
-la densidad de los concretos del 4%, 7% y 9% para sustituciones del 10%, 15% y
-20%, respectivamente de los agregados finos por plástico reciclado. Los autores
-asociaron esta disminución en la densidad de los concretos con el aumento del
-contenido de plástico reciclado a la menor densidad, la cual representó solo un
-69.7% de densidad de los agregados finos. De la misma manera, nuestros
-resultados estuvieron en línea con los reportados por Akçaözog˘lu y
-colaboradores [28], quienes encontraron una reducción en la densidad de
-concretos preparados a partir de residuos de botellas de PET trituradas en
-reemplazo de los agregados finos, dada la menor gravedad especifica de los
-residuos de plástico en relación a los agregados. Así mismo, se ha reportado
-que la sustitución de agregados finos por tereftalato de polietileno (material
-de naturaleza no polar), genera una tendencia a repeler el agua y atrapar aire
-dentro de su superficie [29]. Rashid y colaboradores [30] reportaron que un 14%
-de aire atrapado reduce la resistencia del concreto en un 45% por tanto, un
-aumento en el contenido de tereftalato de polietileno, genera un mayor
-contenido de aire atrapado en la mezcla, lo cual permite un aumento en la
-porosidad y una disminución de la densidad tal como se observó en los
-resultados encontrados.</p>
-      <p>La resistencia a la compresión de los
-especímenes preparados se muestra en la Figura 3.</p>
-      <p>Figura 3.
-Resistencia a la compresión de los especímenes preparados en función del
-reemplazo de los agregados finos.</p>
-      <p>Los resultados de la Figura 3 muestran que la
-resistencia a la compresión está directamente relacionada con el contenido de
-material reciclado, se observa que un aumento en el contenido de reemplazo de
-material reciclado en un rango entre 2.5% y 7.5% genera un aumento en la
-resistencia a la compresión, alcanzando un valor máximo de 18.19 Mpa para un
-reemplazo de 7.5%, la cual representa el 90.5% de la resistencia del material
-tradicional, la cual se encuentra en un valor superior a la resistencia a la
-compresión mínima requerida para un concreto estructural (17.24 Mpa), este
-comportamiento  se atribuye a la fuerza de cohesión entre los residuos
-plásticos y la pasta de cemento, así como también  a la naturaleza hidrofóbica
-del material reciclado, la cual puede restringir la entrada de agua necesaria
-para la hidratación del cemento a través de los poros del concreto durante el
-proceso de curado. De la Figura 3, se puede apreciar que un reemplazo superior
-al 7.5% genera una disminución en la resistencia a la compresión. En el rango
-de reemplazo entre 2.5% y 7.5% se encontró una tendencia contraria a la
-reportada por Batayneh y colaboradores [26] quienes reportaron que en todo el
-rango de reemplazo, la resistencia a la compresión disminuyó con el aumento en
-el contenido de PET reciclado. Los resultados reportados por Batayneh y
-colaboradores [26], reportaron que reemplazos del 5% y del 10% de los agregados
-finos por plástico reciclado generan  disminuciones del 23% y del 38.8% en la
-resistencia a la compresión, los cuales fueron mayores a las disminuciones
-encontradas en este trabajo, donde se observó que para los especímenes del 5%,
-7.5% y 10% se observaron disminuciones del  20%, 9.5% y 22.5 % en la
-resistencia a la compresión, respectivamente. La diferencia con nuestros
-resultados puede atribuirse a la alta resistencia obtenida por el plástico
-reciclado durante su proceso de pelletización, generando una menor
-deformabilidad de la reportada por Batayneh, quienes solo reportaron la
-trituración de los residuos en la preparación de los concretos modificados.</p>
-      <p>La Figura  4 muestra los resultados del módulo de
-elasticidad de los materiales preparados.</p>
-      <p>Figura 4.
-Módulo de elasticidad de los especímenes preparados en función del reemplazo de
-los agregados finos</p>
-      <p>El módulo de elasticidad presenta la misma tendencia
-que la resistencia a la compresión, la cual, acorde a la ecuación 1es
-directamente proporcional a la compresión. Este comportamiento se atribuye a al
-aporte individual de cada uno de los materiales constitutivos al módulo de
-elasticidad del concreto de cada de sus materiales constitutivos. El
-comportamiento del módulo de elasticidad está relacionado con la reducción de
-la densidad de los concretos preparados. Este hallazgo indica la influencia
-positiva de la sustitución de los agregados silíceos con agregados plásticos
-reciclados.</p>
-      <p>Con respecto a los costos de producción del concreto,
-los especímenes cilíndricos con un reemplazo del 7.5% de los agregados finos
-por material reciclable, se observó una disminución del 6% por cada metro
-cubico de concreto, lo cual, permite determinar que el uso de este tipo de
-residuos no solo permite la reutilización de materiales de desecho, sino
-también la reducción de los costos de producción.</p>
+      <p>La revisión de literatura es un proceso de gran apoyo
+para el conocimiento científico, ya que los hallazgos y contribuciones que se
+generan luego de la búsqueda, ordenamiento y análisis crítico de los documentos
+seleccionados, generan un conocimiento actualizado sobre el tema de interés,
+además de identificar tendencias de investigación y soporte para nuevas [4, 5].</p>
+      <p>De esta manera, el presente artículo presenta la
+selección de estudios primarios sobre prácticas y experiencias de M-Learning,
+se realizaron consultas en diferentes bases de datos y motores de búsqueda,
+fuentes válidas y confiables de información académica y científica como:
+Scopus, Springer, Science Direct, Association for Computing Machinery y Scielo.
+El criterio de búsqueda y selección de documentos estuvo relacionado bajo las
+palabras claves M-Learning, Mobile Learning, tendencias del M-Learning, e
+impacto del aprendizaje móvil de la producción académica publicada entre el
+2014-2018, con el objetivo principal de responder los siguientes interrogantes
+planteados:</p>
+      <p>1) ¿Cuáles son las principales tendencias en la
+utilización del M-Learning?</p>
+      <p>2) ¿Cuál ha sido el impacto sobre los procesos de enseñanza-aprendizaje
+del M-Learning?</p>
+      <p>El proceso de búsqueda incluyó la identificación de
+artículos científicos, capítulos de libros, libros especializados y memorias de
+evento, que presentarán relación con experiencias relacionadas con las palabras
+claves y con las preguntas orientadoras. De los estudios encontrados se
+excluyeron los documentos que no pertenecían a revistas indexadas y de
+reconocimiento académico y científico o que no hayan tenido un proceso de
+evaluación y control de calidad realizada por pares académicos.</p>
+      <tittle>3.   RESULTADOS</tittle>
+      <subtittle>3.1.  
+Tecnología móvil para innovar</subtittle>
+      <p>El término TIC se ha masificado de manera
+considerable en muchos campos, ha sido el responsable en gran medida de lo que
+se denomina la sociedad del conocimiento; y es gracias a la innovación que
+estas herramientas permiten la recolección, almacenamiento, tratamiento,
+difusión y transmisión de información que genera impacto en la sociedad [6].</p>
+      <p> La innovación se podría denominar como la generación
+de una mejor versión de procesos y productos a través del uso de conocimiento
+antiguo y/o nuevo, con el fin de obtener beneficios generalmente económicos
+[7]. Innovar es un proceso que requiere de entrenamiento constante, pensamiento
+crítico y un alto sentido de premura para determinar el momento de desaprender,
+aprender o reaprender; esto acompañado de una rica interacción con equipos de
+trabajo [8]. La colaboración de estos equipos es fundamental en cualquier
+proceso de innovación, pues, el tránsito de ideas no debe verse limitado por su
+origen, sino por su capacidad de impacto, lo que ha permitido que pares e
+incluso competidores colaboren para compartir riesgos [9].</p>
+      <p>Aunque los términos TIC e innovación se han asociado
+generalmente a la ingeniería computacional, es de resaltar el impacto que han
+tenido en el campo educativo. La innovación educativa es la introducción de
+cambios en los procesos formativos y de aprendizaje [10], los cuales deben ser
+sostenibles, replicables, adaptables, eficientes y eficaces. Aunque el proceso
+requiera la introducción de tecnología, ésta no debe ser la condición
+preponderante, ya que están para facilitar y acondicionar la implementación de
+enfoques pedagógicos. La innovación educativa contribuye a la integración socioeducativa
+de los estudiantes [11], la cual debe tener como características fundamentales
+la equidad, colaboración y participación de todos los agentes educativos.</p>
+      <p>Por su parte se plantea que la innovación educativa
+apoya el aprendizaje, la profesionalización, la cobertura, la graduación, ya
+que llena de confianza a los estudiantes y estimula la necesidad de avanzar
+[12]. Además, reinventa la práctica docente, lo que conduce a mejorar
+significativamente la autoestima y sentido de pertenencia por la institución.
+Sin embargo, ello implica el cambio en patrones culturales [13].</p>
+      <p>En adición, la implementación de las TIC en el
+proceso educativo contribuye a que los estudiantes tengan mayor deseo de
+aprendizaje y adquirir autonomía, ya que es un medio flexible, dinámico, y que
+permite estar en contacto con equipos de trabajo [14]. Sin embargo, las
+perspectivas no son las únicas que se modifican, pues, patrones de
+comportamiento también se ven alterados al introducir innovaciones en la
+educación. Por otro lado, estos procesos de transformación educativa permiten
+una reorientación en el papel del aprendizaje, pues gracias a la tecnología se
+pueden organizar ecosistemas de trabajo que resuelvan problemas auténticos del
+mundo real, para ello, un profesor podría utilizar una lista de competencias
+individuales como: la resolución creativa de problemas, el pensamiento
+sistémico, la orientación a objetivos; y grupales como: el trabajo en equipo y
+redes; donde el estudiante es capaz de identificar su habilidades y debilidades,
+trabajar en pro de ello y contextualizarse con el mercado laboral [15, 16, 17].</p>
+      <p>Por su parte, se afirma que las TIC presentan la
+información de manera fácil, práctica, divertida y dinámica, facilitando el
+contacto con muchas personas y propiciando una educación global y a distancia,
+pero al ser abundante e inmediata puede que se convierta en un problema, pues
+lo estudiantes limitarían su pensamiento y podrían recurrir a prácticas como el
+plagio, es allí donde el papel del docente es preponderante al estimular
+prácticas éticas que contribuyan al cuidado y enriquecimiento del conocimiento
+científico [18].</p>
+      <p>La integración de las TIC en entornos educativos ha
+permitido la constante innovación en los procesos de formación, tanto así, que
+se han generado nuevos modelos de educación no presenciales como el M–Learning,
+el cual se presenta como una modalidad educativa alternativa a la tradicional,
+en donde el principal elementos mediador tecnológico es el celular, la tableta
+o cualquier dispositivo electrónico móvil, que  permita la interacción con el
+contenido, con acceso desde cualquier momento y lugar, además de la constante
+obtención de información debido a la intercomunicación entre el docente y los
+estudiantes, facilitando de esta manera la adquisición de habilidades y/o
+destrezas [19].</p>
+      <p>Es así como se denomina el M-Learning como “la
+integración del e-learning con los dispositivos digitales portátiles como
+teléfonos móviles, agendas electrónicas, tabletas, lectores de e-book, entre
+otros. Los dispositivos digitales portátiles permiten a las personas tener
+experiencias formativas en cualquier momento y lugar (ubicuidad).”,
+característica esencial del M-Learning. De este modo, el avance del proceso de
+formación en línea ha permitido la creación de ambientes completos de formación
+como los LMS (Learning Management Systems); permitiendo a las instituciones
+educativas de diferentes niveles, la oferta de sus servicios educativos a
+través de Internet aplicando la comunicación sincrónica y asincrónica [20, 21].</p>
+      <subtittle>3.2.  
+Tendencias y aplicabilidad de M-learning</subtittle>
+      <p>Los dispositivos móviles se han convertido en una
+importante herramienta en la vida cotidiana, tanto en el plano laboral,
+académico, familiar, social y recreativo. Aunque no existe una definición
+exacta, se entiende que son todos aquellos dispositivos electrónicos que son de
+fácil acceso, uso y portabilidad; entre los más destacados están: los
+reproductores de música, grabadoras, GPS, lectores de libros, tableta y
+smartphone. Siendo estos dos últimos los de mayor uso, pues tienen la capacidad
+de ejecutar tareas de los anteriores [22].</p>
+      <p>El incremento del uso de dispositivos móviles en la
+educación ha dado origen al concepto de Mobile Learning. La adquisición de
+conocimiento, habilidad y actitudes a través del uso de dispositivos móviles
+[23], los cuales deben ser evaluados con criterios de adaptabilidad,
+rendimiento y eficiencia por las instituciones, de acuerdo con las necesidades
+particulares que presente el ecosistema de aprendizaje [24]. Las
+características más relevantes del aprendizaje móvil es la posibilidad de
+revisar ilimitadamente los contenidos; entenderlos de una mejor manera, ya que
+se encuentran organizados y estructurados [25].</p>
+      <p>Los beneficios no son únicamente para los
+estudiantes, pues los docentes fortalecen el proceso de enseñanza al tener
+mayor participación de estudiantes en las actividades [26]. Los dispositivos
+móviles al beneficiar a ambas partes en el proceso educativo, contribuye a
+satisfacer las necesidades de los estudiantes, impartir clases con eficiencia,
+dinamizar y mejorar el aprendizaje, romper paradigmas de la educación
+tradicional y llevar el aprendizaje más allá de la institución [27].</p>
+      <p>No obstante, los dispositivos móviles en el aula de
+clase pueden traer consecuencias negativas como la distracción, la falta de
+habilidades prácticas y la reducción de la interacción cara a cara; pues al ser
+multitareas no necesitan tener una aplicación exclusiva con contenidos
+académicos, es decir, se convierten en una herramienta genérica de uso
+recurrente [28]. Al respecto cuestionan que aunque se usen aplicaciones con
+destinación educativa, muchas de ellas no poseen pruebas de usabilidad ni
+revisión de expertos, debido a la falta de directrices y metodologías de evaluación
+[29].</p>
+      <p>El uso de los dispositivos móviles en la educación se
+masificó considerablemente con los desarrollos y prueba piloto que realizó
+Nicholar Negroponte  con tabletas digitales en países subdesarrollados.
+Demostraron que dotando de tabletas a estudiantes sin ninguna directriz, éstos
+se muestran más motivados, pues los dispositivos adquieren el calificativo de
+herramienta versátil al permitir usar la cámara como fotocopiadora, reproducir
+contenidos y realizar consultas en la web, además de permitir al docente crear
+nuevas actividades [30].</p>
+      <p>A través del uso de una aplicación móvil (app) en el
+estudio del ciclo de vida de los árboles [31], demostraron que los estudiantes
+se motivan a participar en el aprendizaje en un entorno natural, desarrollan prácticas
+para abordar problemas y toma de decisiones en tiempo real. Por otra parte se
+demostró que a través de una app de gestos se puede contribuir
+significativamente al fortalecimiento de habilidades cognitivas de personas con
+necesidades educativas especiales [37]. Las tabletas se usan mayoritariamente
+en consumo, creación y uso compartido de contenidos, además, se destaca que los
+estudiantes incrementan su interacción y el trabajo colaborativo [32, 33].</p>
+      <p>El desarrollo tecnológico de la tableta ha sido alto,
+dejando una frontera de diferenciación muy delgada con los smartphones, pues el
+tamaño de pantalla a veces es la única discrepancia, lo cual genera cambios en
+la experiencia educativa. En relación a esto se analizó la experiencia de
+estudiantes con smartphones de 3,5” y tabletas de 7” y 10”, encontrando que una
+pantalla de 3,5” genera desventaja frente a los demás dispositivos, pero a
+partir de 5” la experiencia no sufre afectaciones significativas [33].</p>
+      <p>En el proceso educativo una de las materias de mayor
+dificultad para los estudiantes son las matemáticas, frente a esto,
+aprovechando la precisión de los sensores de los dispositivos móviles [34], se
+integró la aplicación GeoGebra a la clase de física cuántica, logrando
+establecer un laboratorio móvil. También se identificó una experiencia
+relacionada con ecuaciones cuadráticas y conceptos de materiales [35, 36]
+experiencias que relacionan un alto porcentaje de aceptación.</p>
+      <p>En el sistema educativo tradicional, la evaluación
+causa estrés y ansiedad entre los estudiantes, al respecto se plantea que
+usando la aplicación Kahoot [38] para la elaboración y aplicación de pruebas de
+conocimiento interactivas al final de cada clase, los estudiantes logran
+identificar sus debilidades y se motivan a mejorar los resultados. Sin embargo,
+diversas experiencias coinciden en que la entrega de contenidos a través de
+dispositivos móviles no es suficiente para elevar el rendimiento académico de
+los estudiantes, pero proporciona elementos que estimulan la permanencia en el proceso
+[39, 40]. Por otro lado, a través de la app Ruzo [41] monitorearon el progreso
+de los estudiantes de un curso de metodología de la investigación, demostrando
+mayor participación y motivación, lo cual no se había logrado con métodos
+flexibles de calificación.</p>
+      <p>A su vez se diseñó una app de aprendizaje del idioma
+inglés [42], en la cual los estudiantes no se limitaban únicamente a consumir
+contenidos, se convierten en creadores y evaluadores, permitiendo mayor
+interacción y unificación de intereses colectivos, pues, aunque las tareas se
+realizan de manera individual, estas terminan afectando a todo el grupo, y dan
+pautas a los docentes para la creación de contenidos básicos. De otra parte, se
+hizo seguimiento al estado cognoscitivo de los estudiantes midiendo el ritmo
+cardiaco mediante la aplicación AttentiveLearner, lo cual permitió evaluar la
+calidad de los cursos masivos abiertos en línea (MOOC) que estaban
+desarrollando los 3.3 Impacto del M-learning en la formación</p>
+      <p>Diversas experiencias del M-Learning se basan en la
+incorporación de aplicaciones disponibles en las tiendas; no obstante, estas
+son limitadas al momento de adaptarse a las necesidades de cada ecosistema.
+Ante ello se han diseñado la plataforma JEM iNVENTOR [44] que permite al
+docente crear aplicaciones de acuerdo con los requerimientos específicos del
+curso, para ello cuenta con tres niveles de apropiación, pues no todos tienen
+los conocimientos técnicos en informática. En este sentido, se enfatizan sobre
+la importancia de la adaptación de los recursos como fundamental a la hora de
+implementar el M-Learning [45], pues de ello depende el éxito del proceso, el
+cual requiere de tiempo para realizar ajustes y ver la evolución de los
+estudiantes. Dejando planteado que el objetivo principal del M-Learning es
+crear escenarios de participación masiva, eliminando fronteras donde las
+limitaciones físicas y cognitivas no sean un impedimento [46].</p>
+      <p>Como se evidenció en las anteriores experiencias, el
+uso del M-Learning es relativamente joven comparado con otras innovaciones
+educativas que integran TIC; y su desarrollo es directamente proporcional al de
+las conexiones inalámbricas y propiedad de los dispositivos. En este sentido,
+docentes y alumnos se muestran interesados en adoptar este tipo de estrategias,
+evidenciándose disminución de la resistencia por parte de los docentes [47],
+aunque existen barreras de entrada como la cobertura, seguridad y competencias
+digitales. Sin embargo, se demuestra que esta generación no es la más beneficiada
+con el M-Learning [48], pues los estudiantes adultos por cuestiones de tiempo y
+trabajo son los más propensos a adoptarla adecuadamente.</p>
+      <p>La democratización de los dispositivos móviles ha
+sido una preocupación para países en vía de desarrollo, pues es un medio
+indispensable para la dinámica económica, social y educativa. Al respecto
+Colombia dio un importante paso con la Ley 1819 de 2016 en la cual elimina el
+cobro de impuestos a algunos teléfonos inteligentes. Los cuales brindan las
+mismas posibilidades de acceso a información y aplicaciones de redes sociales.
+Justamente éstas se han convertido en un medio informal para llevar la clase
+más allá de las aulas; y son consideradas eficaces para mejorar la
+participación y cerrar la brecha entre las instituciones y los nativos
+digitales [49]. En donde se pueda, por ejemplo, personalizar las redes sociales
+a través de notificaciones que estimulen el aprendizaje y la administración del
+tiempo [50].</p>
+      <p>Otra tendencia del M-Learning es incursionar en la
+realidad aumentada y virtual, pues de acuerdo con el éxito de Pokemon Go [51]
+es una importante evidencia del poder que tiene esta tecnología para motivar la
+participación de los estudiantes, pero su proceso será más lento, pues, aunque
+en la actualidad existe un cumulo de posibilidades a través del software libre,
+el costo y desarrollo de hardware es un limitante. No obstante, se plantean
+evitar interacciones artificiales y mejor integrar los dispositivos a
+situaciones reales [52], pues saca al estudiante de su zona de confort, mejora
+la competencia de resolución de problemas y asimilación del fracaso.</p>
+      <p>Hasta el momento se han mencionado los beneficios del
+M-Learning, pero es importante tener en cuenta que esta estrategia tiene retos
+por enfrentar. Las adicciones del comportamiento [53], la nomofobia es una de
+las más complejas de entender y tratar, pues no es fácil determinar en qué
+momento el dispositivo móvil deja de ser una herramienta de uso cotidiano y se
+convierte en un instrumento adictivo, generando un círculo vicioso de
+procrastinación. Adicionalmente, se considera que existe suficiente evidencia
+para demostrar que los dispositivos móviles en clase están íntimamente ligados
+con el cyberbullying, el sexting, el fraude en evaluaciones y las interrupciones
+en clase [54, 55]. Ante este panorama Colombia propone a través del proyecto de
+Ley 099 de 2018 la prohibición de celulares en centros educativos. Sin embargo,
+dadas las condiciones del sistema educativo, los dispositivos móviles son
+necesarios a pesar de los riesgos, ya que genera motivación en los estudiantes
+y abre un abanico de oportunidades para trabajar con ellos [56].</p>
+      <p>En este orden de ideas, existen diferentes posturas
+frente al M-Learning, existen debilidades frente a su implementación como:
+conectividad a la red debe ser constante, las baterías de los dispositivos no
+duran mucho tiempo, existen aplicaciones complejas para administrar, y el bajo
+nivel de competencias TIC de los docentes [57]. Por otro lado, se establece la
+existencia de amenazas asociadas al uso excesivo e intensivo de los móviles
+como el estrés, insomnio, sexting, nomofobia, entre otras [58]. Pero lo
+negativo con la implementación del aprendizaje móvil [59], podría desencadenar
+el desarrollo de tecnológico, mejorar los entornos educativos en línea, el
+desarrollo de metodologías emergentes, es decir, aumentar las investigaciones
+del aprendizaje personalizado y experiencias inmersivas por medio de la
+realidad aumentada y virtual, a demás de las fortalezas asociadas a la
+educación mediada por la tecnología móvil. En la Figura 1, se resume en una
+matriz DOFA (debilidades, oportunidades, fortalezas y amenazas) las diferentes
+posturas de la implementación del M-Learning.</p>
+      <p>Es así como el modelo M-Learning presenta
+oportunidades para otros entornos de aprendizaje como los MOOC, pues permitiría
+mayor participación y alcance, sin embargo, tiene dificultades para ser
+competitivos frente a los ambientes de escritorio, ya que la interacción se
+limita en el manejo de multitareas, pantallas reducidas, almacenamiento y
+teclado [60]. Al respecto se propone que estos limitantes vislumbran una
+oportunidad de articulación del M-Learning con el aprendizaje electrónico
+(e-learning) [61], es decir, que estos modelos no deben competir entre ellos,
+sino buscar lo mejor de cada uno para ofrecer experiencia de aprendizaje ricas
+en contenidos y reducir la dependencia de las conexiones a Internet, a través
+del desarrollo de aplicaciones offline. En la Tabla 1, se presentan las
+características de los dos modelos presentada por [61] en donde se resaltan
+como aspectos positivos las flechas hacia arriba y los aspectos negativos las
+flechas hacia abajo.</p>
+      <p>Así mismo, en la Figura 2 se presenta el tipo de
+dispositivos móviles utilizados en los procesos de enseñanza aprendizaje en
+diferentes experiencias relacionadas con los dispositivos móviles [62],
+reflejando que el 47% de los estudios usaron dispositivos móviles
+tradicionales, el 4% usaron tabletas, el 11% usaron teléfonos inteligentes, 20%
+no limitaron los tipos de dispositivos, mientras que el 18% no usó
+dispositivos, lo que indica que esos estudios son en un alto porcentaje
+teóricas.</p>
+      <p>En cuanto a la Figura 3, las actividades de
+aprendizaje que realizaban con los dispositivos móviles, reflejan que el 22% de
+los estudios argumentan que los estudiantes emplearon dispositivos móviles para
+acceder a materiales de aprendizaje, el 7% guiaron a los estudiantes a acceder
+a materiales de aprendizaje y realizar evaluaciones a través de dispositivos
+móviles, y el 21% les brindó a los estudiantes un entorno de aprendizaje que
+consistía en un soporte en línea completo, lo que indicaba proporcionar a los
+estudiantes orientación o comentarios basados en su situación de aprendizaje.
+Además, el 24% de los estudios empleó dispositivos móviles para ayudar a los
+estudiantes a aprender en entornos virtuales y reales. Sin embargo, el 5% de
+los estudios no mencionó claramente los roles del aprendizaje móvil en sus
+estudios, mientras que el 21% no realizó aprendizaje móvil en sus actividades,
+dado que se referían a estudios de análisis de documentos.</p>
+      <p>Del mismo modo, se realizó una revisión literaria
+sobre el impacto del programa BYOD (Bring your own device), “trae tu propio
+dispositivo” en la educación superior [63], en el cual se logra extraer información
+importante frente a las actividades educativas que realizan los estudiantes a
+través de los dispositivos móviles. En la Figura 4 se logra apreciar una
+interacción mayor de los estudiantes por medio de sus móviles en los LMS
+institucionales (15%), seguido de la interacción por medio de SMS (13%), las
+redes sociales y el poscasting tienen porcentajes similares (12%), en este
+orden continúa la mensajería instantánea (11%), blogging (10%), Facebook (9%),
+microblogging (7%), wikis (5%), códigos QR (2%), objetos en 3D (2) y por último
+la realidad aumentada (1%).</p>
+      <p>Al mismo tiempo, teniendo una aproximación hacia un
+futuro no muy lejado, el aprendizaje móvil no se centrará en app [64], sino en
+una mayor conectividad para fortalecer y enriquecer las experiencias de
+aprendizaje de los estudiantes por medio de contenido adaptativo a diferentes
+dispositivos móviles, sincronización entre estos, y una mayor interactividad
+por medio del uso de la realidad aumentada, la realidad virtual y la realidad
+mixta. En adición, se argumenta sobre la tendencia de la utilización de la
+realidad aumentada centrada en una mayor interacción con los estudiantes donde
+el aprendizaje se exprese en el contexto físico local complementado por una
+superposición de audio o video [65].</p>
+      <p>Otra de las tendencias que se vienen trabajando con
+más fuerza es la integración de la inteligencia artificial en el aprendizaje
+móvil. Esta se va abriendo camino en el contexto educativo, los esfuerzos se
+van centrando en mejorar los sistemas de gestión de la educación, LMS
+impulsados por inteligencia artificial, aplicaciones educativas orientadas a
+fortalecer el aprendizaje personalizado, con el fin de apoyar la labor docente
+y afrontar los desafíos de los sistemas educativos en diferentes niveles
+educativos [66]. Igualmente, la inteligencia artificial centrada en aprendizaje
+móvil que integren ambientes educativos, deben potenciar la interactividad,
+ofrecer asesoría asistida por medio de fashcards, chats o voz [67]. Es decir,
+centrado en: sistemas expertos de enseñanza inteligente, motores de
+recuperación de información, sistemas de aprendizaje inductivo, redes
+inteligentes de hardware y sistema de apoyo a decisiones [68, 69, 70].</p>
+      <p>En el caso de las personas con deficiencias cognitivas
+muestran motivación e interés en la interacción con estos asistentes debido a
+la posibilidad de simular una conversación con humanos y a disminuir la
+sensación de soledad que estas personas sienten, logrando fortalecer sus
+procesos de aprendizaje [71].</p>
+      <tittle>4.  
+DISCUSIÓN</tittle>
+      <subtittle>s</subtittle>
+      <p>En terminos generales, se espera que el desarrollo
+del aprendizaje móvil se exprese desde la evaluación de la tecnología y la
+interacción entre los estudiantes, docentes y contenido. De esta manera, la
+adopción de políticas como BYOD se incrementará, acompañado de la
+transformación de contenido adaptativo y con principios de usabilidad en los
+dispotivos moviles, facilitando el aprendizaje inclusivo para estudiantes con
+diferentes dificultades fisicas y cognitivas.</p>
+      <p>El uso de M-Learning es una tendencia a nivel mundial,
+pese a que en países desarrollados se legitima por parte de los estudiantes, en
+países en vía de desarrollo las instituciones hacen importantes esfuerzos por
+estar a la vanguardia y reducir la brecha digital, en diversos niveles como la
+educación superior [36, 73], primaria y secundaria [74]. Al respecto Colombia a
+través de programas como “Colombia vive digital” ha masificado el desarrollo de
+infraestructura orientada a dar conexión a Internet y facilitar el acceso a
+dispositivos móviles, principalmente tabletas.</p>
+      <p>Por otro lado, se deben establecer como permanentes
+algunas estrategias adoptadas frente a la emergencia provocada por pandemia del
+CODIV-19; en donde el Estado Colombiano permitió el acceso gratuito a Internet
+de las líneas de telefonía celular prepagadas, con la intencionalidad de
+garantizar el desarrollo de las actividades escolares. De esta manera, se
+permitiría el ingreso a contenido digital diverso de estudiantes no solamente
+de zonas apartadas, que cuentan principalmente con un teléfono celular,
+contribuyendo a la calidad y cobertura educativa.</p>
     </sec>
     <sec sec-type="conclusions">
-      <title>4.  
-CONCLUSIONES </title>
-      <p>Se prepararon mezclas de concreto tradicional y
-modifi­cado con plástico reciclado del océano, en reemplazo de los agregados
-finos. Se en­contró que la modificación de los agregados por plástico reciclado
-en 2.5%, 5.0%, 7.5% y 10% modifica las propieda­des de los concretos
-preparados. Se encontró que un aumento en el contenido de plástico reciclado,
-generó una disminución en el asentamiento y en la densidad de los especímenes,
-como resultado de la forma y la menor densidad de las partículas de PET,
-respectivamente. Los especímenes de concreto con un reemplazo del 7.5% de los
-agregados finos mostraron la mejor resistencia a la compresión, alcanzando un
-valor de 18.19 Mpa, el cual corresponde al 90.5% de la resistencia del material
-tradicional. Los resultados en­contrados estuvieron en concordancia con el
-cambio en el módulo de elasticidad de los especímenes preparados, el cual fue
-directamente proporcional al aumento en el contenido de plástico reciclado. Los
-resultados encontrados permiten concluir que los especímenes con reemplazos del
-7.5%, permiten generar concretos con resistencias moderadas, entre 18 – 20
-Mpa.  Se espera que los resultados reportados permitan reducir el uso de
-materiales tradicionales utilizados en la preparación de concretos. Además, se
-espera que esta metodología sea un nuevo aporte para la generación de concretos
-de baja densidad y resistencia a la compresión superiores a la resistencia
-mínima requerida para concretos estructurales, además de mitigar la
-problemática ambiental   generada por la producción de residuos plásticos.</p>
+      <title>5.  
+CONCLUSIONES Y TRABAJO FUTURO</title>
+      <p>Con la revisión sistemática de literatura y los
+interrogantes establecidos, se evidencia que las investigaciones en el campo
+del M-Learning se han orientado al análisis de las percepciones y el nivel de
+aceptación de estudiantes y docentes, lo que limita la medición objetiva del
+impacto en el rendimiento académico y desarrollo de prácticas innovadoras. Es
+fundamental establecer medidas cuantitativas e instrumentos en el estudio del
+M-Learning para enriquecer el repositorio de experiencia. Aún así, se han
+identificado esfuerzos para evaluar la usabilidad de sistemas de aprendizaje
+móvil con diferentes actores evidenciándose un alto porcentaje de aceptación
+entre ellos [72].</p>
+      <p>El M-Learning es una estrategia de aprendizaje
+que conduce a la redefinición del papel docente dentro y fuera del aula de
+clase, pues el fácil acceso a contenidos brinda espacios para involucrar la
+academia con el mundo real, experimentar a través de información actualizada y
+reflexionar con experiencias globales. Por esta razón, se debe iniciar su
+regulación para crear ecosistemas de aprendizaje sanos y productivos, pues la
+nomofobia, el cyberbuying, el sexting, distracciones y otro tipo de riesgos,
+son grandes retos por enfrentar, ya que la prohibición no es la solución
+factible en un mundo hiperconectado.</p>
+      <p>La adaptación de plataformas y contenidos
+educativos orientados al M-Learning deben ser una de las premisas para tener en
+cuenta, dado que los dispositivos móviles son la base para el desarrollo de
+otras estrategias. Las futuras investigaciones a este tema ofrecen la
+oportunidad de ahondar en la propuesta de modelos y parámetros para el
+desarrollo e implementación de contenidos y plataformas M-Learning, donde
+converjan con otras innovaciones educativas del e-Learning. Adicionalmente, se
+espera un mayor desarrollo de experiencias inmersivas por medio de la realidad
+aumentada, realidad virtual, realidad mixta, gamificación, laboratorios
+virtuales y remotos, además de una mayor integración de la inteligencia
+artificial que permita fortalecer la labor docente y enfrentar los diferentes
+desafíos del sistema educativo.</p>
     </sec>
   </body>
   <!-- BACK -->
   <back>
     <ack>
-      <title>5.   AGRADECIMIENTOS</title>
-      <p>Los autores agradecen a la Universidad
-Cooperativa de Colombia por el apoyo financiero a través del proyecto INV 2731,
-Venites, J., Córdoba, Y., y Mena, K. agradecen especialmente al semillero de
-investigación en materiales y estructuras SIMES de la Universidad Cooperativa
-de Colombia.</p>
+      <title>6.   AGRADECIMIENTOS</title>
+      <p>Los reconocimientos de personas, subvenciones,
+fondos, etc., deben ser breves. Esta sección es obligatoria para artículos de
+investigación, en esta parte del artículo el autor hace un reconocimiento a las
+personas o instituciones que le ayudaron en sus investigaciones.  Se citan
+becas e instituciones que financian la investigación: firmas comerciales,
+entidades oficiales o privadas, asociaciones de profesionales y operarios. 
+Esta sección es opcional para artículos de reflexión.</p>
     </ack>
     <!-- REFERENCIAS -->
     <ref-list>
       <title>REFERENCIAS</title>
       <ref id="R1">
         <label>[1]</label>
-        <mixed-citation> Remojan, S. K., Ramya, C.,
-Viswanathan, M. R., Varjani, S.  Plastic Pollutants: Waste management for
-pollution control and abatement, Curren Opin Env Sci., 12, 72-84, 2019.</mixed-citation>
+        <mixed-citation> A. Oppenheimer, Crear o morir, Miami: Debate, 2014.</mixed-citation>
       </ref>
       <ref id="R2">
         <label>[2]</label>
-        <mixed-citation> Da Silva, L. J., Dos Santos, I. F.
-S., Mensah J. H., Gonçalves, A. T., Barros, R Incineration of municipal solid
-waste in Brazil: An analysis of the economically viable energy potential, Renew
-Energ. 149, 1386-1394, 2020.</mixed-citation>
+        <mixed-citation> Vera, V. D. G., &amp; López, C. Q. (2019). Aceptación
+del M–learning: Un Análisis de Sentimientos basado en Minería de Texto. Cuaderno Activa, 11, 45-50.</mixed-citation>
       </ref>
       <ref id="R3">
         <label>[3]</label>
-        <mixed-citation> Awoyera, P.O., Andesina. A. Plastic
-wastes to construction products: Status, limitations and future perspective,
-Case Stud. Constr. Mater. 12, e00330 in press, 2020.</mixed-citation>
+        <mixed-citation> Alam, T., &amp; Aljohani, M. (2020).
+M-Learning: Positioning the Academics to the Smart devices in the Connected
+Future. JOIV : International Journal on Informatics Visualization, 4(2).</mixed-citation>
       </ref>
       <ref id="R4">
         <label>[4]</label>
-        <mixed-citation> Mansour, A. M.,  Ali, S. A. Reusing
-waste plastic bottles as an alternative sustainable building material, Energy
-Sustain Dev 24, 79-85,2015.</mixed-citation>
+        <mixed-citation> Velásquez, J. D. (2015). Una Guía Corta para Escribir
+Revisiones Sistemáticas de Literatura Parte 3. Dyna, 82(189), 9-12.</mixed-citation>
       </ref>
       <ref id="R5">
         <label>[5]</label>
-        <mixed-citation> Li, J., Lusher, A. L., Rotchell, J.
-M., Deudero. S., Turra, A., Bråte, I. L. N., Sun, C., Hossain, M. S., Li, Q.,
-Kolandhasamy, P., Shi, H. Using mussel as a global bioindicator of coastal
-microplastic pollution., 244, 522- 533, 2019.</mixed-citation>
+        <mixed-citation> Guirao Goris, S. J. A. (2015). Utilidad y tipos de
+revisión de literatura. Ene, 9(2), 0-0.</mixed-citation>
       </ref>
       <ref id="R6">
         <label>[6]</label>
-        <mixed-citation> Geyer, R., Jambeck, J. R., Law, K. L.
-Production, use, and fate of all plastics ever made, Sci. Adv., 3. 19-24, 2017.</mixed-citation>
+        <mixed-citation> P. Ibáñez Carrasco y G. García Torres, Infomática I,
+vol. I, M. Alegría Estrada, Ed., México D.F: Cengage Learning Editores, S.A.,
+2009.</mixed-citation>
       </ref>
       <ref id="R7">
         <label>[7]</label>
-        <mixed-citation> Singh, N., Hui, D., Singh, R., 
-Ahuja, I. P. S., Feo, L., Fraternali, F. Recycling of plastic solid waste: A
-state of art review and future applications, Compos. B. Eng., 115,  409-422,
-2017.</mixed-citation>
+        <mixed-citation> Fajardo-Dolci, Germán, &amp; H, Manuel Ramiro (2015).
+Innovación. Revista Médica del Instituto Mexicano del Seguro Social,
+53(5),532-533.[fecha de Consulta 4 de Mayo de 2020]. ISSN: 0443-5117.
+Disponible en:   https://www.redalyc.org/articulo.oa?id=4577/457744939001.</mixed-citation>
       </ref>
       <ref id="R8">
         <label>[8]</label>
-        <mixed-citation> Mohammed, A. A. Modelling the
-mechanical properties of concrete containing PET waste aggregate, Constr Build
-Mater., 150, 595-605, 2017.</mixed-citation>
+        <mixed-citation> Moreno Marchal, J. (2014). Aprender a innovar: una
+experiencia online. Education In The Knowledge Society (EKS),
+15(3), 96-119. doi:10.14201/eks.12220.</mixed-citation>
       </ref>
       <ref id="R9">
         <label>[9]</label>
-        <mixed-citation> El-Naga, I. A., Ragab, M. Benefits of
-utilization the recycle polyethylene terephthalate waste plastic materials as a
-modifier to asphalt mixtures, Constr Build Mater, 219, 81-90, 2019.</mixed-citation>
+        <mixed-citation> Beltrán Meza, M. C. (2017). Innovación
+en el sector acuícola. Ra Ximhai, 13(3).</mixed-citation>
       </ref>
       <ref id="R10">
         <label>[10]</label>
-        <mixed-citation> Choudhary, J., Kumar, B., Gupta, A.
-Utilization of solid waste materials as alternative fillers in asphalt mixes: A
-review, Constr Build Mater, 234,  117271, 2020.</mixed-citation>
+        <mixed-citation> Blanco, Á. F. (2014). Editorial “Innovación educativa
+en la sociedad del conocimiento”. Teoría de la Educación. Educación y Cultura
+en la Sociedad de la Información, 15(3), 1-3.</mixed-citation>
       </ref>
       <ref id="R11">
         <label>[11]</label>
-        <mixed-citation> Tiong. H. Y, Lim. S. K, Lee. Y. L,
-Ong. C. F, and Yew. M. K, Environmental impact and quality assessment of using
-eggshell powder incorporated in lightweight foamed concrete, Constr. Build.
-Mater., 244, 118341, 2020.</mixed-citation>
+        <mixed-citation> Parra Robledo, R. (2016). La Innovación educativa
+contribuye a la inclusión socioeducativa. Didáctica, innovación
+y multimedia, (34), 0001-13.</mixed-citation>
       </ref>
       <ref id="R12">
         <label>[12]</label>
-        <mixed-citation> Julián. C, Sergio M. A, y William. A,  Propiedades
-mecánicas del concreto para viviendas de bajo costo, Ing. Investig.
-y Tecnol., 14,  285–298, 2013.</mixed-citation>
+        <mixed-citation> Walder, A. M. (2017). Pedagogical
+Innovation in Canadian higher education: Professors’ perspectives on its
+effects on teaching and learning. Studies in Educational Evaluation, 54, 71-82.</mixed-citation>
       </ref>
       <ref id="R13">
         <label>[13]</label>
-        <mixed-citation> Yoon, J.Y., Kim, J.H. Mechanical
-properties of preplaced lightweigth aggregates concrete. Constr. Build. Mater,
-216, 440-449, 2019.</mixed-citation>
+        <mixed-citation> Kostis, P. C., Kafka, K. I., &amp;
+Petrakis, P. E. (2018). Cultural change and innovation performance. Journal
+of Business Research, 88, 306-313.</mixed-citation>
       </ref>
       <ref id="R14">
         <label>[14]</label>
-        <mixed-citation> Záleská. M,  Pavlíková. M,  Pokorný.
-J, Jankovský. O,  Pavlík. Z,  y Černý. R, Structural,
-mechanical and hygrothermal properties of lightweight concrete based on the
-application of waste plastics, Constr. Build. Mater., 180, 1–11, 2018.</mixed-citation>
+        <mixed-citation> Garnica, G. R. (2016). Educación informal en
+emprendimiento y creatividad en escuelas innovadoras. Opción,
+32(12), 425-443.</mixed-citation>
       </ref>
       <ref id="R15">
         <label>[15]</label>
-        <mixed-citation> Alqahtani. F. K, Ghataora. G, Khan. M. I, y Dirar. S, Novel lightweight concrete containing manufactured plastic
-aggregate, Constr. Build. Mater., 148, 386–397, 2017.</mixed-citation>
+        <mixed-citation> Keinänen, M., Ursin, J., &amp;
+Nissinen, K. (2018). How to measure students’ innovation competences in higher
+education: Evaluation of an assessment tool in authentic learning environments.
+Studies in Educational Evaluation, 58, 30-36.</mixed-citation>
       </ref>
       <ref id="R16">
         <label>[16]</label>
-        <mixed-citation> Thorneycroft. J,  Orr. J, Savoikar.
-P, and Ball. R. J, Performance of structural concrete with recycled plastic
-waste as a partial replacement for sand, Constr. Build. Mater., 161, 
-63–69, 2018.</mixed-citation>
+        <mixed-citation> Toombs, A. L., Bardzell, S., &amp;
+Bardzell, J. (2015, April). The proper care and feeding of hackerspaces: Care
+ethics and cultures of making. In Proceedings of the 33rd annual ACM conference
+on human factors in computing systems (pp. 629-638).</mixed-citation>
       </ref>
       <ref id="R17">
         <label>[17]</label>
-        <mixed-citation> Marzouk. O. Y, Dheilly. R. M, y Queneudec. M, Valorization of post-consumer waste plastic in cementitious
-concrete composites, Waste Manag., 27, 310–318, 2007.</mixed-citation>
+        <mixed-citation> Liu, Y., Tang, Y., Bi, X., Zhou, X.,
+Zhang, J., &amp; Wang, J. (2018, May). Cultivation and Practice of College
+Students' Innovative Entrepreneurship Based on Second Classroom. In Proceedings
+of the 2018 International Conference on Distance Education and Learning (pp. 113-116).</mixed-citation>
       </ref>
       <ref id="R18">
         <label>[18]</label>
-        <mixed-citation> Instituto Colombiano de Normas Técnicas y Certificación,
-NTC 92 Determinación de la masa unitaria y los vacíos entre partículas y
-agregados. Colombia,13, 1995.</mixed-citation>
+        <mixed-citation> Gómez Collado, M. E., Contreras Orozco, L., &amp;
+Gutiérrez Linares, D. (2016). El impacto de las tecnologías de la información y
+la comunicación en estudiantes de ciencias sociales: un estudio comparativo de
+dos universidades públicas. Innovación educativa (México, DF), 16(71), 61-80.</mixed-citation>
       </ref>
       <ref id="R19">
         <label>[19]</label>
-        <mixed-citation> Instituto Colombiano de Normas Técnicas y
-Certificación, NTC 237 Método para determinar la densidad y la absorción del
-agregado fino. Colombia, 14,1995.</mixed-citation>
+        <mixed-citation> Schefer-Wenzl, S., Miladinovic, I., &amp; Ensor, A.
+(2018, October). A Survey of Mobile Learning Approaches for
+Teaching Internet of Things. In Interactive Mobile Communication, Technologies
+and Learning (pp. 215-227). Springer, Cham.</mixed-citation>
       </ref>
       <ref id="R20">
         <label>[20]</label>
-        <mixed-citation> Instituto Colombiano de Normas Técnicas y
-Certificación, NTC 176 Método de ensayo para determinar la densidad y la
-absorción del agregado grueso. Colombia, 14, 1995.</mixed-citation>
+        <mixed-citation> Verdún, N. (2016). Educación virtual y sus
+configuraciones emergentes: Notas acerca del e-learning, b-learning y
+m-learning. Háblame de TIC, 3, 67-88.</mixed-citation>
       </ref>
       <ref id="R21">
         <label>[21]</label>
-        <mixed-citation> Instituto Colombiano de Normas Técnicas y
-Certificación, NTC 77 Método de ensayo para el análisis por tamizado de los
-agregados finos y gruesos, no. 571. Colombia, 15, 2007.</mixed-citation>
+        <mixed-citation> Mojarro Aliaño, Á. (2019). Mobile learning en la
+Educación Superior: una alternativa educativa en entornos interactivos de
+aprendizaje.</mixed-citation>
       </ref>
       <ref id="R22">
         <label>[22]</label>
-        <mixed-citation> ACI Committee, ACI 211.1-91 Standard
-Practice for Selecting Proportions for Normal, Heavyweight, and Mass Concrete,
-no. 9. Unites States,  120–121, 2002.</mixed-citation>
+        <mixed-citation> Al-Emran, M., Arpaci, I., &amp; Salloum, S. A.
+(2020). An empirical examination of continuous intention to
+use m-learning: An integrated model. Education and Information Technologies,
+1-20.</mixed-citation>
       </ref>
       <ref id="R23">
         <label>[23]</label>
-        <mixed-citation> Valencia, J. P. González, A. M, y Arbelaez, O. F,
-Evaluación de las propiedades mecánicas de concretos modificados con
-microesferas de vidrio y residuos de llantas, Lámpsakos, 22, 16-26, 2019.</mixed-citation>
+        <mixed-citation> Hamidi, H., &amp; Chavoshi, A.
+(2018). Analysis of the essential factors for the adoption of mobile learning
+in higher education: A case study of students of the University of Technology.
+Telematics and Informatics, 35(4), 1053-1070.</mixed-citation>
       </ref>
       <ref id="R24">
         <label>[24]</label>
-        <mixed-citation> Instituto Colombiano de Normas Técnicas y
-Certificación, NTC 396 Método de ensayo para determinar el asentamiento del
-concreto. Colombia, 6, 1992.</mixed-citation>
+        <mixed-citation> Ketel, M. (2014, March). Cloud
+services for e-learning. In Proceedings of the 2014 ACM Southeast Regional
+Conference (pp. 1-4).</mixed-citation>
       </ref>
       <ref id="R25">
         <label>[25]</label>
-        <mixed-citation> Instituto Colombiano de Normas Técnicas y
-Certificación, NTC 550 Elaboración y curado de especímenes de concreto en obra.
-Colombia, 13, 2000.</mixed-citation>
+        <mixed-citation> Ruangvanich, S., &amp; Nilsook, P.
+(2018, May). Students' Usage of Mobile Learning on Information Technology and
+Communication Subject for Grade 9 Students. In Proceedings of the 2018
+International Conference on Distance Education and Learning (pp. 38-43).</mixed-citation>
       </ref>
       <ref id="R26">
         <label>[26]</label>
-        <mixed-citation> Batayneh. M, Marie. I, y Asi. I, Use
-of selected waste materials in concrete mixes, Waste Manag., 27, 1870–1876,
-2007.</mixed-citation>
+        <mixed-citation> Adly, I., Fadel, M., El-Baz, A.,
+&amp; Amin, H. (2018, May). Interactive Mobile Learning Platform at the British
+University in Egypt. In Proceedings of the 7th International Conference on
+Software and Information Engineering (pp. 97-101).</mixed-citation>
       </ref>
       <ref id="R27">
         <label>[27]</label>
-        <mixed-citation> Ismail. Z. Z y AL-Hashmi. E. A, Use
-of waste plastic in concrete mixture as aggregate replacement, Waste Manag.,
-28, 2041–2047, 2008.</mixed-citation>
+        <mixed-citation> Hsieh, W. M., &amp; Tsai, C. C.
+(2017). Taiwanese high school teachers' conceptions of mobile learning. Computers
+&amp; Education, 115, 82-95.</mixed-citation>
       </ref>
       <ref id="R28">
         <label>[28]</label>
-        <mixed-citation> Akçaözoǧlu. S,  Atiş.C. D, y
-Akçaözoǧlu. K, An investigation on the use of shredded waste PET bottles as
-aggregate in lightweight concrete, Waste Manag., 30, 285–290, 2010.</mixed-citation>
+        <mixed-citation> Anshari, M., Almunawar, M. N.,
+Shahrill, M., Wicaksono, D. K., &amp; Huda, M. (2017). Smartphones usage in the
+classrooms: Learning aid or interference?. Education and Information
+Technologies, 22(6), 3063-3079.</mixed-citation>
       </ref>
       <ref id="R29">
         <label>[29]</label>
-        <mixed-citation> Bing. C  y Ning. L, Experimental
-Research on Properties of Fresh and Hardened Rubberized Concrete, J. Mater.
-Civ. Eng.,  26, 4014-4040, 2013.</mixed-citation>
+        <mixed-citation> Cota, C. X. N., Díaz, A. I. M., &amp; Duque, M. Á. R.
+(2014, September). Evaluation framework for m-learning
+systems: Current situation and proposal. In Proceedings of the XV International
+Conference on Human Computer Interaction (pp. 1-3).</mixed-citation>
       </ref>
       <ref id="R30">
         <label>[30]</label>
-        <mixed-citation> Rashid. K, Yazdanbakhsh. A, y Ul. M,
-Sustainable selection of the concrete incorporating recycled tire aggregate to
-be used as medium to low strength material, J. Clean. Prod., 224,
-396–410, 2019.</mixed-citation>
+        <mixed-citation> Valderrama Bahamóndez, E. D. C.,
+Pfleging, B., Henze, N., &amp; Schmidt, A. (2014, September). A long-term field
+study on the adoption of smartphones by children in panama. In Proceedings of
+the 16th international conference on Human-computer interaction with mobile
+devices &amp; services (pp. 163-172).</mixed-citation>
+      </ref>
+      <ref id="R31">
+        <label>[31]</label>
+        <mixed-citation> Choi, G. W., Land, S. M., &amp;
+Zimmerman, H. T. (2018). Investigating children's deep learning of the tree
+life cycle using mobile technologies. Computers in Human Behavior, 87, 470-479.</mixed-citation>
+      </ref>
+      <ref id="R32">
+        <label>[32]</label>
+        <mixed-citation> Fabian, K., &amp; MacLean, D.
+(2014). Keep taking the tablets? Assessing the use of tablet devices in
+learning and teaching activities in the Further Education sector. Research in
+Learning Technology, 22.</mixed-citation>
+      </ref>
+      <ref id="R33">
+        <label>[33]</label>
+        <mixed-citation> Park, E., Han, J., Kim, K. J., Cho, Y., &amp; del
+Pobil, A. P. (2018, January). Effects of Screen Size in Mobile
+Learning Over Time. In Proceedings of the 12th International Conference on
+Ubiquitous Information Management and Communication (pp. 1-5).</mixed-citation>
+      </ref>
+      <ref id="R34">
+        <label>[34]</label>
+        <mixed-citation> Tomaschko, M., &amp; Hohenwarter, M.
+(2017, December). Integrating mobile and sensory technologies in mathematics
+education. In Proceedings of the 15th International Conference on Advances in
+Mobile Computing &amp; Multimedia (pp. 39-48).</mixed-citation>
+      </ref>
+      <ref id="R35">
+        <label>[35]</label>
+        <mixed-citation> Cahya, R. N., Suprapto, E., &amp;
+Lusiana, R. Development of Mobile Learning Media Based Android to Suport
+Students Understanding.</mixed-citation>
+      </ref>
+      <ref id="R36">
+        <label>[36]</label>
+        <mixed-citation> Al-Emran, M., Mezhuyev, V., &amp; Kamaludin, A.
+(2020). Towards a conceptual model for examining the impact of
+knowledge management factors on mobile learning acceptance. Technology in
+Society, 101247.</mixed-citation>
+      </ref>
+      <ref id="R37">
+        <label>[37]</label>
+        <mixed-citation> Oliveira, D. T., Carvalho, M. D.,
+&amp; Paixão, T. L. S. (2016, November). Ubiquitous Computing: Gestures
+Interaction Applied the Learning Disabilities in Process Literacy. In
+Proceedings of the 22nd Brazilian Symposium on Multimedia and the Web (pp.
+107-110).</mixed-citation>
+      </ref>
+      <ref id="R38">
+        <label>[38]</label>
+        <mixed-citation> Aktekin, N. Ç., Çelebi, H., &amp;
+Aktekin, M. (2018). Let's Kahoot! Anatomy. International Journal of Morphology,
+36(2).</mixed-citation>
+      </ref>
+      <ref id="R39">
+        <label>[39]</label>
+        <mixed-citation> Furió, D., Juan, M. C., Seguí, I., &amp; Vivó, R.
+(2015). Mobile learning vs. traditional classroom lessons: a
+comparative study. Journal of Computer Assisted Learning, 31(3), 189-201.</mixed-citation>
+      </ref>
+      <ref id="R40">
+        <label>[40]</label>
+        <mixed-citation> Remmer, M., Denami, M., &amp;
+Marquet, P. (2017, March). Why Pokémon GO is the future of school education:
+effects of AR on intrinsic motivation of children at elementary school. In
+Proceedings of the Virtual Reality International Conference-Laval Virtual 2017
+(pp. 1-5).</mixed-citation>
+      </ref>
+      <ref id="R41">
+        <label>[41]</label>
+        <mixed-citation> Zuckerman, O., Gal-Oz, A., Peretz,
+O., Weisberg, O., &amp; Tarrasch, R. (2015, August). Leveraging Mobile
+Technology to Engage College Students in Scientific Research. In Proceedings of
+the 17th International Conference on Human-Computer Interaction with Mobile
+Devices and Services (pp. 470-477).</mixed-citation>
+      </ref>
+      <ref id="R42">
+        <label>[42]</label>
+        <mixed-citation> Palomo-Duarte, M., Berns, A., Dodero, J. M., &amp;
+Cejas, A. (2014, October). Foreign language learning using a
+gamificated APP to support peer-assessment. In Proceedings of the Second
+International Conference on Technological Ecosystems for Enhancing
+Multiculturality (pp. 381-386).</mixed-citation>
+      </ref>
+      <ref id="R43">
+        <label>[43]</label>
+        <mixed-citation> Xiao, X., Pham, P., &amp; Wang, J.
+(2015, November). AttentiveLearner: adaptive mobile MOOC learning via implicit
+cognitive states inference. In Proceedings of the 2015 ACM on International
+Conference on Multimodal Interaction (pp. 373-374).</mixed-citation>
+      </ref>
+      <ref id="R44">
+        <label>[44]</label>
+        <mixed-citation> Karoui, A., Marfisi-Schottman, I.,
+&amp; George, S. (2017, October). A Nested Design Approach for Mobile Learning
+Games. In Proceedings of the 16th World Conference on Mobile and Contextual
+Learning (pp. 1-4).</mixed-citation>
+      </ref>
+      <ref id="R45">
+        <label>[45]</label>
+        <mixed-citation> Briz-Ponce, L., Juanes-Méndez, J. A., García-Peñalvo,
+F. J., &amp; Pereira, A. (2016). Effects of mobile learning in
+medical education: a counterfactual evaluation. Journal of medical systems,
+40(6), 136.</mixed-citation>
+      </ref>
+      <ref id="R46">
+        <label>[46]</label>
+        <mixed-citation> Reis, S., &amp; Almeida, A. M.
+(2016, December). The use of mobile devices to support daily routines of teens
+with Down syndrome: a case study. In Proceedings of the 7th International
+Conference on Software Development and Technologies for Enhancing Accessibility
+and Fighting Info-exclusion (pp. 154-161).</mixed-citation>
+      </ref>
+      <ref id="R47">
+        <label>[47]</label>
+        <mixed-citation> Ozdamli, F., &amp; Uzunboylu, H.
+(2015). M‐learning adequacy and perceptions of students and teachers in
+secondary schools. British Journal of Educational Technology, 46(1), 159-172.</mixed-citation>
+      </ref>
+      <ref id="R48">
+        <label>[48]</label>
+        <mixed-citation> Hashim, K. F., Tan, F. B., &amp;
+Rashid, A. (2015). Adult learners' intention to adopt mobile learning: A
+motivational perspective. British Journal of Educational Technology, 46(2),
+381-390.</mixed-citation>
+      </ref>
+      <ref id="R49">
+        <label>[49]</label>
+        <mixed-citation> Sobaih, A. E. E., Moustafa, M. A.,
+Ghandforoush, P., &amp; Khan, M. (2016). To use or not to use? Social media in
+higher education in developing countries. Computers in Human Behavior, 58,
+296-305.</mixed-citation>
+      </ref>
+      <ref id="R50">
+        <label>[50]</label>
+        <mixed-citation> Castro, G. G., Dominguez, E. L.,
+Velazquez, Y. H., Matla, M. Y. R., Toledo, C. B. E., &amp; Hernandez, S. E. P.
+(2016). MobiLearn: context-aware mobile learning system. IEEE Latin America
+Transactions, 14(2), 958-964.</mixed-citation>
+      </ref>
+      <ref id="R51">
+        <label>[51]</label>
+        <mixed-citation> Brown, T. H., &amp; Mbati, L. S.
+(2015). Mobile learning: Moving past the myths and embracing the opportunities.
+International Review of Research in Open and Distributed Learning, 16(2),
+115-135.</mixed-citation>
+      </ref>
+      <ref id="R52">
+        <label>[52]</label>
+        <mixed-citation> Tan, E., &amp; So, H. J. (2014).
+Rethinking the impact of activity design on a mobile learning trail: The
+missing dimension of the physical affordances. IEEE Transactions on Learning
+Technologies, 8(1), 98-110.</mixed-citation>
+      </ref>
+      <ref id="R53">
+        <label>[53]</label>
+        <mixed-citation> Alter, A. (2018). Irresistible.
+Superfunds Magazine, (440), 58.</mixed-citation>
+      </ref>
+      <ref id="R54">
+        <label>[54]</label>
+        <mixed-citation> Mendoza, J. S., Pody, B. C., Lee,
+S., Kim, M., &amp; McDonough, I. M. (2018). The effect of cellphones on
+attention and learning: The influences of time, distraction, and nomophobia. Computers
+in Human Behavior, 86, 52-60.</mixed-citation>
+      </ref>
+      <ref id="R55">
+        <label>[55]</label>
+        <mixed-citation> O'Bannon, B. W., &amp; Thomas, K. M.
+(2015). Mobile phones in the classroom: Preservice teachers answer the call.
+Computers &amp; Education, 85, 110-122.</mixed-citation>
+      </ref>
+      <ref id="R56">
+        <label>[56]</label>
+        <mixed-citation> Burns, M. (2015). Not Just for
+Students: Mobile teacher professional development. eLearn, 2015(March).</mixed-citation>
+      </ref>
+      <ref id="R57">
+        <label>[57]</label>
+        <mixed-citation> Dávila, M. R. M. (2020). M-Learning: características,
+ventajas y desventajas, uso. Revista Tecnológica-Educativa Docentes 2.0, 8(1),
+50-52.</mixed-citation>
+      </ref>
+      <ref id="R58">
+        <label>[58]</label>
+        <mixed-citation> Ramírez, L. L., &amp; Montalvo, J. A. C. (2019). El
+aprendizaje móvil en la educación superior, frontera del conocimiento:
+2014-2018. Revista Electrónica de Investigación e Innovación Educativa-REIIE
+ISSN: 2448-556X, 4(3), 27-41.</mixed-citation>
+      </ref>
+      <ref id="R59">
+        <label>[59]</label>
+        <mixed-citation> Delgado, R. Z. (2019). El M-Learning, las ventajas de
+la utilización de dispositivos móviles en el proceso autónomo de aprendizaje.
+ReHuSo: Revista de Ciencias Humanísticas y Sociales, 4(3), 29-38.</mixed-citation>
+      </ref>
+      <ref id="R60">
+        <label>[60]</label>
+        <mixed-citation> Marco, F. A., Penichet, V. M., &amp;
+Gallud, J. A. (2015, August). What happens when students go offline in mobile
+devices?. In Proceedings of the 17th International Conference on Human-Computer
+Interaction with Mobile Devices and Services Adjunct (pp. 1199-1206).</mixed-citation>
+      </ref>
+      <ref id="R61">
+        <label>[61]</label>
+        <mixed-citation> Shawar, B. A. (2017, September).
+Neither Completely M-Nor E-Learning: Integrating both is the Solution. In
+Proceedings of the 2017 International Conference on Cloud and Big Data
+Computing (pp. 112-118).</mixed-citation>
+      </ref>
+      <ref id="R62">
+        <label>[62]</label>
+        <mixed-citation> Lai, C. L. (2019). Trends of mobile
+learning: A review of the top 100 highly cited papers. British Journal of
+Educational Technology.</mixed-citation>
+      </ref>
+      <ref id="R63">
+        <label>[63]</label>
+        <mixed-citation> Sundgren, M. (2017). Blurring time
+and place in higher education with bring your own device applications: a
+literature review. Education and Information Technologies, 22(6), 3081-3119.</mixed-citation>
+      </ref>
+      <ref id="R64">
+        <label>[64]</label>
+        <mixed-citation> Alexander, B., Ashford-Rowe, K.,
+Barajas-Murph, N., Dobbin, G., Knott, J., McCormack, M., ... &amp; Weber, N.
+(2019). EDUCAUSE Horizon Report 2019 Higher Education Edition (pp. 3-41).
+EDU19.</mixed-citation>
+      </ref>
+      <ref id="R65">
+        <label>[65]</label>
+        <mixed-citation> Hwang, G. J., &amp; Fu, Q. K.
+(2020). Advancement and research trends of smart learning environments in the
+mobile era. International Journal of Mobile Learning and Organisation, 14(1),
+114-129.</mixed-citation>
+      </ref>
+      <ref id="R66">
+        <label>[66]</label>
+        <mixed-citation> UNESCO - Mobile Learning Week 2019:
+Deciphering the impact of Artificial Intelligence on education. Disponible
+en: https://en.unesco.org/news/mobile-learning-week-2019-deciphering-impact-artificial-intelligence-education
+[consultado el 28 de mayo de 2020].</mixed-citation>
+      </ref>
+      <ref id="R67">
+        <label>[67]</label>
+        <mixed-citation> Marwan, A. (2019). Impact of
+artificial intelligence on education for employment:(learning and employability
+Framework).</mixed-citation>
+      </ref>
+      <ref id="R68">
+        <label>[68]</label>
+        <mixed-citation> Khan, M. A., Tripathi, A., Dixit,
+A., &amp; Dixit, M. (2019, January). Correlative Analysis and Impact of
+Intelligent Virtual Assistants on Machine Learning. In 2019 11th International
+Conference on Computational Intelligence and Communication Networks (CICN) (pp.
+133-139). IEEE.</mixed-citation>
+      </ref>
+      <ref id="R69">
+        <label>[69]</label>
+        <mixed-citation> Polyakov, E. V., Mazhanov, M. S.,
+Rolich, A. Y., Voskov, L. S., Kachalova, M. V., &amp; Polyakov, S. V. (2018,
+March). Investigation and development of the intelligent voice assistant for
+the Internet of Things using machine learning. In 2018 Moscow Workshop on Electronic
+and Networking Technologies (MWENT) (pp. 1-5). IEEE.</mixed-citation>
+      </ref>
+      <ref id="R70">
+        <label>[70]</label>
+        <mixed-citation> Abdolrahmani, A., Kuber, R., &amp;
+Branham, S. M. (2018, October). " Siri Talks at You" An Empirical
+Investigation of Voice-Activated Personal Assistant (VAPA) Usage by Individuals
+Who Are Blind. In Proceedings of the 20th International ACM SIGACCESS
+Conference on Computers and Accessibility (pp. 249-258).</mixed-citation>
+      </ref>
+      <ref id="R71">
+        <label>[71]</label>
+        <mixed-citation> Terzopoulos, G., &amp; Satratzemi,
+M. (2019, September). Voice Assistants and Artificial Intelligence in
+Education. In Proceedings of the 9th Balkan Conference on Informatics (pp.
+1-6).</mixed-citation>
+      </ref>
+      <ref id="R72">
+        <label>[72]</label>
+        <mixed-citation> Pensabe-Rodriguez, A., Lopez-Dominguez, E.,
+Hernandez-Velazquez, Y., Dominguez-Isidro, S., &amp; de la Calleja, J. (2020). Context-Aware Mobile Learning System: Usability Assessment Based on
+a Field Study. Telematics and Informatics, 101346.</mixed-citation>
+      </ref>
+      <ref id="R73">
+        <label>[73]</label>
+        <mixed-citation> Okai-Ugbaje, S., Ardzejewska, K.,
+&amp; Imran, A. (2020). Readiness, Roles, and Responsibilities of Stakeholders
+for Sustainable Mobile Learning Adoption in Higher Education. Education
+Sciences, 10(3), 49.</mixed-citation>
+      </ref>
+      <ref id="R74">
+        <label>[74]</label>
+        <mixed-citation> López-Faican, L., &amp; Jaen, J.
+(2020). Emofindar: Evaluation of a mobile multiplayer augmented reality game
+for primary school children. Computers &amp; Education, 149, 103814.</mixed-citation>
       </ref>
     </ref-list>
   </back>
