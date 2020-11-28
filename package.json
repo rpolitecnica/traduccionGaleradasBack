@@ -12,7 +12,7 @@
     "express",
     "mysql",
     "restapi"
-  ],
+  ], 
   "author": "",
   "license": "ISC",
   "dependencies": {
