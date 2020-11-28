@@ -41,4 +41,27 @@ const Traduccion = function(traduccion) {
       result(null, res);
     });
   };
+
+  Traduccion.updateById = (id, traduccion, result) => {
+    sql.query(
+      "UPDATE traducciones SET idEdicion = ? WHERE id = ?",
+      [traduccion.idEdicion, id],
+      (err, res) => {
+        if (err) {
+          console.log("error: ", err);
+          result(null, err);
+          return;
+        }
+  
+        if (res.affectedRows == 0) {
+          // not found Customer with the id
+          result({ kind: "not_found" }, null);
+          return;
+        }
+  
+        console.log("updated customer: ", { id: id, ...traduccion });
+        result(null, { id: id, ...traduccion });
+      }
+    );
+  };
   module.exports = Traduccion;

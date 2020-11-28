@@ -14,6 +14,8 @@ module.exports = app => {
   
     // Delete a Customer with customerId
     app.delete("/api/traducciones/:id", traducciones.delete);
+
+    app.put("/api/traducciones/:id", traducciones.update);
   
     // Create a new Customer
     app.delete("/traducciones", traducciones.deleteAll);
