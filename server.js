@@ -6,6 +6,7 @@ var xmlbuilder = require('xmlbuilder');
 var doc = xmlbuilder.create('root');
 const fs = require('fs');
 
+const PORT= process.env.PORT || 3000
 const sql = require("./app/models/db.js");
 const Traduccion = require("./app/models/traducciones.model.js");
 
@@ -419,7 +420,7 @@ app.use(function (req, res, next) {
     // Pass to next layer of middleware
     next();
 });
-app.listen(3000, () => {
-  console.log("Server is running on port 3000.");
+app.listen(PORT, () => {
+  console.log("Server is running on port "+PORT);
 });
 
