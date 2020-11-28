@@ -30,7 +30,7 @@ TENDENCIAS E IMPACTO PARA LA INNOVACIÓN</article-title>
       <contrib-group>
         <contrib contrib-type="author">
           <name>
-            <surname>Pascuas-Rengifo 1</surname>
+            <surname>Pascuas-Rengifo </surname>
             <given-names>Yois Smith</given-names>
           </name>
           <xref ref-type="aff" rid="aff1">
@@ -39,28 +39,46 @@ TENDENCIAS E IMPACTO PARA LA INNOVACIÓN</article-title>
         </contrib>
         <contrib contrib-type="author">
           <name>
-            <surname>Mercado-Varela 3</surname>
+            <surname>Garcia-Quintero </surname>
+            <given-names>JohnArley</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mercado-Varela </surname>
             <given-names>Martin Alonso</given-names>
           </name>
           <xref ref-type="aff" rid="aff1">
-            <sup>1</sup>
+            <sup>3</sup>
           </xref>
         </contrib>
       </contrib-group>
       <!-- AFILIACIONES -->
-      <aff id="aff1">
-        <label>1</label>
-      </aff>
-      <author-notes>
-        <corresp>
-          <label>Correspondencia | Correspondence</label>
-          <email>s</email>
-        </corresp>
-      </author-notes>
-      <abstract xml:lang="es">
-        <sec>
-          <tittle>RESUMEN</tittle>
-          <p>La innovación es fundamental para el
+      <aff id="aff1"> Doctora en Educación y Cultura Ambiental,
+docente de aula Secretaría de Educación Municipal Florencia Caquetá - Colombia.</aff>
+      <aff id="aff2"> Magister en
+E-Learning y Redes Sociales, docente ocasional tiempo completo de la Facultad
+de ingeniería de la Universidad de la Amazonia - Colombia.</aff>
+      <aff id="aff3">
+         Doctor en
+Ciencias Educativas, docente investigador del Instituto Tecnológico de Sonora –
+México.
+        <author-notes>
+          <corresp>
+            <label>Correo de correspondencia:</label>
+            <email> y.pascuas@udla.edu.co</email>
+            <email>
+j.garcia@udla.edu.co</email>
+            <email> martin.mercado@itson.edu.mx</email>
+          </corresp>
+        </author-notes>
+        <abstract xml:lang="es">
+          <sec>
+            <tittle>RESUMEN</tittle>
+            <p>La innovación es fundamental para el
 desarrollo de nuevos productos que contribuyan a la generación de valor en la
 sociedad. Dentro de la educación, la integración de tecnologías de la
 información y las comunicaciones ha posibilitado la innovación de los procesos
@@ -74,39 +92,39 @@ la base para el desarrollo de otras estrategias como la realidad aumentada,
 realidad virtual, realidad mixta, gamificación, laboratorios virtuales y
 remotos, y la integración de la inteligencia artificial en pro de fortalecer
 los desafíos del sistema educativo.</p>
-        </sec>
-      </abstract>
-      <kwd-group xml:lang="es">
-        <kwd>innovación
+          </sec>
+        </abstract>
+        <kwd-group xml:lang="es">
+          <kwd>innovación
 educativa</kwd>
-        <kwd> dispositivos móviles</kwd>
-        <kwd> aprendizaje móvil</kwd>
-        <kwd> tecnologías de la
+          <kwd> dispositivos móviles</kwd>
+          <kwd> aprendizaje móvil</kwd>
+          <kwd> tecnologías de la
 información y la comunicación</kwd>
-        <kwd> tendencias educativas.</kwd>
-      </kwd-group>
-      <pub-date pub-type="epub-ppub">
-        <month>02</month>
-        <year>2020</year>
-      </pub-date>
-      <volume>2</volume>
-      <issue>3</issue>
-      <history>
-        <date date-type="received">
-          <day>25</day>
-          <month>2</month>
+          <kwd> tendencias educativas.</kwd>
+        </kwd-group>
+        <pub-date pub-type="epub-ppub">
+          <month>02</month>
           <year>2020</year>
-        </date>
-        <date date-type="accepted">
-          <day>12</day>
-          <month>5</month>
-          <year>2020</year>
-        </date>
-      </history>
-      <abstract xml:lang="en">
-        <sec>
-          <tittle>ABSTRACT</tittle>
-          <p>Innovation is essential for the development
+        </pub-date>
+        <volume>2</volume>
+        <issue>3</issue>
+        <history>
+          <date date-type="received">
+            <day>25</day>
+            <month>2</month>
+            <year>2020</year>
+          </date>
+          <date date-type="accepted">
+            <day>12</day>
+            <month>5</month>
+            <year>2020</year>
+          </date>
+        </history>
+        <abstract xml:lang="en">
+          <sec>
+            <tittle>ABSTRACT</tittle>
+            <p>Innovation is essential for the development
 of new products that contribute to the generation of value in society. Within
 education, the integration of information and communication technologies has
 enabled the innovation of teaching-learning processes, as is the case of the
@@ -118,23 +136,23 @@ priority since it is the basis for the development of other strategies such as
 augmented reality, virtual reality, mixed reality, gamification, virtual and
 remote laboratories, and integration of artificial intelligence in order to
 strengthen the challenges of the educational system.  </p>
-        </sec>
-      </abstract>
-      <kwd-group xml:lang="en">
-        <kwd>educational innovation</kwd>
-        <kwd> mobile devices</kwd>
-        <kwd> mobile
+          </sec>
+        </abstract>
+        <kwd-group xml:lang="en">
+          <kwd>educational innovation</kwd>
+          <kwd> mobile devices</kwd>
+          <kwd> mobile
 learning</kwd>
-        <kwd> technology of the information and communication</kwd>
-        <kwd> educational trends.</kwd>
-      </kwd-group>
+          <kwd> technology of the information and communication</kwd>
+          <kwd> educational trends.</kwd>
+        </kwd-group>
+      </aff>
     </article-meta>
-  </front>
-  <!-- BODY -->
-  <body>
-    <sec>
-      <tittle>1.   INTRODUCCIÓN</tittle>
-      <p>La innovación es una prioridad de los gobiernos,
+    <!-- BODY -->
+    <body>
+      <sec>
+        <tittle>1.   INTRODUCCIÓN</tittle>
+        <p>La innovación es una prioridad de los gobiernos,
 el valor de las creaciones intelectuales está por encima de las materias primas
 que pueda poseer un país [1]. La educación es uno de los campos que están
 experimentando importantes innovaciones, debido a la necesidad de romper
@@ -143,7 +161,7 @@ desmasificación de las actuales generaciones, las cuales se encuentran
 atiborradas de medios de información y comunicación, que eliminan las barreras
 de inserción a la educación, al punto de considerarse que la academia ha perdido
 el monopolio del conocimiento.</p>
-      <p>Las TIC ofrecen importantes oportunidades a la
+        <p>Las TIC ofrecen importantes oportunidades a la
 sociedad, pues la inmediatez, la ubicuidad y la reducción de la necesidad de
 traslado son las características más relevantes de estas herramientas. Además,
 hacen parte de la vida cotidiana de las personas, su inmersión en el campo
@@ -156,13 +174,13 @@ a través contenidos y plataformas actualizadas. Asistir a los centros
 educativos es una actividad que no se limita a la adquisición de información,
 sino a enriquecer el pensamiento a través del desarrollo de competencias
 actitudinales, ciudadanas y disciplinares.</p>
-      <p>El M-Learning es una estrategia que involucra el
+        <p>El M-Learning es una estrategia que involucra el
 uso de dispositivos móviles, especialmente celulares y tabletas, en el proceso
 de aprendizaje, el cual requiere del desarrollo tanto de software como de
 hardware, permite la interacción constante entre pares y docentes, haciendo del
 proceso de aprendizaje un espacio de intercambio de ideas y articulación de
 agentes del ecosistema educativo [2, 3].</p>
-      <p>El siguiente artículo contiene una revisión
+        <p>El siguiente artículo contiene una revisión
 sistemática de literatura sobre las tendencias e impacto del el M-Learning y
 cuyo objetivo es pretender responder a interrogantes planteados. Asimismo, se
 encuentra conformado por tres secciones: en primer lugar, se hace la
@@ -170,17 +188,17 @@ conceptualización; en segundo lugar, se realiza una revisión de las
 experiencias relacionadas y finalmente se hace un análisis del impacto y las
 tendencias que presenta el M–Learning como estrategia dentro de las
 innovaciones educativas que integran las TIC.</p>
-    </sec>
-    <sec>
-      <tittle>2.  
+      </sec>
+      <sec>
+        <tittle>2.  
 MATERIALES Y METODOS</tittle>
-      <subtittle>s</subtittle>
-      <p>La revisión de literatura es un proceso de gran apoyo
+        <subtittle>s</subtittle>
+        <p>La revisión de literatura es un proceso de gran apoyo
 para el conocimiento científico, ya que los hallazgos y contribuciones que se
 generan luego de la búsqueda, ordenamiento y análisis crítico de los documentos
 seleccionados, generan un conocimiento actualizado sobre el tema de interés,
 además de identificar tendencias de investigación y soporte para nuevas [4, 5].</p>
-      <p>De esta manera, el presente artículo presenta la
+        <p>De esta manera, el presente artículo presenta la
 selección de estudios primarios sobre prácticas y experiencias de M-Learning,
 se realizaron consultas en diferentes bases de datos y motores de búsqueda,
 fuentes válidas y confiables de información académica y científica como:
@@ -190,26 +208,26 @@ palabras claves M-Learning, Mobile Learning, tendencias del M-Learning, e
 impacto del aprendizaje móvil de la producción académica publicada entre el
 2014-2018, con el objetivo principal de responder los siguientes interrogantes
 planteados:</p>
-      <p>1) ¿Cuáles son las principales tendencias en la
+        <p>1) ¿Cuáles son las principales tendencias en la
 utilización del M-Learning?</p>
-      <p>2) ¿Cuál ha sido el impacto sobre los procesos de enseñanza-aprendizaje
+        <p>2) ¿Cuál ha sido el impacto sobre los procesos de enseñanza-aprendizaje
 del M-Learning?</p>
-      <p>El proceso de búsqueda incluyó la identificación de
+        <p>El proceso de búsqueda incluyó la identificación de
 artículos científicos, capítulos de libros, libros especializados y memorias de
 evento, que presentarán relación con experiencias relacionadas con las palabras
 claves y con las preguntas orientadoras. De los estudios encontrados se
 excluyeron los documentos que no pertenecían a revistas indexadas y de
 reconocimiento académico y científico o que no hayan tenido un proceso de
 evaluación y control de calidad realizada por pares académicos.</p>
-      <tittle>3.   RESULTADOS</tittle>
-      <subtittle>3.1.  
+        <tittle>3.   RESULTADOS</tittle>
+        <subtittle>3.1.  
 Tecnología móvil para innovar</subtittle>
-      <p>El término TIC se ha masificado de manera
+        <p>El término TIC se ha masificado de manera
 considerable en muchos campos, ha sido el responsable en gran medida de lo que
 se denomina la sociedad del conocimiento; y es gracias a la innovación que
 estas herramientas permiten la recolección, almacenamiento, tratamiento,
 difusión y transmisión de información que genera impacto en la sociedad [6].</p>
-      <p> La innovación se podría denominar como la generación
+        <p> La innovación se podría denominar como la generación
 de una mejor versión de procesos y productos a través del uso de conocimiento
 antiguo y/o nuevo, con el fin de obtener beneficios generalmente económicos
 [7]. Innovar es un proceso que requiere de entrenamiento constante, pensamiento
@@ -219,7 +237,7 @@ trabajo [8]. La colaboración de estos equipos es fundamental en cualquier
 proceso de innovación, pues, el tránsito de ideas no debe verse limitado por su
 origen, sino por su capacidad de impacto, lo que ha permitido que pares e
 incluso competidores colaboren para compartir riesgos [9].</p>
-      <p>Aunque los términos TIC e innovación se han asociado
+        <p>Aunque los términos TIC e innovación se han asociado
 generalmente a la ingeniería computacional, es de resaltar el impacto que han
 tenido en el campo educativo. La innovación educativa es la introducción de
 cambios en los procesos formativos y de aprendizaje [10], los cuales deben ser
@@ -229,13 +247,13 @@ preponderante, ya que están para facilitar y acondicionar la implementación de
 enfoques pedagógicos. La innovación educativa contribuye a la integración socioeducativa
 de los estudiantes [11], la cual debe tener como características fundamentales
 la equidad, colaboración y participación de todos los agentes educativos.</p>
-      <p>Por su parte se plantea que la innovación educativa
+        <p>Por su parte se plantea que la innovación educativa
 apoya el aprendizaje, la profesionalización, la cobertura, la graduación, ya
 que llena de confianza a los estudiantes y estimula la necesidad de avanzar
 [12]. Además, reinventa la práctica docente, lo que conduce a mejorar
 significativamente la autoestima y sentido de pertenencia por la institución.
 Sin embargo, ello implica el cambio en patrones culturales [13].</p>
-      <p>En adición, la implementación de las TIC en el
+        <p>En adición, la implementación de las TIC en el
 proceso educativo contribuye a que los estudiantes tengan mayor deseo de
 aprendizaje y adquirir autonomía, ya que es un medio flexible, dinámico, y que
 permite estar en contacto con equipos de trabajo [14]. Sin embargo, las
@@ -249,7 +267,7 @@ individuales como: la resolución creativa de problemas, el pensamiento
 sistémico, la orientación a objetivos; y grupales como: el trabajo en equipo y
 redes; donde el estudiante es capaz de identificar su habilidades y debilidades,
 trabajar en pro de ello y contextualizarse con el mercado laboral [15, 16, 17].</p>
-      <p>Por su parte, se afirma que las TIC presentan la
+        <p>Por su parte, se afirma que las TIC presentan la
 información de manera fácil, práctica, divertida y dinámica, facilitando el
 contacto con muchas personas y propiciando una educación global y a distancia,
 pero al ser abundante e inmediata puede que se convierta en un problema, pues
@@ -257,7 +275,7 @@ lo estudiantes limitarían su pensamiento y podrían recurrir a prácticas como 
 plagio, es allí donde el papel del docente es preponderante al estimular
 prácticas éticas que contribuyan al cuidado y enriquecimiento del conocimiento
 científico [18].</p>
-      <p>La integración de las TIC en entornos educativos ha
+        <p>La integración de las TIC en entornos educativos ha
 permitido la constante innovación en los procesos de formación, tanto así, que
 se han generado nuevos modelos de educación no presenciales como el M–Learning,
 el cual se presenta como una modalidad educativa alternativa a la tradicional,
@@ -267,7 +285,7 @@ contenido, con acceso desde cualquier momento y lugar, además de la constante
 obtención de información debido a la intercomunicación entre el docente y los
 estudiantes, facilitando de esta manera la adquisición de habilidades y/o
 destrezas [19].</p>
-      <p>Es así como se denomina el M-Learning como “la
+        <p>Es así como se denomina el M-Learning como “la
 integración del e-learning con los dispositivos digitales portátiles como
 teléfonos móviles, agendas electrónicas, tabletas, lectores de e-book, entre
 otros. Los dispositivos digitales portátiles permiten a las personas tener
@@ -277,9 +295,9 @@ formación en línea ha permitido la creación de ambientes completos de formaci
 como los LMS (Learning Management Systems); permitiendo a las instituciones
 educativas de diferentes niveles, la oferta de sus servicios educativos a
 través de Internet aplicando la comunicación sincrónica y asincrónica [20, 21].</p>
-      <subtittle>3.2.  
+        <subtittle>3.2.  
 Tendencias y aplicabilidad de M-learning</subtittle>
-      <p>Los dispositivos móviles se han convertido en una
+        <p>Los dispositivos móviles se han convertido en una
 importante herramienta en la vida cotidiana, tanto en el plano laboral,
 académico, familiar, social y recreativo. Aunque no existe una definición
 exacta, se entiende que son todos aquellos dispositivos electrónicos que son de
@@ -287,7 +305,7 @@ fácil acceso, uso y portabilidad; entre los más destacados están: los
 reproductores de música, grabadoras, GPS, lectores de libros, tableta y
 smartphone. Siendo estos dos últimos los de mayor uso, pues tienen la capacidad
 de ejecutar tareas de los anteriores [22].</p>
-      <p>El incremento del uso de dispositivos móviles en la
+        <p>El incremento del uso de dispositivos móviles en la
 educación ha dado origen al concepto de Mobile Learning. La adquisición de
 conocimiento, habilidad y actitudes a través del uso de dispositivos móviles
 [23], los cuales deben ser evaluados con criterios de adaptabilidad,
@@ -296,14 +314,14 @@ particulares que presente el ecosistema de aprendizaje [24]. Las
 características más relevantes del aprendizaje móvil es la posibilidad de
 revisar ilimitadamente los contenidos; entenderlos de una mejor manera, ya que
 se encuentran organizados y estructurados [25].</p>
-      <p>Los beneficios no son únicamente para los
+        <p>Los beneficios no son únicamente para los
 estudiantes, pues los docentes fortalecen el proceso de enseñanza al tener
 mayor participación de estudiantes en las actividades [26]. Los dispositivos
 móviles al beneficiar a ambas partes en el proceso educativo, contribuye a
 satisfacer las necesidades de los estudiantes, impartir clases con eficiencia,
 dinamizar y mejorar el aprendizaje, romper paradigmas de la educación
 tradicional y llevar el aprendizaje más allá de la institución [27].</p>
-      <p>No obstante, los dispositivos móviles en el aula de
+        <p>No obstante, los dispositivos móviles en el aula de
 clase pueden traer consecuencias negativas como la distracción, la falta de
 habilidades prácticas y la reducción de la interacción cara a cara; pues al ser
 multitareas no necesitan tener una aplicación exclusiva con contenidos
@@ -312,7 +330,7 @@ recurrente [28]. Al respecto cuestionan que aunque se usen aplicaciones con
 destinación educativa, muchas de ellas no poseen pruebas de usabilidad ni
 revisión de expertos, debido a la falta de directrices y metodologías de evaluación
 [29].</p>
-      <p>El uso de los dispositivos móviles en la educación se
+        <p>El uso de los dispositivos móviles en la educación se
 masificó considerablemente con los desarrollos y prueba piloto que realizó
 Nicholar Negroponte  con tabletas digitales en países subdesarrollados.
 Demostraron que dotando de tabletas a estudiantes sin ninguna directriz, éstos
@@ -320,7 +338,7 @@ se muestran más motivados, pues los dispositivos adquieren el calificativo de
 herramienta versátil al permitir usar la cámara como fotocopiadora, reproducir
 contenidos y realizar consultas en la web, además de permitir al docente crear
 nuevas actividades [30].</p>
-      <p>A través del uso de una aplicación móvil (app) en el
+        <p>A través del uso de una aplicación móvil (app) en el
 estudio del ciclo de vida de los árboles [31], demostraron que los estudiantes
 se motivan a participar en el aprendizaje en un entorno natural, desarrollan prácticas
 para abordar problemas y toma de decisiones en tiempo real. Por otra parte se
@@ -329,21 +347,21 @@ significativamente al fortalecimiento de habilidades cognitivas de personas con
 necesidades educativas especiales [37]. Las tabletas se usan mayoritariamente
 en consumo, creación y uso compartido de contenidos, además, se destaca que los
 estudiantes incrementan su interacción y el trabajo colaborativo [32, 33].</p>
-      <p>El desarrollo tecnológico de la tableta ha sido alto,
+        <p>El desarrollo tecnológico de la tableta ha sido alto,
 dejando una frontera de diferenciación muy delgada con los smartphones, pues el
 tamaño de pantalla a veces es la única discrepancia, lo cual genera cambios en
 la experiencia educativa. En relación a esto se analizó la experiencia de
 estudiantes con smartphones de 3,5” y tabletas de 7” y 10”, encontrando que una
 pantalla de 3,5” genera desventaja frente a los demás dispositivos, pero a
 partir de 5” la experiencia no sufre afectaciones significativas [33].</p>
-      <p>En el proceso educativo una de las materias de mayor
+        <p>En el proceso educativo una de las materias de mayor
 dificultad para los estudiantes son las matemáticas, frente a esto,
 aprovechando la precisión de los sensores de los dispositivos móviles [34], se
 integró la aplicación GeoGebra a la clase de física cuántica, logrando
 establecer un laboratorio móvil. También se identificó una experiencia
 relacionada con ecuaciones cuadráticas y conceptos de materiales [35, 36]
 experiencias que relacionan un alto porcentaje de aceptación.</p>
-      <p>En el sistema educativo tradicional, la evaluación
+        <p>En el sistema educativo tradicional, la evaluación
 causa estrés y ansiedad entre los estudiantes, al respecto se plantea que
 usando la aplicación Kahoot [38] para la elaboración y aplicación de pruebas de
 conocimiento interactivas al final de cada clase, los estudiantes logran
@@ -355,7 +373,7 @@ los estudiantes, pero proporciona elementos que estimulan la permanencia en el p
 de los estudiantes de un curso de metodología de la investigación, demostrando
 mayor participación y motivación, lo cual no se había logrado con métodos
 flexibles de calificación.</p>
-      <p>A su vez se diseñó una app de aprendizaje del idioma
+        <p>A su vez se diseñó una app de aprendizaje del idioma
 inglés [42], en la cual los estudiantes no se limitaban únicamente a consumir
 contenidos, se convierten en creadores y evaluadores, permitiendo mayor
 interacción y unificación de intereses colectivos, pues, aunque las tareas se
@@ -365,7 +383,7 @@ hizo seguimiento al estado cognoscitivo de los estudiantes midiendo el ritmo
 cardiaco mediante la aplicación AttentiveLearner, lo cual permitió evaluar la
 calidad de los cursos masivos abiertos en línea (MOOC) que estaban
 desarrollando los 3.3 Impacto del M-learning en la formación</p>
-      <p>Diversas experiencias del M-Learning se basan en la
+        <p>Diversas experiencias del M-Learning se basan en la
 incorporación de aplicaciones disponibles en las tiendas; no obstante, estas
 son limitadas al momento de adaptarse a las necesidades de cada ecosistema.
 Ante ello se han diseñado la plataforma JEM iNVENTOR [44] que permite al
@@ -378,7 +396,7 @@ cual requiere de tiempo para realizar ajustes y ver la evolución de los
 estudiantes. Dejando planteado que el objetivo principal del M-Learning es
 crear escenarios de participación masiva, eliminando fronteras donde las
 limitaciones físicas y cognitivas no sean un impedimento [46].</p>
-      <p>Como se evidenció en las anteriores experiencias, el
+        <p>Como se evidenció en las anteriores experiencias, el
 uso del M-Learning es relativamente joven comparado con otras innovaciones
 educativas que integran TIC; y su desarrollo es directamente proporcional al de
 las conexiones inalámbricas y propiedad de los dispositivos. En este sentido,
@@ -388,7 +406,7 @@ aunque existen barreras de entrada como la cobertura, seguridad y competencias
 digitales. Sin embargo, se demuestra que esta generación no es la más beneficiada
 con el M-Learning [48], pues los estudiantes adultos por cuestiones de tiempo y
 trabajo son los más propensos a adoptarla adecuadamente.</p>
-      <p>La democratización de los dispositivos móviles ha
+        <p>La democratización de los dispositivos móviles ha
 sido una preocupación para países en vía de desarrollo, pues es un medio
 indispensable para la dinámica económica, social y educativa. Al respecto
 Colombia dio un importante paso con la Ley 1819 de 2016 en la cual elimina el
@@ -400,7 +418,7 @@ participación y cerrar la brecha entre las instituciones y los nativos
 digitales [49]. En donde se pueda, por ejemplo, personalizar las redes sociales
 a través de notificaciones que estimulen el aprendizaje y la administración del
 tiempo [50].</p>
-      <p>Otra tendencia del M-Learning es incursionar en la
+        <p>Otra tendencia del M-Learning es incursionar en la
 realidad aumentada y virtual, pues de acuerdo con el éxito de Pokemon Go [51]
 es una importante evidencia del poder que tiene esta tecnología para motivar la
 participación de los estudiantes, pero su proceso será más lento, pues, aunque
@@ -409,7 +427,7 @@ el costo y desarrollo de hardware es un limitante. No obstante, se plantean
 evitar interacciones artificiales y mejor integrar los dispositivos a
 situaciones reales [52], pues saca al estudiante de su zona de confort, mejora
 la competencia de resolución de problemas y asimilación del fracaso.</p>
-      <p>Hasta el momento se han mencionado los beneficios del
+        <p>Hasta el momento se han mencionado los beneficios del
 M-Learning, pero es importante tener en cuenta que esta estrategia tiene retos
 por enfrentar. Las adicciones del comportamiento [53], la nomofobia es una de
 las más complejas de entender y tratar, pues no es fácil determinar en qué
@@ -423,7 +441,7 @@ Ley 099 de 2018 la prohibición de celulares en centros educativos. Sin embargo,
 dadas las condiciones del sistema educativo, los dispositivos móviles son
 necesarios a pesar de los riesgos, ya que genera motivación en los estudiantes
 y abre un abanico de oportunidades para trabajar con ellos [56].</p>
-      <p>En este orden de ideas, existen diferentes posturas
+        <p>En este orden de ideas, existen diferentes posturas
 frente al M-Learning, existen debilidades frente a su implementación como:
 conectividad a la red debe ser constante, las baterías de los dispositivos no
 duran mucho tiempo, existen aplicaciones complejas para administrar, y el bajo
@@ -438,7 +456,7 @@ realidad aumentada y virtual, a demás de las fortalezas asociadas a la
 educación mediada por la tecnología móvil. En la Figura 1, se resume en una
 matriz DOFA (debilidades, oportunidades, fortalezas y amenazas) las diferentes
 posturas de la implementación del M-Learning.</p>
-      <p>Es así como el modelo M-Learning presenta
+        <p>Es así como el modelo M-Learning presenta
 oportunidades para otros entornos de aprendizaje como los MOOC, pues permitiría
 mayor participación y alcance, sin embargo, tiene dificultades para ser
 competitivos frente a los ambientes de escritorio, ya que la interacción se
@@ -452,7 +470,7 @@ del desarrollo de aplicaciones offline. En la Tabla 1, se presentan las
 características de los dos modelos presentada por [61] en donde se resaltan
 como aspectos positivos las flechas hacia arriba y los aspectos negativos las
 flechas hacia abajo.</p>
-      <p>Así mismo, en la Figura 2 se presenta el tipo de
+        <p>Así mismo, en la Figura 2 se presenta el tipo de
 dispositivos móviles utilizados en los procesos de enseñanza aprendizaje en
 diferentes experiencias relacionadas con los dispositivos móviles [62],
 reflejando que el 47% de los estudios usaron dispositivos móviles
@@ -460,7 +478,7 @@ tradicionales, el 4% usaron tabletas, el 11% usaron teléfonos inteligentes, 20%
 no limitaron los tipos de dispositivos, mientras que el 18% no usó
 dispositivos, lo que indica que esos estudios son en un alto porcentaje
 teóricas.</p>
-      <p>En cuanto a la Figura 3, las actividades de
+        <p>En cuanto a la Figura 3, las actividades de
 aprendizaje que realizaban con los dispositivos móviles, reflejan que el 22% de
 los estudios argumentan que los estudiantes emplearon dispositivos móviles para
 acceder a materiales de aprendizaje, el 7% guiaron a los estudiantes a acceder
@@ -473,7 +491,7 @@ estudiantes a aprender en entornos virtuales y reales. Sin embargo, el 5% de
 los estudios no mencionó claramente los roles del aprendizaje móvil en sus
 estudios, mientras que el 21% no realizó aprendizaje móvil en sus actividades,
 dado que se referían a estudios de análisis de documentos.</p>
-      <p>Del mismo modo, se realizó una revisión literaria
+        <p>Del mismo modo, se realizó una revisión literaria
 sobre el impacto del programa BYOD (Bring your own device), “trae tu propio
 dispositivo” en la educación superior [63], en el cual se logra extraer información
 importante frente a las actividades educativas que realizan los estudiantes a
@@ -484,7 +502,7 @@ redes sociales y el poscasting tienen porcentajes similares (12%), en este
 orden continúa la mensajería instantánea (11%), blogging (10%), Facebook (9%),
 microblogging (7%), wikis (5%), códigos QR (2%), objetos en 3D (2) y por último
 la realidad aumentada (1%).</p>
-      <p>Al mismo tiempo, teniendo una aproximación hacia un
+        <p>Al mismo tiempo, teniendo una aproximación hacia un
 futuro no muy lejado, el aprendizaje móvil no se centrará en app [64], sino en
 una mayor conectividad para fortalecer y enriquecer las experiencias de
 aprendizaje de los estudiantes por medio de contenido adaptativo a diferentes
@@ -494,7 +512,7 @@ mixta. En adición, se argumenta sobre la tendencia de la utilización de la
 realidad aumentada centrada en una mayor interacción con los estudiantes donde
 el aprendizaje se exprese en el contexto físico local complementado por una
 superposición de audio o video [65].</p>
-      <p>Otra de las tendencias que se vienen trabajando con
+        <p>Otra de las tendencias que se vienen trabajando con
 más fuerza es la integración de la inteligencia artificial en el aprendizaje
 móvil. Esta se va abriendo camino en el contexto educativo, los esfuerzos se
 van centrando en mejorar los sistemas de gestión de la educación, LMS
@@ -507,22 +525,22 @@ ofrecer asesoría asistida por medio de fashcards, chats o voz [67]. Es decir,
 centrado en: sistemas expertos de enseñanza inteligente, motores de
 recuperación de información, sistemas de aprendizaje inductivo, redes
 inteligentes de hardware y sistema de apoyo a decisiones [68, 69, 70].</p>
-      <p>En el caso de las personas con deficiencias cognitivas
+        <p>En el caso de las personas con deficiencias cognitivas
 muestran motivación e interés en la interacción con estos asistentes debido a
 la posibilidad de simular una conversación con humanos y a disminuir la
 sensación de soledad que estas personas sienten, logrando fortalecer sus
 procesos de aprendizaje [71].</p>
-      <tittle>4.  
+        <tittle>4.  
 DISCUSIÓN</tittle>
-      <subtittle>s</subtittle>
-      <p>En terminos generales, se espera que el desarrollo
+        <subtittle>s</subtittle>
+        <p>En terminos generales, se espera que el desarrollo
 del aprendizaje móvil se exprese desde la evaluación de la tecnología y la
 interacción entre los estudiantes, docentes y contenido. De esta manera, la
 adopción de políticas como BYOD se incrementará, acompañado de la
 transformación de contenido adaptativo y con principios de usabilidad en los
 dispotivos moviles, facilitando el aprendizaje inclusivo para estudiantes con
 diferentes dificultades fisicas y cognitivas.</p>
-      <p>El uso de M-Learning es una tendencia a nivel mundial,
+        <p>El uso de M-Learning es una tendencia a nivel mundial,
 pese a que en países desarrollados se legitima por parte de los estudiantes, en
 países en vía de desarrollo las instituciones hacen importantes esfuerzos por
 estar a la vanguardia y reducir la brecha digital, en diversos niveles como la
@@ -530,7 +548,7 @@ educación superior [36, 73], primaria y secundaria [74]. Al respecto Colombia a
 través de programas como “Colombia vive digital” ha masificado el desarrollo de
 infraestructura orientada a dar conexión a Internet y facilitar el acceso a
 dispositivos móviles, principalmente tabletas.</p>
-      <p>Por otro lado, se deben establecer como permanentes
+        <p>Por otro lado, se deben establecer como permanentes
 algunas estrategias adoptadas frente a la emergencia provocada por pandemia del
 CODIV-19; en donde el Estado Colombiano permitió el acceso gratuito a Internet
 de las líneas de telefonía celular prepagadas, con la intencionalidad de
@@ -538,11 +556,11 @@ garantizar el desarrollo de las actividades escolares. De esta manera, se
 permitiría el ingreso a contenido digital diverso de estudiantes no solamente
 de zonas apartadas, que cuentan principalmente con un teléfono celular,
 contribuyendo a la calidad y cobertura educativa.</p>
-    </sec>
-    <sec sec-type="conclusions">
-      <title>5.  
+      </sec>
+      <sec sec-type="conclusions">
+        <title>5.  
 CONCLUSIONES Y TRABAJO FUTURO</title>
-      <p>Con la revisión sistemática de literatura y los
+        <p>Con la revisión sistemática de literatura y los
 interrogantes establecidos, se evidencia que las investigaciones en el campo
 del M-Learning se han orientado al análisis de las percepciones y el nivel de
 aceptación de estudiantes y docentes, lo que limita la medición objetiva del
@@ -552,7 +570,7 @@ M-Learning para enriquecer el repositorio de experiencia. Aún así, se han
 identificado esfuerzos para evaluar la usabilidad de sistemas de aprendizaje
 móvil con diferentes actores evidenciándose un alto porcentaje de aceptación
 entre ellos [72].</p>
-      <p>El M-Learning es una estrategia de aprendizaje
+        <p>El M-Learning es una estrategia de aprendizaje
 que conduce a la redefinición del papel docente dentro y fuera del aula de
 clase, pues el fácil acceso a contenidos brinda espacios para involucrar la
 academia con el mundo real, experimentar a través de información actualizada y
@@ -561,7 +579,7 @@ regulación para crear ecosistemas de aprendizaje sanos y productivos, pues la
 nomofobia, el cyberbuying, el sexting, distracciones y otro tipo de riesgos,
 son grandes retos por enfrentar, ya que la prohibición no es la solución
 factible en un mundo hiperconectado.</p>
-      <p>La adaptación de plataformas y contenidos
+        <p>La adaptación de plataformas y contenidos
 educativos orientados al M-Learning deben ser una de las premisas para tener en
 cuenta, dado que los dispositivos móviles son la base para el desarrollo de
 otras estrategias. Las futuras investigaciones a este tema ofrecen la
@@ -573,510 +591,511 @@ aumentada, realidad virtual, realidad mixta, gamificación, laboratorios
 virtuales y remotos, además de una mayor integración de la inteligencia
 artificial que permita fortalecer la labor docente y enfrentar los diferentes
 desafíos del sistema educativo.</p>
-    </sec>
-  </body>
-  <!-- BACK -->
-  <back>
-    <ack>
-      <title>6.   AGRADECIMIENTOS</title>
-      <p>Los reconocimientos de personas, subvenciones,
+      </sec>
+    </body>
+    <!-- BACK -->
+    <back>
+      <ack>
+        <title>6.   AGRADECIMIENTOS</title>
+        <p>Los reconocimientos de personas, subvenciones,
 fondos, etc., deben ser breves. Esta sección es obligatoria para artículos de
 investigación, en esta parte del artículo el autor hace un reconocimiento a las
 personas o instituciones que le ayudaron en sus investigaciones.  Se citan
 becas e instituciones que financian la investigación: firmas comerciales,
 entidades oficiales o privadas, asociaciones de profesionales y operarios. 
 Esta sección es opcional para artículos de reflexión.</p>
-    </ack>
-    <!-- REFERENCIAS -->
-    <ref-list>
-      <title>REFERENCIAS</title>
-      <ref id="R1">
-        <label>[1]</label>
-        <mixed-citation> A. Oppenheimer, Crear o morir, Miami: Debate, 2014.</mixed-citation>
-      </ref>
-      <ref id="R2">
-        <label>[2]</label>
-        <mixed-citation> Vera, V. D. G., &amp; López, C. Q. (2019). Aceptación
+      </ack>
+      <!-- REFERENCIAS -->
+      <ref-list>
+        <title>REFERENCIAS</title>
+        <ref id="R1">
+          <label>[1]</label>
+          <mixed-citation> A. Oppenheimer, Crear o morir, Miami: Debate, 2014.</mixed-citation>
+        </ref>
+        <ref id="R2">
+          <label>[2]</label>
+          <mixed-citation> Vera, V. D. G., &amp; López, C. Q. (2019). Aceptación
 del M–learning: Un Análisis de Sentimientos basado en Minería de Texto. Cuaderno Activa, 11, 45-50.</mixed-citation>
-      </ref>
-      <ref id="R3">
-        <label>[3]</label>
-        <mixed-citation> Alam, T., &amp; Aljohani, M. (2020).
+        </ref>
+        <ref id="R3">
+          <label>[3]</label>
+          <mixed-citation> Alam, T., &amp; Aljohani, M. (2020).
 M-Learning: Positioning the Academics to the Smart devices in the Connected
 Future. JOIV : International Journal on Informatics Visualization, 4(2).</mixed-citation>
-      </ref>
-      <ref id="R4">
-        <label>[4]</label>
-        <mixed-citation> Velásquez, J. D. (2015). Una Guía Corta para Escribir
+        </ref>
+        <ref id="R4">
+          <label>[4]</label>
+          <mixed-citation> Velásquez, J. D. (2015). Una Guía Corta para Escribir
 Revisiones Sistemáticas de Literatura Parte 3. Dyna, 82(189), 9-12.</mixed-citation>
-      </ref>
-      <ref id="R5">
-        <label>[5]</label>
-        <mixed-citation> Guirao Goris, S. J. A. (2015). Utilidad y tipos de
+        </ref>
+        <ref id="R5">
+          <label>[5]</label>
+          <mixed-citation> Guirao Goris, S. J. A. (2015). Utilidad y tipos de
 revisión de literatura. Ene, 9(2), 0-0.</mixed-citation>
-      </ref>
-      <ref id="R6">
-        <label>[6]</label>
-        <mixed-citation> P. Ibáñez Carrasco y G. García Torres, Infomática I,
+        </ref>
+        <ref id="R6">
+          <label>[6]</label>
+          <mixed-citation> P. Ibáñez Carrasco y G. García Torres, Infomática I,
 vol. I, M. Alegría Estrada, Ed., México D.F: Cengage Learning Editores, S.A.,
 2009.</mixed-citation>
-      </ref>
-      <ref id="R7">
-        <label>[7]</label>
-        <mixed-citation> Fajardo-Dolci, Germán, &amp; H, Manuel Ramiro (2015).
+        </ref>
+        <ref id="R7">
+          <label>[7]</label>
+          <mixed-citation> Fajardo-Dolci, Germán, &amp; H, Manuel Ramiro (2015).
 Innovación. Revista Médica del Instituto Mexicano del Seguro Social,
 53(5),532-533.[fecha de Consulta 4 de Mayo de 2020]. ISSN: 0443-5117.
 Disponible en:   https://www.redalyc.org/articulo.oa?id=4577/457744939001.</mixed-citation>
-      </ref>
-      <ref id="R8">
-        <label>[8]</label>
-        <mixed-citation> Moreno Marchal, J. (2014). Aprender a innovar: una
+        </ref>
+        <ref id="R8">
+          <label>[8]</label>
+          <mixed-citation> Moreno Marchal, J. (2014). Aprender a innovar: una
 experiencia online. Education In The Knowledge Society (EKS),
 15(3), 96-119. doi:10.14201/eks.12220.</mixed-citation>
-      </ref>
-      <ref id="R9">
-        <label>[9]</label>
-        <mixed-citation> Beltrán Meza, M. C. (2017). Innovación
+        </ref>
+        <ref id="R9">
+          <label>[9]</label>
+          <mixed-citation> Beltrán Meza, M. C. (2017). Innovación
 en el sector acuícola. Ra Ximhai, 13(3).</mixed-citation>
-      </ref>
-      <ref id="R10">
-        <label>[10]</label>
-        <mixed-citation> Blanco, Á. F. (2014). Editorial “Innovación educativa
+        </ref>
+        <ref id="R10">
+          <label>[10]</label>
+          <mixed-citation> Blanco, Á. F. (2014). Editorial “Innovación educativa
 en la sociedad del conocimiento”. Teoría de la Educación. Educación y Cultura
 en la Sociedad de la Información, 15(3), 1-3.</mixed-citation>
-      </ref>
-      <ref id="R11">
-        <label>[11]</label>
-        <mixed-citation> Parra Robledo, R. (2016). La Innovación educativa
+        </ref>
+        <ref id="R11">
+          <label>[11]</label>
+          <mixed-citation> Parra Robledo, R. (2016). La Innovación educativa
 contribuye a la inclusión socioeducativa. Didáctica, innovación
 y multimedia, (34), 0001-13.</mixed-citation>
-      </ref>
-      <ref id="R12">
-        <label>[12]</label>
-        <mixed-citation> Walder, A. M. (2017). Pedagogical
+        </ref>
+        <ref id="R12">
+          <label>[12]</label>
+          <mixed-citation> Walder, A. M. (2017). Pedagogical
 Innovation in Canadian higher education: Professors’ perspectives on its
 effects on teaching and learning. Studies in Educational Evaluation, 54, 71-82.</mixed-citation>
-      </ref>
-      <ref id="R13">
-        <label>[13]</label>
-        <mixed-citation> Kostis, P. C., Kafka, K. I., &amp;
+        </ref>
+        <ref id="R13">
+          <label>[13]</label>
+          <mixed-citation> Kostis, P. C., Kafka, K. I., &amp;
 Petrakis, P. E. (2018). Cultural change and innovation performance. Journal
 of Business Research, 88, 306-313.</mixed-citation>
-      </ref>
-      <ref id="R14">
-        <label>[14]</label>
-        <mixed-citation> Garnica, G. R. (2016). Educación informal en
+        </ref>
+        <ref id="R14">
+          <label>[14]</label>
+          <mixed-citation> Garnica, G. R. (2016). Educación informal en
 emprendimiento y creatividad en escuelas innovadoras. Opción,
 32(12), 425-443.</mixed-citation>
-      </ref>
-      <ref id="R15">
-        <label>[15]</label>
-        <mixed-citation> Keinänen, M., Ursin, J., &amp;
+        </ref>
+        <ref id="R15">
+          <label>[15]</label>
+          <mixed-citation> Keinänen, M., Ursin, J., &amp;
 Nissinen, K. (2018). How to measure students’ innovation competences in higher
 education: Evaluation of an assessment tool in authentic learning environments.
 Studies in Educational Evaluation, 58, 30-36.</mixed-citation>
-      </ref>
-      <ref id="R16">
-        <label>[16]</label>
-        <mixed-citation> Toombs, A. L., Bardzell, S., &amp;
+        </ref>
+        <ref id="R16">
+          <label>[16]</label>
+          <mixed-citation> Toombs, A. L., Bardzell, S., &amp;
 Bardzell, J. (2015, April). The proper care and feeding of hackerspaces: Care
 ethics and cultures of making. In Proceedings of the 33rd annual ACM conference
 on human factors in computing systems (pp. 629-638).</mixed-citation>
-      </ref>
-      <ref id="R17">
-        <label>[17]</label>
-        <mixed-citation> Liu, Y., Tang, Y., Bi, X., Zhou, X.,
+        </ref>
+        <ref id="R17">
+          <label>[17]</label>
+          <mixed-citation> Liu, Y., Tang, Y., Bi, X., Zhou, X.,
 Zhang, J., &amp; Wang, J. (2018, May). Cultivation and Practice of College
 Students' Innovative Entrepreneurship Based on Second Classroom. In Proceedings
 of the 2018 International Conference on Distance Education and Learning (pp. 113-116).</mixed-citation>
-      </ref>
-      <ref id="R18">
-        <label>[18]</label>
-        <mixed-citation> Gómez Collado, M. E., Contreras Orozco, L., &amp;
+        </ref>
+        <ref id="R18">
+          <label>[18]</label>
+          <mixed-citation> Gómez Collado, M. E., Contreras Orozco, L., &amp;
 Gutiérrez Linares, D. (2016). El impacto de las tecnologías de la información y
 la comunicación en estudiantes de ciencias sociales: un estudio comparativo de
 dos universidades públicas. Innovación educativa (México, DF), 16(71), 61-80.</mixed-citation>
-      </ref>
-      <ref id="R19">
-        <label>[19]</label>
-        <mixed-citation> Schefer-Wenzl, S., Miladinovic, I., &amp; Ensor, A.
+        </ref>
+        <ref id="R19">
+          <label>[19]</label>
+          <mixed-citation> Schefer-Wenzl, S., Miladinovic, I., &amp; Ensor, A.
 (2018, October). A Survey of Mobile Learning Approaches for
 Teaching Internet of Things. In Interactive Mobile Communication, Technologies
 and Learning (pp. 215-227). Springer, Cham.</mixed-citation>
-      </ref>
-      <ref id="R20">
-        <label>[20]</label>
-        <mixed-citation> Verdún, N. (2016). Educación virtual y sus
+        </ref>
+        <ref id="R20">
+          <label>[20]</label>
+          <mixed-citation> Verdún, N. (2016). Educación virtual y sus
 configuraciones emergentes: Notas acerca del e-learning, b-learning y
 m-learning. Háblame de TIC, 3, 67-88.</mixed-citation>
-      </ref>
-      <ref id="R21">
-        <label>[21]</label>
-        <mixed-citation> Mojarro Aliaño, Á. (2019). Mobile learning en la
+        </ref>
+        <ref id="R21">
+          <label>[21]</label>
+          <mixed-citation> Mojarro Aliaño, Á. (2019). Mobile learning en la
 Educación Superior: una alternativa educativa en entornos interactivos de
 aprendizaje.</mixed-citation>
-      </ref>
-      <ref id="R22">
-        <label>[22]</label>
-        <mixed-citation> Al-Emran, M., Arpaci, I., &amp; Salloum, S. A.
+        </ref>
+        <ref id="R22">
+          <label>[22]</label>
+          <mixed-citation> Al-Emran, M., Arpaci, I., &amp; Salloum, S. A.
 (2020). An empirical examination of continuous intention to
 use m-learning: An integrated model. Education and Information Technologies,
 1-20.</mixed-citation>
-      </ref>
-      <ref id="R23">
-        <label>[23]</label>
-        <mixed-citation> Hamidi, H., &amp; Chavoshi, A.
+        </ref>
+        <ref id="R23">
+          <label>[23]</label>
+          <mixed-citation> Hamidi, H., &amp; Chavoshi, A.
 (2018). Analysis of the essential factors for the adoption of mobile learning
 in higher education: A case study of students of the University of Technology.
 Telematics and Informatics, 35(4), 1053-1070.</mixed-citation>
-      </ref>
-      <ref id="R24">
-        <label>[24]</label>
-        <mixed-citation> Ketel, M. (2014, March). Cloud
+        </ref>
+        <ref id="R24">
+          <label>[24]</label>
+          <mixed-citation> Ketel, M. (2014, March). Cloud
 services for e-learning. In Proceedings of the 2014 ACM Southeast Regional
 Conference (pp. 1-4).</mixed-citation>
-      </ref>
-      <ref id="R25">
-        <label>[25]</label>
-        <mixed-citation> Ruangvanich, S., &amp; Nilsook, P.
+        </ref>
+        <ref id="R25">
+          <label>[25]</label>
+          <mixed-citation> Ruangvanich, S., &amp; Nilsook, P.
 (2018, May). Students' Usage of Mobile Learning on Information Technology and
 Communication Subject for Grade 9 Students. In Proceedings of the 2018
 International Conference on Distance Education and Learning (pp. 38-43).</mixed-citation>
-      </ref>
-      <ref id="R26">
-        <label>[26]</label>
-        <mixed-citation> Adly, I., Fadel, M., El-Baz, A.,
+        </ref>
+        <ref id="R26">
+          <label>[26]</label>
+          <mixed-citation> Adly, I., Fadel, M., El-Baz, A.,
 &amp; Amin, H. (2018, May). Interactive Mobile Learning Platform at the British
 University in Egypt. In Proceedings of the 7th International Conference on
 Software and Information Engineering (pp. 97-101).</mixed-citation>
-      </ref>
-      <ref id="R27">
-        <label>[27]</label>
-        <mixed-citation> Hsieh, W. M., &amp; Tsai, C. C.
+        </ref>
+        <ref id="R27">
+          <label>[27]</label>
+          <mixed-citation> Hsieh, W. M., &amp; Tsai, C. C.
 (2017). Taiwanese high school teachers' conceptions of mobile learning. Computers
 &amp; Education, 115, 82-95.</mixed-citation>
-      </ref>
-      <ref id="R28">
-        <label>[28]</label>
-        <mixed-citation> Anshari, M., Almunawar, M. N.,
+        </ref>
+        <ref id="R28">
+          <label>[28]</label>
+          <mixed-citation> Anshari, M., Almunawar, M. N.,
 Shahrill, M., Wicaksono, D. K., &amp; Huda, M. (2017). Smartphones usage in the
 classrooms: Learning aid or interference?. Education and Information
 Technologies, 22(6), 3063-3079.</mixed-citation>
-      </ref>
-      <ref id="R29">
-        <label>[29]</label>
-        <mixed-citation> Cota, C. X. N., Díaz, A. I. M., &amp; Duque, M. Á. R.
+        </ref>
+        <ref id="R29">
+          <label>[29]</label>
+          <mixed-citation> Cota, C. X. N., Díaz, A. I. M., &amp; Duque, M. Á. R.
 (2014, September). Evaluation framework for m-learning
 systems: Current situation and proposal. In Proceedings of the XV International
 Conference on Human Computer Interaction (pp. 1-3).</mixed-citation>
-      </ref>
-      <ref id="R30">
-        <label>[30]</label>
-        <mixed-citation> Valderrama Bahamóndez, E. D. C.,
+        </ref>
+        <ref id="R30">
+          <label>[30]</label>
+          <mixed-citation> Valderrama Bahamóndez, E. D. C.,
 Pfleging, B., Henze, N., &amp; Schmidt, A. (2014, September). A long-term field
 study on the adoption of smartphones by children in panama. In Proceedings of
 the 16th international conference on Human-computer interaction with mobile
 devices &amp; services (pp. 163-172).</mixed-citation>
-      </ref>
-      <ref id="R31">
-        <label>[31]</label>
-        <mixed-citation> Choi, G. W., Land, S. M., &amp;
+        </ref>
+        <ref id="R31">
+          <label>[31]</label>
+          <mixed-citation> Choi, G. W., Land, S. M., &amp;
 Zimmerman, H. T. (2018). Investigating children's deep learning of the tree
 life cycle using mobile technologies. Computers in Human Behavior, 87, 470-479.</mixed-citation>
-      </ref>
-      <ref id="R32">
-        <label>[32]</label>
-        <mixed-citation> Fabian, K., &amp; MacLean, D.
+        </ref>
+        <ref id="R32">
+          <label>[32]</label>
+          <mixed-citation> Fabian, K., &amp; MacLean, D.
 (2014). Keep taking the tablets? Assessing the use of tablet devices in
 learning and teaching activities in the Further Education sector. Research in
 Learning Technology, 22.</mixed-citation>
-      </ref>
-      <ref id="R33">
-        <label>[33]</label>
-        <mixed-citation> Park, E., Han, J., Kim, K. J., Cho, Y., &amp; del
+        </ref>
+        <ref id="R33">
+          <label>[33]</label>
+          <mixed-citation> Park, E., Han, J., Kim, K. J., Cho, Y., &amp; del
 Pobil, A. P. (2018, January). Effects of Screen Size in Mobile
 Learning Over Time. In Proceedings of the 12th International Conference on
 Ubiquitous Information Management and Communication (pp. 1-5).</mixed-citation>
-      </ref>
-      <ref id="R34">
-        <label>[34]</label>
-        <mixed-citation> Tomaschko, M., &amp; Hohenwarter, M.
+        </ref>
+        <ref id="R34">
+          <label>[34]</label>
+          <mixed-citation> Tomaschko, M., &amp; Hohenwarter, M.
 (2017, December). Integrating mobile and sensory technologies in mathematics
 education. In Proceedings of the 15th International Conference on Advances in
 Mobile Computing &amp; Multimedia (pp. 39-48).</mixed-citation>
-      </ref>
-      <ref id="R35">
-        <label>[35]</label>
-        <mixed-citation> Cahya, R. N., Suprapto, E., &amp;
+        </ref>
+        <ref id="R35">
+          <label>[35]</label>
+          <mixed-citation> Cahya, R. N., Suprapto, E., &amp;
 Lusiana, R. Development of Mobile Learning Media Based Android to Suport
 Students Understanding.</mixed-citation>
-      </ref>
-      <ref id="R36">
-        <label>[36]</label>
-        <mixed-citation> Al-Emran, M., Mezhuyev, V., &amp; Kamaludin, A.
+        </ref>
+        <ref id="R36">
+          <label>[36]</label>
+          <mixed-citation> Al-Emran, M., Mezhuyev, V., &amp; Kamaludin, A.
 (2020). Towards a conceptual model for examining the impact of
 knowledge management factors on mobile learning acceptance. Technology in
 Society, 101247.</mixed-citation>
-      </ref>
-      <ref id="R37">
-        <label>[37]</label>
-        <mixed-citation> Oliveira, D. T., Carvalho, M. D.,
+        </ref>
+        <ref id="R37">
+          <label>[37]</label>
+          <mixed-citation> Oliveira, D. T., Carvalho, M. D.,
 &amp; Paixão, T. L. S. (2016, November). Ubiquitous Computing: Gestures
 Interaction Applied the Learning Disabilities in Process Literacy. In
 Proceedings of the 22nd Brazilian Symposium on Multimedia and the Web (pp.
 107-110).</mixed-citation>
-      </ref>
-      <ref id="R38">
-        <label>[38]</label>
-        <mixed-citation> Aktekin, N. Ç., Çelebi, H., &amp;
+        </ref>
+        <ref id="R38">
+          <label>[38]</label>
+          <mixed-citation> Aktekin, N. Ç., Çelebi, H., &amp;
 Aktekin, M. (2018). Let's Kahoot! Anatomy. International Journal of Morphology,
 36(2).</mixed-citation>
-      </ref>
-      <ref id="R39">
-        <label>[39]</label>
-        <mixed-citation> Furió, D., Juan, M. C., Seguí, I., &amp; Vivó, R.
+        </ref>
+        <ref id="R39">
+          <label>[39]</label>
+          <mixed-citation> Furió, D., Juan, M. C., Seguí, I., &amp; Vivó, R.
 (2015). Mobile learning vs. traditional classroom lessons: a
 comparative study. Journal of Computer Assisted Learning, 31(3), 189-201.</mixed-citation>
-      </ref>
-      <ref id="R40">
-        <label>[40]</label>
-        <mixed-citation> Remmer, M., Denami, M., &amp;
+        </ref>
+        <ref id="R40">
+          <label>[40]</label>
+          <mixed-citation> Remmer, M., Denami, M., &amp;
 Marquet, P. (2017, March). Why Pokémon GO is the future of school education:
 effects of AR on intrinsic motivation of children at elementary school. In
 Proceedings of the Virtual Reality International Conference-Laval Virtual 2017
 (pp. 1-5).</mixed-citation>
-      </ref>
-      <ref id="R41">
-        <label>[41]</label>
-        <mixed-citation> Zuckerman, O., Gal-Oz, A., Peretz,
+        </ref>
+        <ref id="R41">
+          <label>[41]</label>
+          <mixed-citation> Zuckerman, O., Gal-Oz, A., Peretz,
 O., Weisberg, O., &amp; Tarrasch, R. (2015, August). Leveraging Mobile
 Technology to Engage College Students in Scientific Research. In Proceedings of
 the 17th International Conference on Human-Computer Interaction with Mobile
 Devices and Services (pp. 470-477).</mixed-citation>
-      </ref>
-      <ref id="R42">
-        <label>[42]</label>
-        <mixed-citation> Palomo-Duarte, M., Berns, A., Dodero, J. M., &amp;
+        </ref>
+        <ref id="R42">
+          <label>[42]</label>
+          <mixed-citation> Palomo-Duarte, M., Berns, A., Dodero, J. M., &amp;
 Cejas, A. (2014, October). Foreign language learning using a
 gamificated APP to support peer-assessment. In Proceedings of the Second
 International Conference on Technological Ecosystems for Enhancing
 Multiculturality (pp. 381-386).</mixed-citation>
-      </ref>
-      <ref id="R43">
-        <label>[43]</label>
-        <mixed-citation> Xiao, X., Pham, P., &amp; Wang, J.
+        </ref>
+        <ref id="R43">
+          <label>[43]</label>
+          <mixed-citation> Xiao, X., Pham, P., &amp; Wang, J.
 (2015, November). AttentiveLearner: adaptive mobile MOOC learning via implicit
 cognitive states inference. In Proceedings of the 2015 ACM on International
 Conference on Multimodal Interaction (pp. 373-374).</mixed-citation>
-      </ref>
-      <ref id="R44">
-        <label>[44]</label>
-        <mixed-citation> Karoui, A., Marfisi-Schottman, I.,
+        </ref>
+        <ref id="R44">
+          <label>[44]</label>
+          <mixed-citation> Karoui, A., Marfisi-Schottman, I.,
 &amp; George, S. (2017, October). A Nested Design Approach for Mobile Learning
 Games. In Proceedings of the 16th World Conference on Mobile and Contextual
 Learning (pp. 1-4).</mixed-citation>
-      </ref>
-      <ref id="R45">
-        <label>[45]</label>
-        <mixed-citation> Briz-Ponce, L., Juanes-Méndez, J. A., García-Peñalvo,
+        </ref>
+        <ref id="R45">
+          <label>[45]</label>
+          <mixed-citation> Briz-Ponce, L., Juanes-Méndez, J. A., García-Peñalvo,
 F. J., &amp; Pereira, A. (2016). Effects of mobile learning in
 medical education: a counterfactual evaluation. Journal of medical systems,
 40(6), 136.</mixed-citation>
-      </ref>
-      <ref id="R46">
-        <label>[46]</label>
-        <mixed-citation> Reis, S., &amp; Almeida, A. M.
+        </ref>
+        <ref id="R46">
+          <label>[46]</label>
+          <mixed-citation> Reis, S., &amp; Almeida, A. M.
 (2016, December). The use of mobile devices to support daily routines of teens
 with Down syndrome: a case study. In Proceedings of the 7th International
 Conference on Software Development and Technologies for Enhancing Accessibility
 and Fighting Info-exclusion (pp. 154-161).</mixed-citation>
-      </ref>
-      <ref id="R47">
-        <label>[47]</label>
-        <mixed-citation> Ozdamli, F., &amp; Uzunboylu, H.
+        </ref>
+        <ref id="R47">
+          <label>[47]</label>
+          <mixed-citation> Ozdamli, F., &amp; Uzunboylu, H.
 (2015). M‐learning adequacy and perceptions of students and teachers in
 secondary schools. British Journal of Educational Technology, 46(1), 159-172.</mixed-citation>
-      </ref>
-      <ref id="R48">
-        <label>[48]</label>
-        <mixed-citation> Hashim, K. F., Tan, F. B., &amp;
+        </ref>
+        <ref id="R48">
+          <label>[48]</label>
+          <mixed-citation> Hashim, K. F., Tan, F. B., &amp;
 Rashid, A. (2015). Adult learners' intention to adopt mobile learning: A
 motivational perspective. British Journal of Educational Technology, 46(2),
 381-390.</mixed-citation>
-      </ref>
-      <ref id="R49">
-        <label>[49]</label>
-        <mixed-citation> Sobaih, A. E. E., Moustafa, M. A.,
+        </ref>
+        <ref id="R49">
+          <label>[49]</label>
+          <mixed-citation> Sobaih, A. E. E., Moustafa, M. A.,
 Ghandforoush, P., &amp; Khan, M. (2016). To use or not to use? Social media in
 higher education in developing countries. Computers in Human Behavior, 58,
 296-305.</mixed-citation>
-      </ref>
-      <ref id="R50">
-        <label>[50]</label>
-        <mixed-citation> Castro, G. G., Dominguez, E. L.,
+        </ref>
+        <ref id="R50">
+          <label>[50]</label>
+          <mixed-citation> Castro, G. G., Dominguez, E. L.,
 Velazquez, Y. H., Matla, M. Y. R., Toledo, C. B. E., &amp; Hernandez, S. E. P.
 (2016). MobiLearn: context-aware mobile learning system. IEEE Latin America
 Transactions, 14(2), 958-964.</mixed-citation>
-      </ref>
-      <ref id="R51">
-        <label>[51]</label>
-        <mixed-citation> Brown, T. H., &amp; Mbati, L. S.
+        </ref>
+        <ref id="R51">
+          <label>[51]</label>
+          <mixed-citation> Brown, T. H., &amp; Mbati, L. S.
 (2015). Mobile learning: Moving past the myths and embracing the opportunities.
 International Review of Research in Open and Distributed Learning, 16(2),
 115-135.</mixed-citation>
-      </ref>
-      <ref id="R52">
-        <label>[52]</label>
-        <mixed-citation> Tan, E., &amp; So, H. J. (2014).
+        </ref>
+        <ref id="R52">
+          <label>[52]</label>
+          <mixed-citation> Tan, E., &amp; So, H. J. (2014).
 Rethinking the impact of activity design on a mobile learning trail: The
 missing dimension of the physical affordances. IEEE Transactions on Learning
 Technologies, 8(1), 98-110.</mixed-citation>
-      </ref>
-      <ref id="R53">
-        <label>[53]</label>
-        <mixed-citation> Alter, A. (2018). Irresistible.
+        </ref>
+        <ref id="R53">
+          <label>[53]</label>
+          <mixed-citation> Alter, A. (2018). Irresistible.
 Superfunds Magazine, (440), 58.</mixed-citation>
-      </ref>
-      <ref id="R54">
-        <label>[54]</label>
-        <mixed-citation> Mendoza, J. S., Pody, B. C., Lee,
+        </ref>
+        <ref id="R54">
+          <label>[54]</label>
+          <mixed-citation> Mendoza, J. S., Pody, B. C., Lee,
 S., Kim, M., &amp; McDonough, I. M. (2018). The effect of cellphones on
 attention and learning: The influences of time, distraction, and nomophobia. Computers
 in Human Behavior, 86, 52-60.</mixed-citation>
-      </ref>
-      <ref id="R55">
-        <label>[55]</label>
-        <mixed-citation> O'Bannon, B. W., &amp; Thomas, K. M.
+        </ref>
+        <ref id="R55">
+          <label>[55]</label>
+          <mixed-citation> O'Bannon, B. W., &amp; Thomas, K. M.
 (2015). Mobile phones in the classroom: Preservice teachers answer the call.
 Computers &amp; Education, 85, 110-122.</mixed-citation>
-      </ref>
-      <ref id="R56">
-        <label>[56]</label>
-        <mixed-citation> Burns, M. (2015). Not Just for
+        </ref>
+        <ref id="R56">
+          <label>[56]</label>
+          <mixed-citation> Burns, M. (2015). Not Just for
 Students: Mobile teacher professional development. eLearn, 2015(March).</mixed-citation>
-      </ref>
-      <ref id="R57">
-        <label>[57]</label>
-        <mixed-citation> Dávila, M. R. M. (2020). M-Learning: características,
+        </ref>
+        <ref id="R57">
+          <label>[57]</label>
+          <mixed-citation> Dávila, M. R. M. (2020). M-Learning: características,
 ventajas y desventajas, uso. Revista Tecnológica-Educativa Docentes 2.0, 8(1),
 50-52.</mixed-citation>
-      </ref>
-      <ref id="R58">
-        <label>[58]</label>
-        <mixed-citation> Ramírez, L. L., &amp; Montalvo, J. A. C. (2019). El
+        </ref>
+        <ref id="R58">
+          <label>[58]</label>
+          <mixed-citation> Ramírez, L. L., &amp; Montalvo, J. A. C. (2019). El
 aprendizaje móvil en la educación superior, frontera del conocimiento:
 2014-2018. Revista Electrónica de Investigación e Innovación Educativa-REIIE
 ISSN: 2448-556X, 4(3), 27-41.</mixed-citation>
-      </ref>
-      <ref id="R59">
-        <label>[59]</label>
-        <mixed-citation> Delgado, R. Z. (2019). El M-Learning, las ventajas de
+        </ref>
+        <ref id="R59">
+          <label>[59]</label>
+          <mixed-citation> Delgado, R. Z. (2019). El M-Learning, las ventajas de
 la utilización de dispositivos móviles en el proceso autónomo de aprendizaje.
 ReHuSo: Revista de Ciencias Humanísticas y Sociales, 4(3), 29-38.</mixed-citation>
-      </ref>
-      <ref id="R60">
-        <label>[60]</label>
-        <mixed-citation> Marco, F. A., Penichet, V. M., &amp;
+        </ref>
+        <ref id="R60">
+          <label>[60]</label>
+          <mixed-citation> Marco, F. A., Penichet, V. M., &amp;
 Gallud, J. A. (2015, August). What happens when students go offline in mobile
 devices?. In Proceedings of the 17th International Conference on Human-Computer
 Interaction with Mobile Devices and Services Adjunct (pp. 1199-1206).</mixed-citation>
-      </ref>
-      <ref id="R61">
-        <label>[61]</label>
-        <mixed-citation> Shawar, B. A. (2017, September).
+        </ref>
+        <ref id="R61">
+          <label>[61]</label>
+          <mixed-citation> Shawar, B. A. (2017, September).
 Neither Completely M-Nor E-Learning: Integrating both is the Solution. In
 Proceedings of the 2017 International Conference on Cloud and Big Data
 Computing (pp. 112-118).</mixed-citation>
-      </ref>
-      <ref id="R62">
-        <label>[62]</label>
-        <mixed-citation> Lai, C. L. (2019). Trends of mobile
+        </ref>
+        <ref id="R62">
+          <label>[62]</label>
+          <mixed-citation> Lai, C. L. (2019). Trends of mobile
 learning: A review of the top 100 highly cited papers. British Journal of
 Educational Technology.</mixed-citation>
-      </ref>
-      <ref id="R63">
-        <label>[63]</label>
-        <mixed-citation> Sundgren, M. (2017). Blurring time
+        </ref>
+        <ref id="R63">
+          <label>[63]</label>
+          <mixed-citation> Sundgren, M. (2017). Blurring time
 and place in higher education with bring your own device applications: a
 literature review. Education and Information Technologies, 22(6), 3081-3119.</mixed-citation>
-      </ref>
-      <ref id="R64">
-        <label>[64]</label>
-        <mixed-citation> Alexander, B., Ashford-Rowe, K.,
+        </ref>
+        <ref id="R64">
+          <label>[64]</label>
+          <mixed-citation> Alexander, B., Ashford-Rowe, K.,
 Barajas-Murph, N., Dobbin, G., Knott, J., McCormack, M., ... &amp; Weber, N.
 (2019). EDUCAUSE Horizon Report 2019 Higher Education Edition (pp. 3-41).
 EDU19.</mixed-citation>
-      </ref>
-      <ref id="R65">
-        <label>[65]</label>
-        <mixed-citation> Hwang, G. J., &amp; Fu, Q. K.
+        </ref>
+        <ref id="R65">
+          <label>[65]</label>
+          <mixed-citation> Hwang, G. J., &amp; Fu, Q. K.
 (2020). Advancement and research trends of smart learning environments in the
 mobile era. International Journal of Mobile Learning and Organisation, 14(1),
 114-129.</mixed-citation>
-      </ref>
-      <ref id="R66">
-        <label>[66]</label>
-        <mixed-citation> UNESCO - Mobile Learning Week 2019:
+        </ref>
+        <ref id="R66">
+          <label>[66]</label>
+          <mixed-citation> UNESCO - Mobile Learning Week 2019:
 Deciphering the impact of Artificial Intelligence on education. Disponible
 en: https://en.unesco.org/news/mobile-learning-week-2019-deciphering-impact-artificial-intelligence-education
 [consultado el 28 de mayo de 2020].</mixed-citation>
-      </ref>
-      <ref id="R67">
-        <label>[67]</label>
-        <mixed-citation> Marwan, A. (2019). Impact of
+        </ref>
+        <ref id="R67">
+          <label>[67]</label>
+          <mixed-citation> Marwan, A. (2019). Impact of
 artificial intelligence on education for employment:(learning and employability
 Framework).</mixed-citation>
-      </ref>
-      <ref id="R68">
-        <label>[68]</label>
-        <mixed-citation> Khan, M. A., Tripathi, A., Dixit,
+        </ref>
+        <ref id="R68">
+          <label>[68]</label>
+          <mixed-citation> Khan, M. A., Tripathi, A., Dixit,
 A., &amp; Dixit, M. (2019, January). Correlative Analysis and Impact of
 Intelligent Virtual Assistants on Machine Learning. In 2019 11th International
 Conference on Computational Intelligence and Communication Networks (CICN) (pp.
 133-139). IEEE.</mixed-citation>
-      </ref>
-      <ref id="R69">
-        <label>[69]</label>
-        <mixed-citation> Polyakov, E. V., Mazhanov, M. S.,
+        </ref>
+        <ref id="R69">
+          <label>[69]</label>
+          <mixed-citation> Polyakov, E. V., Mazhanov, M. S.,
 Rolich, A. Y., Voskov, L. S., Kachalova, M. V., &amp; Polyakov, S. V. (2018,
 March). Investigation and development of the intelligent voice assistant for
 the Internet of Things using machine learning. In 2018 Moscow Workshop on Electronic
 and Networking Technologies (MWENT) (pp. 1-5). IEEE.</mixed-citation>
-      </ref>
-      <ref id="R70">
-        <label>[70]</label>
-        <mixed-citation> Abdolrahmani, A., Kuber, R., &amp;
+        </ref>
+        <ref id="R70">
+          <label>[70]</label>
+          <mixed-citation> Abdolrahmani, A., Kuber, R., &amp;
 Branham, S. M. (2018, October). " Siri Talks at You" An Empirical
 Investigation of Voice-Activated Personal Assistant (VAPA) Usage by Individuals
 Who Are Blind. In Proceedings of the 20th International ACM SIGACCESS
 Conference on Computers and Accessibility (pp. 249-258).</mixed-citation>
-      </ref>
-      <ref id="R71">
-        <label>[71]</label>
-        <mixed-citation> Terzopoulos, G., &amp; Satratzemi,
+        </ref>
+        <ref id="R71">
+          <label>[71]</label>
+          <mixed-citation> Terzopoulos, G., &amp; Satratzemi,
 M. (2019, September). Voice Assistants and Artificial Intelligence in
 Education. In Proceedings of the 9th Balkan Conference on Informatics (pp.
 1-6).</mixed-citation>
-      </ref>
-      <ref id="R72">
-        <label>[72]</label>
-        <mixed-citation> Pensabe-Rodriguez, A., Lopez-Dominguez, E.,
+        </ref>
+        <ref id="R72">
+          <label>[72]</label>
+          <mixed-citation> Pensabe-Rodriguez, A., Lopez-Dominguez, E.,
 Hernandez-Velazquez, Y., Dominguez-Isidro, S., &amp; de la Calleja, J. (2020). Context-Aware Mobile Learning System: Usability Assessment Based on
 a Field Study. Telematics and Informatics, 101346.</mixed-citation>
-      </ref>
-      <ref id="R73">
-        <label>[73]</label>
-        <mixed-citation> Okai-Ugbaje, S., Ardzejewska, K.,
+        </ref>
+        <ref id="R73">
+          <label>[73]</label>
+          <mixed-citation> Okai-Ugbaje, S., Ardzejewska, K.,
 &amp; Imran, A. (2020). Readiness, Roles, and Responsibilities of Stakeholders
 for Sustainable Mobile Learning Adoption in Higher Education. Education
 Sciences, 10(3), 49.</mixed-citation>
-      </ref>
-      <ref id="R74">
-        <label>[74]</label>
-        <mixed-citation> López-Faican, L., &amp; Jaen, J.
+        </ref>
+        <ref id="R74">
+          <label>[74]</label>
+          <mixed-citation> López-Faican, L., &amp; Jaen, J.
 (2020). Emofindar: Evaluation of a mobile multiplayer augmented reality game
 for primary school children. Computers &amp; Education, 149, 103814.</mixed-citation>
-      </ref>
-    </ref-list>
-  </back>
+        </ref>
+      </ref-list>
+    </back>
+  </front>
 </article>

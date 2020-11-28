@@ -42,10 +42,14 @@ app.post('/api/traducir',(req,res)=>{
     
     var todosAutoresArray=[];
     var todosAutores=jsonGalerada.Autores.split(",")
+    console.log(todosAutores);
     var contadorAutores=0;
     for(var i=0;i<todosAutores.length;i++){
-      if(i%2==0){
+      
+      
+        console.log(todosAutores[i]);
         var nombreSinEspacios=todosAutores[i].trim();
+        nombreSinEspacios=nombreSinEspacios.replace("\n","")
         var nombreCompleto=nombreSinEspacios.split(" ");
         var surNames="";
         var givenNames="";
@@ -62,6 +66,8 @@ app.post('/api/traducir',(req,res)=>{
           givenNames=nombreCompleto[0]+" "+nombreCompleto[1];
         }
 
+        surNames=surNames.replace(i+1,"");
+
         todosAutoresArray[contadorAutores] = {
           'contrib': {
             '@contrib-type': 'author',
@@ -72,12 +78,12 @@ app.post('/api/traducir',(req,res)=>{
             'xref': {
               '@ref-type': 'aff',
               '@rid': 'aff1',
-              'sup': '1'
+              'sup': i+1
             }
           }
         }
         contadorAutores++;
-      }
+    
     }
     
 
@@ -102,6 +108,28 @@ app.post('/api/traducir',(req,res)=>{
     for(var j=0;j<jsonGalerada.ContenidoConclusiones.length;j++){
       todosContenidoConclusiones[j] = {
         'p': jsonGalerada.ContenidoConclusiones[j]
+      }
+    }
+
+    var arrayTituloCorrespondencia=jsonGalerada.TituloCorrespondencia.split(":");
+    var arrayCorreosCorrespondencia=arrayTituloCorrespondencia[1].split(",");
+    var todosTituloCorrespondencia=[];
+    for(var j=0;j<arrayCorreosCorrespondencia.length;j++){
+      console.log(arrayCorreosCorrespondencia[j]);
+      todosTituloCorrespondencia[j] = {
+        'email': arrayCorreosCorrespondencia[j]
+      }
+    }
+
+    var todasAfiliaciones=[];
+    for(var j=0;j<jsonGalerada.InformacionAutores.length;j++){
+      var sinNumero=jsonGalerada.InformacionAutores[j].replace((j+1),"");
+      todasAfiliaciones[j] = {
+        'aff':{
+          '@id': 'aff'+(j+1),
+          '#text': sinNumero,
+          
+        } 
       }
     }
 
@@ -208,6 +236,9 @@ app.post('/api/traducir',(req,res)=>{
      var anioPublicacion=fechaPublicacion[0];
      console.log(jsonGalerada.TituloConclusiones);
 
+
+
+
      
        console.log("dif null")
       var xml = xmlbuilder.create('article', { version: '1.0', encoding: 'UTF-8' }, { sysID: 'https://jats.nlm.nih.gov/archiving/1.0/JATS-archivearticle1.dtd' })
@@ -245,13 +276,11 @@ app.post('/api/traducir',(req,res)=>{
           .ele(todosAutoresArray).up()//Imprime todos los autores
         .up()
         .com('AFILIACIONES')
-    .ele('aff', {'id': 'aff1'})
-      .ele('label', '1').up()
-    .up()
+    .ele(todasAfiliaciones)
         .ele('author-notes')
           .ele('corresp')
-            .ele('label', 'Correspondencia | Correspondence').up()
-            .ele('email', 's').up()
+            .ele('label', 'Correo de correspondencia:').up()
+            .ele(todosTituloCorrespondencia).up()
           .up()
         .up()
         .ele('abstract', { 'xml:lang': 'es' })
@@ -341,7 +370,7 @@ app.post('/api/traducir',(req,res)=>{
           return;
         }
     
-        console.log("created customer: ", { id: res.insertId, ...traduccion });
+        //console.log("created customer: ", { id: res.insertId, ...traduccion });
        // result(null, { id: res.insertId, ...traduccion });
       });
   
