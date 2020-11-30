@@ -3,22 +3,22 @@ module.exports = app => {
 
     
   
-    // Create a new Customer
+    // Create a new user
     app.post("/api/usuarios", usuarios.create);
   
-    // Retrieve all Customers
+    // Retrieve all user
     app.get("/api/usuarios", usuarios.findAll);
   
     // Retrieve a single Customer with userrId
     app.get("/api/usuarios/:correoElectronico", usuarios.findOne);
   
-    // Update a Customer with customerId
+    // Update a user with userid
     app.put("/api/usuarios/:usuarioId", usuarios.update);
   
-    // Delete a Customer with customerId
+    // Delete a user with userid
     app.delete("/api/usuarios/:usuarioId", usuarios.delete);
   
-    // Create a new Customer
+    // Create a new user
     app.delete("/usuarios", usuarios.deleteAll);
 
     

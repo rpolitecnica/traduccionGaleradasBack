@@ -14,7 +14,8 @@ exports.create = (req, res) => {
       nombres: req.body.nombres,
       primerApellido: req.body.primerApellido,
       segundoApellido: req.body.segundoApellido,
-      correoElectronico: req.body.correoElectronico
+      correoElectronico: req.body.correoElectronico,
+      idPerfil:req.body.idPerfil,
     });
   
     // Save Customer in the database

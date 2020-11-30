@@ -400,6 +400,8 @@ require("./app/routes/edicion.routes.js")(app);
 require("./app/routes/periodo.routes.js")(app);
 require("./app/routes/correo.routes.js")(app);
 require("./app/routes/traducciones.routes.js")(app);
+require("./app/routes/menu.routes.js")(app);
+require("./app/routes/perfil.routes.js")(app);
 // set port, listen for requests
 
 app.use(function (req, res, next) {

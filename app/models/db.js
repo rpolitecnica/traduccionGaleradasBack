@@ -25,7 +25,7 @@ const connection = mysql.createPool({
   password: dbConfig.PASSWORD,
   database: dbConfig.DB
 });
-connection.query('select 1 + 1', (err, rows) => { /* */ });
+connection.query('select 1 + 1', (err, rows) => { /* */ })
 
 
 

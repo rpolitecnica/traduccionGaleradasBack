@@ -6,6 +6,7 @@ const Usuario = function(usuario) {
     this.primerApellido = usuario.primerApellido;
     this.segundoApellido = usuario.segundoApellido;
     this.correoElectronico = usuario.correoElectronico;
+    this.idPerfil = usuario.idPerfil;
   };
 
 
@@ -43,7 +44,7 @@ const Usuario = function(usuario) {
   };
 
   Usuario.getAll = result => {
-    sql.query("SELECT * FROM usuarios", (err, res) => {
+    sql.query("SELECT u.id,u.nombres,u.primerApellido,u.segundoApellido,u.correoElectronico,u.idPerfil,p.descripcion as perfil FROM usuarios u INNER JOIN perfiles p on p.id=u.idPerfil  ", (err, res) => {
       if (err) {
         console.log("error: ", err);
         result(null, err);
@@ -58,8 +59,8 @@ const Usuario = function(usuario) {
 
   Usuario.updateById = (id, usuario, result) => {
     sql.query(
-      "UPDATE usuarios SET nombres = ?, primerApellido = ?, segundoApellido = ?, correoElectronico=? WHERE id = ?",
-      [usuario.nombres, usuario.primerApellido, usuario.segundoApellido,usuario.correoElectronico, id],
+      "UPDATE usuarios SET nombres = ?, primerApellido = ?, segundoApellido = ?, correoElectronico=?, idPerfil=? WHERE id = ?",
+      [usuario.nombres, usuario.primerApellido, usuario.segundoApellido,usuario.correoElectronico,usuario.idPerfil, id],
       (err, res) => {
         if (err) {
           console.log("error: ", err);
