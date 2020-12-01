@@ -4,8 +4,8 @@
     PASSWORD: "root",
     DB: "traduccionGaleradasDB",
     PORT:"8889"
-  };*/
-
+  };
+*/
 
   module.exports = {
     HOST: "us-cdbr-east-02.cleardb.com",

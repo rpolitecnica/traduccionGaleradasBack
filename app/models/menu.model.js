@@ -6,6 +6,7 @@ const Menu = function(menu) {
     this.modulo = menu.modulo;
     this.ruta=menu.ruta;
     this.icono=menu.icono;
+    this.componente=menu.componente;
   };
 
 
