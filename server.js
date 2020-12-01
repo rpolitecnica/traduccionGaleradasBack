@@ -322,6 +322,7 @@ app.post('/api/traducir',(req,res)=>{
         .up()
       .up()//Fin Article Meta
     .up()//FIN FRONT
+    .up()//FIN FRONT
     .com('BODY')
     .ele('body')//Inicio BODY
       .ele('sec')
