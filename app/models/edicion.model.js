@@ -64,6 +64,34 @@ const Edicion = function(edicion) {
     });
   };
 
+  Edicion.findByIdYearEdicion = (id, result) => {
+    var array=id.split("-");
+    var idUsuario=array[0];
+    var anio=array[1];
+    console.log("Year by edicion"+idUsuario+"-"+anio);
+    var sqlli="select e.id,e.idUsuario,e.titulo,e.volumen,e.numero,e.idPeriodo,YEAR(e.fechaPublicacion) as fechaPublicacion,e.estado,p.descripcion, MONTHNAME(e.fechaPublicacion) as mesPublicacion from ediciones e INNER JOIN periodos p on p.id=e.idPeriodo WHERE idUsuario= '"+idUsuario+"' and YEAR(fechaPublicacion)='"+anio+"'";
+    console.log(sqlli);
+    sql.query(`select e.id,e.idUsuario,e.titulo,e.volumen,e.numero,e.idPeriodo,YEAR(e.fechaPublicacion) as fechaPublicacion,e.estado,p.descripcion, MONTHNAME(e.fechaPublicacion) as mesPublicacion from ediciones e INNER JOIN periodos p on p.id=e.idPeriodo WHERE idUsuario= '${idUsuario}' and YEAR(fechaPublicacion)='${anio}'`, (err, res) => {
+      if (err) {
+        console.log("error: ", err);
+        result(err, null);
+        return;
+      }
+  
+      if (res.length) {
+        console.log("found Ediciones: ", res[0]);
+        result(null, res);
+        return;
+      }
+  
+      // not found Customer with the id
+      result({ kind: "not_found" }, null);
+    });
+  };
+
+
+  
+
   
 
   Edicion.getAll = result => {

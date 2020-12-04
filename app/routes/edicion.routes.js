@@ -13,6 +13,8 @@ module.exports = app => {
     app.get("/api/ediciones/:id", ediciones.findOne);
 
     app.get("/api/edicionesYear/:id", ediciones.findByYear);
+
+    app.get("/api/edicionesYearEdicion/:id", ediciones.findByYearEdicion);
   
     // Update a Customer with customerId
     app.put("/api/ediciones/:edicionId", ediciones.update);

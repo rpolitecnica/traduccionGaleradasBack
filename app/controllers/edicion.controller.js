@@ -80,6 +80,24 @@ exports.findByYear = (req, res) => {
     });
 };
 
+exports.findByYearEdicion = (req, res) => {
+  console.log(req.params);
+  console.log("-------------yearrrr Edicion-------");
+  Edicion.findByIdYearEdicion(req.params.id, (err, data) => {
+      if (err) {
+        if (err.kind === "not_found") {
+          res.status(404).send({
+            message: `Not found usuario with id ${req.params.id}.`
+          });
+        } else {
+          res.status(500).send({
+            message: "Error retrieving usuario with id " + req.params.id
+          });
+        }
+      } else res.send(data);
+    });
+};
+
 // Update a Customer identified by the customerId in the request
 exports.update = (req, res) => {
   // Validate Request
