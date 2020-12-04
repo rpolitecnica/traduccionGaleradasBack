@@ -32,6 +32,24 @@ exports.findOne = (req, res) => {
       });
 };
 
+// Find a single Customer with a customerId
+exports.findEdicionAnio = (req, res) => {
+  console.log(req.params);
+  Traduccion.findByIdEdicionAnio(req.params.id, (err, data) => {
+      if (err) {
+        if (err.kind === "not_found") {
+          res.status(404).send({
+            message: `Not found usuario with id ${req.params.id}.`
+          });
+        } else {
+          res.status(500).send({
+            message: "Error retrieving usuario with id " + req.params.id
+          });
+        }
+      } else res.send(data);
+    });
+};
+
 
 
 // Delete a Customer with the specified customerId in the request

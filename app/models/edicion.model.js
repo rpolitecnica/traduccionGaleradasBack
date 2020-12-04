@@ -2,6 +2,7 @@ const sql = require("./db.js");
 
 
 const Edicion = function(edicion) {
+    this.idUsuario = edicion.idUsuario;
     this.titulo = edicion.titulo;
     this.volumen = edicion.volumen;
     this.numero = edicion.numero;
@@ -25,7 +26,7 @@ const Edicion = function(edicion) {
 
 
   Edicion.findById = (id, result) => {
-    sql.query(`SELECT * FROM ediciones WHERE id = '${id}'`, (err, res) => {
+    sql.query(`SELECT * FROM ediciones WHERE idUsuario = '${id}'`, (err, res) => {
       if (err) {
         console.log("error: ", err);
         result(err, null);
@@ -33,8 +34,8 @@ const Edicion = function(edicion) {
       }
   
       if (res.length) {
-        console.log("found customer: ", res[0]);
-        result(null, res[0]);
+        console.log("found Ediciones: ", res[0]);
+        result(null, res);
         return;
       }
   
@@ -42,6 +43,28 @@ const Edicion = function(edicion) {
       result({ kind: "not_found" }, null);
     });
   };
+
+
+  Edicion.findByIdYear = (id, result) => {
+    sql.query(`select e.id,e.idUsuario,e.titulo,e.volumen,e.numero,e.idPeriodo,YEAR(e.fechaPublicacion) as fechaPublicacion,e.estado,p.descripcion, MONTHNAME(e.fechaPublicacion) as mesPublicacion from ediciones e INNER JOIN periodos p on p.id=e.idPeriodo WHERE idUsuario= '${id}' group by YEAR(fechaPublicacion)`, (err, res) => {
+      if (err) {
+        console.log("error: ", err);
+        result(err, null);
+        return;
+      }
+  
+      if (res.length) {
+        console.log("found Ediciones: ", res[0]);
+        result(null, res);
+        return;
+      }
+  
+      // not found Customer with the id
+      result({ kind: "not_found" }, null);
+    });
+  };
+
+  
 
   Edicion.getAll = result => {
     sql.query("SELECT e.id as idEdicion,e.titulo,e.volumen,e.numero,p.id,p.descripcion,e.fechaPublicacion,e.idPeriodo FROM ediciones e INNER JOIN periodos p on p.id=e.idPeriodo", (err, res) => {

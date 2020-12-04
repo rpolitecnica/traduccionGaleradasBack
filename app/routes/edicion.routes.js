@@ -11,6 +11,8 @@ module.exports = app => {
   
     // Retrieve a single Customer with userrId
     app.get("/api/ediciones/:id", ediciones.findOne);
+
+    app.get("/api/edicionesYear/:id", ediciones.findByYear);
   
     // Update a Customer with customerId
     app.put("/api/ediciones/:edicionId", ediciones.update);

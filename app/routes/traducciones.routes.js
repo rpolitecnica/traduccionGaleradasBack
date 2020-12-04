@@ -10,6 +10,8 @@ module.exports = app => {
   
     // Retrieve a single Customer with userrId
     app.get("/api/traducciones/:id", traducciones.findOne);
+
+    app.get("/api/traduccionesIdEdicionAnio/:id", traducciones.findEdicionAnio);
   
   
     // Delete a Customer with customerId

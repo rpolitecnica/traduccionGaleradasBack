@@ -359,11 +359,13 @@ app.post('/api/traducir',(req,res)=>{
       const xmldoc = xml.toString({ pretty: true });
 
       const traduccion = new Traduccion({
-        idEdicion: jsonGalerada.InformacionEdicion.idEdicion,
+        idEdicion: jsonGalerada.InformacionEdicion.id,
+        idUsuario: jsonGalerada.InformacionEdicion.idUsuario,
         tituloArticulo: jsonGalerada.TituloArticulo,
         fechaTraduccion: new Date(),
         xmlTraduccion: xmldoc
       });
+
 
       sql.query("INSERT INTO traducciones SET ?", traduccion, (err, res) => {
         if (err) {
