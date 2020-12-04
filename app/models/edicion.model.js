@@ -26,7 +26,7 @@ const Edicion = function(edicion) {
 
 
   Edicion.findById = (id, result) => {
-    sql.query(`SELECT * FROM ediciones WHERE idUsuario = '${id}'`, (err, res) => {
+    sql.query(`SELECT e.id,e.idUsuario,e.titulo,e.volumen,e.numero,e.idPeriodo,e.fechaPublicacion,p.descripcion  FROM ediciones e INNER JOIN periodos p on p.id=e.idPeriodo WHERE e.idUsuario = '${id}'`, (err, res) => {
       if (err) {
         console.log("error: ", err);
         result(err, null);
