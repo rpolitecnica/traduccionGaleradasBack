@@ -14,8 +14,8 @@ const dbConfig = require("../config/db.config.js");
 connection.connect(error => {
   if (error) throw error;
   console.log("Successfully connected to the database.");
-});
-*/
+});*/
+
 
 //HEROKU
 // Create a connection to the database

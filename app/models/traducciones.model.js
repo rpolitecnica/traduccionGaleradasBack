@@ -85,6 +85,8 @@ const Traduccion = function(traduccion) {
   };
 
   Traduccion.updateById = (id, traduccion, result) => {
+     var consulta=`UPDATE traducciones SET idEdicion = '${traduccion.id}' WHERE id ='${id}'`;
+    console.log("modificacion ----------"+traduccion);
     sql.query(
       "UPDATE traducciones SET idEdicion = ? WHERE id = ?",
       [traduccion.idEdicion, id],
